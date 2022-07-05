@@ -1,0 +1,14 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Date: Tue Dec 22 14:58:41 2020
+Design Name: W_74HC138  Family: ProASIC3  Die: A3P060  Package: 100 VQFP
+Design State: Post-Layout
+
+
+
+

@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/EDA/W_74HC48/simulation
+vtest_74HC148
+Z0 !s110 1608619976
+!i10b 1
+!s100 J4`<kzL;>IeNnR1h;:f>_0
+IJ>lB?Skd]K==LL1M1<PSb1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dI:/EDA/zuhe/W_74HC148/simulation
+w1608093500
+8I:/EDA/zuhe/W_74HC148/stimulus/test_74HC148.v
+FI:/EDA/zuhe/W_74HC148/stimulus/test_74HC148.v
+L0 2
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1608619976.000000
+!s107 I:/EDA/zuhe/W_74HC148/stimulus/test_74HC148.v|
+!s90 -reportprogress|300|+incdir+I:/EDA/zuhe/W_74HC148/stimulus|-vlog01compat|-work|postlayout|I:/EDA/zuhe/W_74HC148/stimulus/test_74HC148.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work postlayout -O0
+!s92 +incdir+I:/EDA/zuhe/W_74HC148/stimulus -vlog01compat -work postlayout -O0
+Z6 tCvgOpt 0
+ntest_74@h@c148
+vW_74HC148
+R0
+!i10b 1
+!s100 oG6<mcPJE:RE<??_G:1eB0
+IU?_oZB0B`RRY4d2?VR@@;3
+R1
+R2
+w1608619948
+8I:/EDA/zuhe/W_74HC148/designer/impl1/W_74HC148_ba.v
+FI:/EDA/zuhe/W_74HC148/designer/impl1/W_74HC148_ba.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 I:/EDA/zuhe/W_74HC148/designer/impl1/W_74HC148_ba.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postlayout|I:/EDA/zuhe/W_74HC148/designer/impl1/W_74HC148_ba.v|
+!s101 -O0
+!i113 1
+R5
+R6
+n@w_74@h@c148

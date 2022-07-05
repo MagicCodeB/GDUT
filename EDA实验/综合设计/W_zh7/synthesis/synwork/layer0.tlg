@@ -1,0 +1,22 @@
+Selecting top level module Ztj
+@N: CG364 :"G:\EDA\W_zh7\hdl\Mealy.v":2:7:2:20|Synthesizing module vend_mealy_reg in library work.
+
+@N: CG364 :"G:\EDA\W_zh7\hdl\Moore.v":2:7:2:20|Synthesizing module vend_moore_reg in library work.
+
+@N: CG364 :"G:\EDA\W_zh7\component\work\Ztj\Ztj.v":9:7:9:9|Synthesizing module Ztj in library work.
+
+@N: CL201 :"G:\EDA\W_zh7\hdl\Moore.v":11:2:11:7|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL201 :"G:\EDA\W_zh7\hdl\Mealy.v":11:2:11:7|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000

@@ -1,0 +1,29 @@
+*****************************************************************
+Pin Report - Date: Fri Dec 25 16:43:04 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: Compare2come
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port     |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+---------|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+AGEB      36   Yes    IO61RSB1       LVTTL    12                 High  None           No    35                No           No
+DataA[0]  59   Yes    GDC1/IO45RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+DataA[1]  91   Yes    IO09RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+DataA[2]  45   Yes    GDB2/IO55RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+DataA[3]  31   Yes    IO66RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataA[4]  58   Yes    GDC0/IO46RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+DataA[5]  32   Yes    IO65RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataA[6]  33   Yes    IO64RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataA[7]  30   Yes    IO67RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataB[0]  42   Yes    IO58RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataB[1]  46   Yes    GDA2/IO54RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+DataB[2]  43   Yes    IO57RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataB[3]  41   Yes    IO59RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataB[4]  40   Yes    IO60RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataB[5]  34   Yes    IO63RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataB[6]  35   Yes    IO62RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataB[7]  44   Yes    GDC2/IO56RSB1  LVTTL    ---                ---   None           ---   ---               No           No

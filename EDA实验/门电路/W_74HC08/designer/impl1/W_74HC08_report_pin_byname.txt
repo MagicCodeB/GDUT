@@ -1,0 +1,24 @@
+*****************************************************************
+Pin Report - Date: Mon Dec 21 23:17:07 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: W_74HC08
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+A[0]  21   No     GEB0/IO74RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+A[1]  10   No     GFB1/IO87RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+A[2]  43   No     IO57RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+A[3]  34   No     IO63RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+B[0]  22   No     GEA1/IO73RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+B[1]  13   No     GFA0/IO85RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+B[2]  45   No     GDB2/IO55RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+B[3]  35   No     IO62RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+Y[0]  23   No     GEA0/IO72RSB1  LVTTL    12                 High  None           No    35                No           No
+Y[1]  11   No     GFB0/IO86RSB1  LVTTL    12                 High  None           No    35                No           No
+Y[2]  44   No     GDC2/IO56RSB1  LVTTL    12                 High  None           No    35                No           No
+Y[3]  33   No     IO64RSB1       LVTTL    12                 High  None           No    35                No           No

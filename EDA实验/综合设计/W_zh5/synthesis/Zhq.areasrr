@@ -1,0 +1,46 @@
+----------------------------------------------------------------------
+Report for cell Zhq.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         8       0.0        0.0
+                             OUTBUF        12       0.0        0.0
+                                VCC         1       0.0        0.0
+                              W_zh5         1      86.0       86.0
+                            
+                         TOTAL             23                 86.0
+----------------------------------------------------------------------
+Report for cell W_zh5.netlist
+     Instance path:  W_zh5_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         6       1.0        6.0
+                               AO13         4       1.0        4.0
+                               AO18         3       1.0        3.0
+                               AO1A         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                               AOI5         1       1.0        1.0
+                               AX1B         4       1.0        4.0
+                               AX1C         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               MX2A         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         4       1.0        4.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         4       1.0        4.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         1       1.0        1.0
+                                OA1         2       1.0        2.0
+                               OA1B         1       1.0        1.0
+                                OR2         4       1.0        4.0
+                               OR2A         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2        11       1.0       11.0
+                              XNOR3         6       1.0        6.0
+                               XOR2         8       1.0        8.0
+                               XOR3         9       1.0        9.0
+                            
+                         TOTAL             88                 86.0

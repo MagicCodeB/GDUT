@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/EDA/W_74HC138/simulation
+vtestbench
+Z0 !s110 1608620100
+!i10b 1
+!s100 `X59kz?3[>^^On:gTOcf22
+I2Q`lUfbbnaCnhYLCM8Hji1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dI:/EDA/zuhe/W_74HC138/simulation
+w1608103460
+8I:/EDA/zuhe/W_74HC138/stimulus/test_74HC138.v
+FI:/EDA/zuhe/W_74HC138/stimulus/test_74HC138.v
+L0 2
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1608620100.000000
+!s107 I:/EDA/zuhe/W_74HC138/stimulus/test_74HC138.v|
+!s90 -reportprogress|300|+incdir+I:/EDA/zuhe/W_74HC138/stimulus|-vlog01compat|-work|presynth|I:/EDA/zuhe/W_74HC138/stimulus/test_74HC138.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+!s92 +incdir+I:/EDA/zuhe/W_74HC138/stimulus -vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+vW_74HC138
+R0
+!i10b 1
+!s100 P]Q0H9[IFe_@nIH_LLAA=3
+Ij^fSnLCzIY3Gc1f7KbjZ`3
+R1
+R2
+w1608608360
+8I:/EDA/zuhe/W_74HC138/hdl/W_74HC138.v
+FI:/EDA/zuhe/W_74HC138/hdl/W_74HC138.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 I:/EDA/zuhe/W_74HC138/hdl/W_74HC138.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|I:/EDA/zuhe/W_74HC138/hdl/W_74HC138.v|
+!s101 -O0
+!i113 1
+R5
+R6
+n@w_74@h@c138

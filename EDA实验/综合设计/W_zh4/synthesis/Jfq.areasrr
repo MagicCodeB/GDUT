@@ -1,0 +1,72 @@
+----------------------------------------------------------------------
+Report for cell Jfq.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         9       0.0        0.0
+                                INV         1       1.0        1.0
+                             OUTBUF         5       0.0        0.0
+                                VCC         1       0.0        0.0
+                              W_zh4         1       8.0        8.0
+                               XOR2         1       1.0        1.0
+                            newCore         1       1.0        1.0
+                          newCore_0         1       1.0        1.0
+                          newCore_1         1       1.0        1.0
+                          newCore_2         1       1.0        1.0
+                            
+                         TOTAL             23                 14.0
+----------------------------------------------------------------------
+Report for cell W_zh4.netlist
+     Instance path:  W_zh4_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                               MAJ3         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                               XOR3         4       1.0        4.0
+                            
+                         TOTAL             10                  8.0
+----------------------------------------------------------------------
+Report for cell newCore_2.netlist
+  Original Cell name newCore
+     Instance path:  newCore_3
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  1.0
+----------------------------------------------------------------------
+Report for cell newCore_1.netlist
+  Original Cell name newCore
+     Instance path:  newCore_2
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  1.0
+----------------------------------------------------------------------
+Report for cell newCore_0.netlist
+  Original Cell name newCore
+     Instance path:  newCore_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  1.0
+----------------------------------------------------------------------
+Report for cell newCore.netlist
+  Original Cell name newCore
+     Instance path:  newCore_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  1.0

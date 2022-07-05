@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  1  -prjfile  C:\EDA\W_zh1\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\EDA\W_zh1\synthesis   -part A3P060  -package VQFP100  -grade -1    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\EDA\W_zh1\synthesis\synlog\report\Bmtz_premap.xml  -top_level_module  Bmtz  -oedif  C:\EDA\W_zh1\synthesis\Bmtz.edn  -conchk_prepass  C:\EDA\W_zh1\synthesis\Bmtz_cck.rpt   -freq 100.000   C:\EDA\W_zh1\synthesis\synwork\Bmtz_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\EDA\W_zh1\synthesis\synwork\Bmtz_prem.srd  -qsap  C:\EDA\W_zh1\synthesis\Bmtz.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  C:\EDA\W_zh1\synthesis\syntmp\Bmtz.plg  -osyn  C:\EDA\W_zh1\synthesis\synwork\Bmtz_prem.srd  -prjdir  C:\EDA\W_zh1\synthesis\  -prjname  Bmtz_syn  -log  C:\EDA\W_zh1\synthesis\synlog\Bmtz_premap.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade -1 -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\Bmtz_premap.xml -top_level_module Bmtz -oedif ..\Bmtz.edn -conchk_prepass ..\Bmtz_cck.rpt -freq 100.000 ..\synwork\Bmtz_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\Bmtz_prem.srd -qsap ..\Bmtz.sap -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam Bmtz.plg -osyn ..\synwork\Bmtz_prem.srd -prjdir ..\ -prjname Bmtz_syn -log ..\synlog\Bmtz_premap.srr
+rc:0 success:1 runtime:1
+file:..\scratchproject.prs|io:o|time:1608818618|size:1798|exec:0|csum:
+file:..\Bmtz.edn|io:o|time:1608818622|size:49648|exec:0|csum:
+file:..\Bmtz_cck.rpt|io:o|time:1608818681|size:20166|exec:0|csum:
+file:..\synwork\Bmtz_mult.srs|io:i|time:1608818620|size:3212|exec:0|csum:3108542B295EEDDC2541BD21D947B1D3
+file:..\synwork\Bmtz_prem.srd|io:o|time:1608818681|size:9648|exec:0|csum:
+file:..\Bmtz.sap|io:o|time:1608818681|size:113|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:Bmtz.plg|io:o|time:1608818681|size:0|exec:0|csum:
+file:..\synwork\Bmtz_prem.srd|io:o|time:1608818681|size:9648|exec:0|csum:
+file:..\synlog\Bmtz_premap.srr|io:o|time:1608818681|size:2370|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

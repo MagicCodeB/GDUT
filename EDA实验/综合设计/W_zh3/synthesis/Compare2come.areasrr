@@ -1,0 +1,73 @@
+----------------------------------------------------------------------
+Report for cell Compare2come.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                       Comparator_1         1      22.0       22.0
+                     Comparator_1_0         1      22.0       22.0
+                                GND         1       0.0        0.0
+                              INBUF        16       0.0        0.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            newCore         1      23.0       23.0
+                            
+                         TOTAL             22                 67.0
+----------------------------------------------------------------------
+Report for cell newCore.netlist
+     Instance path:  newCore_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                              AND2A         1       1.0        1.0
+                               AND3         1       1.0        1.0
+                                AO1         1       1.0        1.0
+                               AO1C         6       1.0        6.0
+                               AO1D         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                             NAND3A         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                               OR2A         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                              XNOR2         3       1.0        3.0
+                            
+                         TOTAL             25                 23.0
+----------------------------------------------------------------------
+Report for cell Comparator_1_0.netlist
+  Original Cell name Comparator_1
+     Instance path:  Comparator_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2         6       1.0        6.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             24                 22.0
+----------------------------------------------------------------------
+Report for cell Comparator_1.netlist
+  Original Cell name Comparator
+     Instance path:  Comparator_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2         6       1.0        6.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             24                 22.0

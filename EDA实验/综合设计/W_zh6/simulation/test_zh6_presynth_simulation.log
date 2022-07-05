@@ -1,0 +1,69 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:07:56 on Dec 26,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth G:/EDA/W_zh6/hdl/W_zh6Mealy.v 
+# -- Compiling module Mealy
+# 
+# Top level modules:
+# 	Mealy
+# End time: 14:07:56 on Dec 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:07:56 on Dec 26,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth G:/EDA/W_zh6/hdl/W_zh5Moore.v 
+# -- Compiling module Moore
+# 
+# Top level modules:
+# 	Moore
+# End time: 14:07:56 on Dec 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:07:56 on Dec 26,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth G:/EDA/W_zh6/component/work/Zdshj/Zdshj.v 
+# -- Compiling module Zdshj
+# 
+# Top level modules:
+# 	Zdshj
+# End time: 14:07:56 on Dec 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:07:56 on Dec 26,2020
+# vlog -reportprogress 300 "+incdir+G:/EDA/W_zh6/stimulus" -vlog01compat -work presynth G:/EDA/W_zh6/stimulus/test_zh6.v 
+# -- Compiling module test_zh6
+# 
+# Top level modules:
+# 	test_zh6
+# End time: 14:07:56 on Dec 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.test_zh6 
+# Start time: 14:07:56 on Dec 26,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading presynth.test_zh6
+# Loading presynth.Zdshj
+# Loading presynth.Mealy
+# Loading presynth.Moore
+# ** Note: $finish    : G:/EDA/W_zh6/stimulus/test_zh6.v(36)
+#    Time: 600 ns  Iteration: 0  Instance: /test_zh6
+# 1
+# Break in Module test_zh6 at G:/EDA/W_zh6/stimulus/test_zh6.v line 36
+# End time: 14:09:38 on Dec 26,2020, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 0

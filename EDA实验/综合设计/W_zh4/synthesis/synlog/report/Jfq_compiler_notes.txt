@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1325:7:1325:9|Synthesizing module MX2 in library work.
+@N: CG364 :"G:\EDA\W_zh4\smartgen\newCore\newCore.v":5:7:5:13|Synthesizing module newCore in library work.
+@N: CG364 :"G:\EDA\W_zh4\hdl\W_zh4.v":2:7:2:11|Synthesizing module W_zh4 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1929:7:1929:10|Synthesizing module XOR2 in library work.
+@N: CG364 :"G:\EDA\W_zh4\component\work\Jfq\Jfq.v":9:7:9:9|Synthesizing module Jfq in library work.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,38 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 00:08:29 on Dec 18,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth C:/EDA/W_74HC4511/hdl/W_74HC4511.v 
+# -- Compiling module W_74HC4511
+# 
+# Top level modules:
+# 	W_74HC4511
+# End time: 00:08:29 on Dec 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 00:08:29 on Dec 18,2020
+# vlog -reportprogress 300 "+incdir+C:/EDA/W_74HC4511/stimulus" -vlog01compat -work presynth C:/EDA/W_74HC4511/stimulus/test_74HC4511.v 
+# -- Compiling module test_74HC4511
+# 
+# Top level modules:
+# 	test_74HC4511
+# End time: 00:08:29 on Dec 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.testbench 
+# Start time: 00:08:29 on Dec 18,2020
+# ** Error: (vsim-3170) Could not find 'testbench'.
+#         Searched libraries:
+#             C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3
+#             C:/EDA/W_74HC4511/simulation/presynth
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16
+# End time: 00:09:05 on Dec 18,2020, Elapsed time: 0:00:36
+# Errors: 1, Warnings: 0

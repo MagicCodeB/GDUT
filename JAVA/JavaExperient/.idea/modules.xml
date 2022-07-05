@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exp1_WeiYH/Exp1_WeiYH.iml" filepath="$PROJECT_DIR$/Exp1_WeiYH/Exp1_WeiYH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exp2_WeiYH/Exp2_WeiYH.iml" filepath="$PROJECT_DIR$/Exp2_WeiYH/Exp2_WeiYH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exp3_WeiYH/Exp3_WeiYH.iml" filepath="$PROJECT_DIR$/Exp3_WeiYH/Exp3_WeiYH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaExperient.iml" filepath="$PROJECT_DIR$/.idea/JavaExperient.iml" />
+    </modules>
+  </component>
+</project>

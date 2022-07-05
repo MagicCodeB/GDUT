@@ -1,0 +1,908 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 21:44:07 on Dec 22,2020
+# vlog -reportprogress 300 -vlog01compat -work postlayout G:/EDA/W_74HC74/designer/impl1/W_74HC74_ba.v 
+# -- Compiling module W_74HC74
+# 
+# Top level modules:
+# 	W_74HC74
+# End time: 21:44:07 on Dec 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 21:44:07 on Dec 22,2020
+# vlog -reportprogress 300 "+incdir+G:/EDA/W_74HC74/stimulus" -vlog01compat -work postlayout G:/EDA/W_74HC74/stimulus/test_74HC74.v 
+# -- Compiling module test_74HC74
+# 
+# Top level modules:
+# 	test_74HC74
+# End time: 21:44:07 on Dec 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L postlayout -t 1ps -sdfmax /u1=G:/EDA/W_74HC74/designer/impl1/W_74HC74_ba.sdf postlayout.test_74HC74 
+# Start time: 21:44:07 on Dec 22,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.test_74HC74
+# Loading postlayout.W_74HC74
+# Loading proasic3.NOR2A
+# Loading proasic3.IOPAD_TRI
+# Loading proasic3.IOPAD_IN
+# Loading proasic3.DFN1P1C1
+# Loading proasic3.IOIN_IB
+# Loading proasic3.INV
+# Loading proasic3.IOTRI_OB_EB
+# Loading proasic3.CLKIO
+# Loading proasic3.GND
+# Loading proasic3.VCC
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# Loading instances from G:/EDA/W_74HC74/designer/impl1/W_74HC74_ba.sdf
+# Loading proasic3.Dffpr
+# Loading timing data from G:/EDA/W_74HC74/designer/impl1/W_74HC74_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /test_74HC74 File: G:/EDA/W_74HC74/stimulus/test_74HC74.v
+# ** Error: src/proasic3.v(11177): $setup( negedge D:66870 ps, posedge CLK &&& Enable01:67939 ps, 2700 ps );
+#    Time: 67939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11196): $recovery( negedge PRE:67838 ps, posedge CLK &&& Enable02:67939 ps, 297 ps );
+#    Time: 67939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11191): $width( posedge CLR:198169 ps, :199300 ps, 2201 ps );
+#    Time: 199300 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:198251 ps, posedge CLK &&& Enable01:199936 ps, 2700 ps );
+#    Time: 199936 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:199936 ps, :201631 ps, 2392 ps );
+#    Time: 201631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:199939 ps, :201633 ps, 2392 ps );
+#    Time: 201633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:202870 ps, posedge CLK &&& Enable01:203939 ps, 2700 ps );
+#    Time: 203939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:203936 ps, :205631 ps, 2392 ps );
+#    Time: 205631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:203939 ps, :205633 ps, 2392 ps );
+#    Time: 205633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:207411 ps, posedge CLK &&& Enable01:207936 ps, 2484 ps );
+#    Time: 207936 ps  Iteration: 1  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:206136 ps, posedge CLK &&& Enable01:207939 ps, 2484 ps );
+#    Time: 207939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:207936 ps, :209631 ps, 2392 ps );
+#    Time: 209631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:207939 ps, :209633 ps, 2392 ps );
+#    Time: 209633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:210251 ps, posedge CLK &&& Enable01:211936 ps, 2700 ps );
+#    Time: 211936 ps  Iteration: 1  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:211936 ps, :213631 ps, 2392 ps );
+#    Time: 213631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:211939 ps, :213633 ps, 2392 ps );
+#    Time: 213633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:214870 ps, posedge CLK &&& Enable01:215939 ps, 2700 ps );
+#    Time: 215939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:215936 ps, :217631 ps, 2392 ps );
+#    Time: 217631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:215939 ps, :217633 ps, 2392 ps );
+#    Time: 217633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:219411 ps, posedge CLK &&& Enable01:219936 ps, 2484 ps );
+#    Time: 219936 ps  Iteration: 1  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:218136 ps, posedge CLK &&& Enable01:219939 ps, 2484 ps );
+#    Time: 219939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:219936 ps, :221631 ps, 2392 ps );
+#    Time: 221631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:219939 ps, :221633 ps, 2392 ps );
+#    Time: 221633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:222251 ps, posedge CLK &&& Enable01:223936 ps, 2700 ps );
+#    Time: 223936 ps  Iteration: 1  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:223936 ps, :225631 ps, 2392 ps );
+#    Time: 225631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:223939 ps, :225633 ps, 2392 ps );
+#    Time: 225633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:226870 ps, posedge CLK &&& Enable01:227939 ps, 2700 ps );
+#    Time: 227939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:227936 ps, :229631 ps, 2392 ps );
+#    Time: 229631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:227939 ps, :229633 ps, 2392 ps );
+#    Time: 229633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:231411 ps, posedge CLK &&& Enable01:231936 ps, 2484 ps );
+#    Time: 231936 ps  Iteration: 1  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:230136 ps, posedge CLK &&& Enable01:231939 ps, 2484 ps );
+#    Time: 231939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:231936 ps, :233631 ps, 2392 ps );
+#    Time: 233631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:231939 ps, :233633 ps, 2392 ps );
+#    Time: 233633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:234251 ps, posedge CLK &&& Enable01:235936 ps, 2700 ps );
+#    Time: 235936 ps  Iteration: 1  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:235936 ps, :237631 ps, 2392 ps );
+#    Time: 237631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:235939 ps, :237633 ps, 2392 ps );
+#    Time: 237633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:238870 ps, posedge CLK &&& Enable01:239939 ps, 2700 ps );
+#    Time: 239939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:239936 ps, :241631 ps, 2392 ps );
+#    Time: 241631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:239939 ps, :241633 ps, 2392 ps );
+#    Time: 241633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:243411 ps, posedge CLK &&& Enable01:243936 ps, 2484 ps );
+#    Time: 243936 ps  Iteration: 1  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:242136 ps, posedge CLK &&& Enable01:243939 ps, 2484 ps );
+#    Time: 243939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:243936 ps, :245631 ps, 2392 ps );
+#    Time: 245631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:243939 ps, :245633 ps, 2392 ps );
+#    Time: 245633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:246251 ps, posedge CLK &&& Enable01:247936 ps, 2700 ps );
+#    Time: 247936 ps  Iteration: 1  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:247936 ps, :249631 ps, 2392 ps );
+#    Time: 249631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:247939 ps, :249633 ps, 2392 ps );
+#    Time: 249633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:250870 ps, posedge CLK &&& Enable01:251939 ps, 2700 ps );
+#    Time: 251939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:251936 ps, :253631 ps, 2392 ps );
+#    Time: 253631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:251939 ps, :253633 ps, 2392 ps );
+#    Time: 253633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11177): $setup( negedge D:255411 ps, posedge CLK &&& Enable01:255936 ps, 2484 ps );
+#    Time: 255936 ps  Iteration: 1  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11176): $setup( posedge D:254136 ps, posedge CLK &&& Enable01:255939 ps, 2484 ps );
+#    Time: 255939 ps  Iteration: 1  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:255936 ps, :257631 ps, 2392 ps );
+#    Time: 257631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:255939 ps, :257633 ps, 2392 ps );
+#    Time: 257633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:259936 ps, :261631 ps, 2392 ps );
+#    Time: 261631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:259939 ps, :261633 ps, 2392 ps );
+#    Time: 261633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:263936 ps, :265631 ps, 2392 ps );
+#    Time: 265631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:263939 ps, :265633 ps, 2392 ps );
+#    Time: 265633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:267936 ps, :269631 ps, 2392 ps );
+#    Time: 269631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:267939 ps, :269633 ps, 2392 ps );
+#    Time: 269633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:271936 ps, :273631 ps, 2392 ps );
+#    Time: 273631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:271939 ps, :273633 ps, 2392 ps );
+#    Time: 273633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:275936 ps, :277631 ps, 2392 ps );
+#    Time: 277631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:275939 ps, :277633 ps, 2392 ps );
+#    Time: 277633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:279936 ps, :281631 ps, 2392 ps );
+#    Time: 281631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:279939 ps, :281633 ps, 2392 ps );
+#    Time: 281633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:283936 ps, :285631 ps, 2392 ps );
+#    Time: 285631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:283939 ps, :285633 ps, 2392 ps );
+#    Time: 285633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:287936 ps, :289631 ps, 2392 ps );
+#    Time: 289631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:287939 ps, :289633 ps, 2392 ps );
+#    Time: 289633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:291936 ps, :293631 ps, 2392 ps );
+#    Time: 293631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:291939 ps, :293633 ps, 2392 ps );
+#    Time: 293633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:295936 ps, :297631 ps, 2392 ps );
+#    Time: 297631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:295939 ps, :297633 ps, 2392 ps );
+#    Time: 297633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:299936 ps, :301631 ps, 2392 ps );
+#    Time: 301631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:299939 ps, :301633 ps, 2392 ps );
+#    Time: 301633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:303936 ps, :305631 ps, 2392 ps );
+#    Time: 305631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:303939 ps, :305633 ps, 2392 ps );
+#    Time: 305633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:307936 ps, :309631 ps, 2392 ps );
+#    Time: 309631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:307939 ps, :309633 ps, 2392 ps );
+#    Time: 309633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:311936 ps, :313631 ps, 2392 ps );
+#    Time: 313631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:311939 ps, :313633 ps, 2392 ps );
+#    Time: 313633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:315936 ps, :317631 ps, 2392 ps );
+#    Time: 317631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:315939 ps, :317633 ps, 2392 ps );
+#    Time: 317633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:319936 ps, :321631 ps, 2392 ps );
+#    Time: 321631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:319939 ps, :321633 ps, 2392 ps );
+#    Time: 321633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:323936 ps, :325631 ps, 2392 ps );
+#    Time: 325631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:323939 ps, :325633 ps, 2392 ps );
+#    Time: 325633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:327936 ps, :329631 ps, 2392 ps );
+#    Time: 329631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:327939 ps, :329633 ps, 2392 ps );
+#    Time: 329633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:331936 ps, :333631 ps, 2392 ps );
+#    Time: 333631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:331939 ps, :333633 ps, 2392 ps );
+#    Time: 333633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:335936 ps, :337631 ps, 2392 ps );
+#    Time: 337631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:335939 ps, :337633 ps, 2392 ps );
+#    Time: 337633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:339936 ps, :341631 ps, 2392 ps );
+#    Time: 341631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:339939 ps, :341633 ps, 2392 ps );
+#    Time: 341633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:343936 ps, :345631 ps, 2392 ps );
+#    Time: 345631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:343939 ps, :345633 ps, 2392 ps );
+#    Time: 345633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:347936 ps, :349631 ps, 2392 ps );
+#    Time: 349631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:347939 ps, :349633 ps, 2392 ps );
+#    Time: 349633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:351936 ps, :353631 ps, 2392 ps );
+#    Time: 353631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:351939 ps, :353633 ps, 2392 ps );
+#    Time: 353633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:355936 ps, :357631 ps, 2392 ps );
+#    Time: 357631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:355939 ps, :357633 ps, 2392 ps );
+#    Time: 357633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:359936 ps, :361631 ps, 2392 ps );
+#    Time: 361631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:359939 ps, :361633 ps, 2392 ps );
+#    Time: 361633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:363936 ps, :365631 ps, 2392 ps );
+#    Time: 365631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:363939 ps, :365633 ps, 2392 ps );
+#    Time: 365633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:367936 ps, :369631 ps, 2392 ps );
+#    Time: 369631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:367939 ps, :369633 ps, 2392 ps );
+#    Time: 369633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:371936 ps, :373631 ps, 2392 ps );
+#    Time: 373631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:371939 ps, :373633 ps, 2392 ps );
+#    Time: 373633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:375936 ps, :377631 ps, 2392 ps );
+#    Time: 377631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:375939 ps, :377633 ps, 2392 ps );
+#    Time: 377633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:379936 ps, :381631 ps, 2392 ps );
+#    Time: 381631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:379939 ps, :381633 ps, 2392 ps );
+#    Time: 381633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:383936 ps, :385631 ps, 2392 ps );
+#    Time: 385631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:383939 ps, :385633 ps, 2392 ps );
+#    Time: 385633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:387936 ps, :389631 ps, 2392 ps );
+#    Time: 389631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:387939 ps, :389633 ps, 2392 ps );
+#    Time: 389633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:391936 ps, :393631 ps, 2392 ps );
+#    Time: 393631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:391939 ps, :393633 ps, 2392 ps );
+#    Time: 393633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:395936 ps, :397631 ps, 2392 ps );
+#    Time: 397631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:395939 ps, :397633 ps, 2392 ps );
+#    Time: 397633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:399936 ps, :401631 ps, 2392 ps );
+#    Time: 401631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:399939 ps, :401633 ps, 2392 ps );
+#    Time: 401633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:403936 ps, :405631 ps, 2392 ps );
+#    Time: 405631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:403939 ps, :405633 ps, 2392 ps );
+#    Time: 405633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:407936 ps, :409631 ps, 2392 ps );
+#    Time: 409631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:407939 ps, :409633 ps, 2392 ps );
+#    Time: 409633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:411936 ps, :413631 ps, 2392 ps );
+#    Time: 413631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:411939 ps, :413633 ps, 2392 ps );
+#    Time: 413633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:415936 ps, :417631 ps, 2392 ps );
+#    Time: 417631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:415939 ps, :417633 ps, 2392 ps );
+#    Time: 417633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:419936 ps, :421631 ps, 2392 ps );
+#    Time: 421631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:419939 ps, :421633 ps, 2392 ps );
+#    Time: 421633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:423936 ps, :425631 ps, 2392 ps );
+#    Time: 425631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:423939 ps, :425633 ps, 2392 ps );
+#    Time: 425633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:427936 ps, :429631 ps, 2392 ps );
+#    Time: 429631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:427939 ps, :429633 ps, 2392 ps );
+#    Time: 429633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:431936 ps, :433631 ps, 2392 ps );
+#    Time: 433631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:431939 ps, :433633 ps, 2392 ps );
+#    Time: 433633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:435936 ps, :437631 ps, 2392 ps );
+#    Time: 437631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:435939 ps, :437633 ps, 2392 ps );
+#    Time: 437633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:439936 ps, :441631 ps, 2392 ps );
+#    Time: 441631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:439939 ps, :441633 ps, 2392 ps );
+#    Time: 441633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:443936 ps, :445631 ps, 2392 ps );
+#    Time: 445631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:443939 ps, :445633 ps, 2392 ps );
+#    Time: 445633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:447936 ps, :449631 ps, 2392 ps );
+#    Time: 449631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:447939 ps, :449633 ps, 2392 ps );
+#    Time: 449633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:451936 ps, :453631 ps, 2392 ps );
+#    Time: 453631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:451939 ps, :453633 ps, 2392 ps );
+#    Time: 453633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:455936 ps, :457631 ps, 2392 ps );
+#    Time: 457631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:455939 ps, :457633 ps, 2392 ps );
+#    Time: 457633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:459936 ps, :461631 ps, 2392 ps );
+#    Time: 461631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:459939 ps, :461633 ps, 2392 ps );
+#    Time: 461633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:463936 ps, :465631 ps, 2392 ps );
+#    Time: 465631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:463939 ps, :465633 ps, 2392 ps );
+#    Time: 465633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:467936 ps, :469631 ps, 2392 ps );
+#    Time: 469631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:467939 ps, :469633 ps, 2392 ps );
+#    Time: 469633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:471936 ps, :473631 ps, 2392 ps );
+#    Time: 473631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:471939 ps, :473633 ps, 2392 ps );
+#    Time: 473633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:475936 ps, :477631 ps, 2392 ps );
+#    Time: 477631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:475939 ps, :477633 ps, 2392 ps );
+#    Time: 477633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:479936 ps, :481631 ps, 2392 ps );
+#    Time: 481631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:479939 ps, :481633 ps, 2392 ps );
+#    Time: 481633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:483936 ps, :485631 ps, 2392 ps );
+#    Time: 485631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:483939 ps, :485633 ps, 2392 ps );
+#    Time: 485633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:487936 ps, :489631 ps, 2392 ps );
+#    Time: 489631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:487939 ps, :489633 ps, 2392 ps );
+#    Time: 489633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:491936 ps, :493631 ps, 2392 ps );
+#    Time: 493631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:491939 ps, :493633 ps, 2392 ps );
+#    Time: 493633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:495936 ps, :497631 ps, 2392 ps );
+#    Time: 497631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:495939 ps, :497633 ps, 2392 ps );
+#    Time: 497633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:499936 ps, :501631 ps, 2392 ps );
+#    Time: 501631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:499939 ps, :501633 ps, 2392 ps );
+#    Time: 501633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:503936 ps, :505631 ps, 2392 ps );
+#    Time: 505631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:503939 ps, :505633 ps, 2392 ps );
+#    Time: 505633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:507936 ps, :509631 ps, 2392 ps );
+#    Time: 509631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:507939 ps, :509633 ps, 2392 ps );
+#    Time: 509633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:511936 ps, :513631 ps, 2392 ps );
+#    Time: 513631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:511939 ps, :513633 ps, 2392 ps );
+#    Time: 513633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:515936 ps, :517631 ps, 2392 ps );
+#    Time: 517631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:515939 ps, :517633 ps, 2392 ps );
+#    Time: 517633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:519936 ps, :521631 ps, 2392 ps );
+#    Time: 521631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:519939 ps, :521633 ps, 2392 ps );
+#    Time: 521633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:523936 ps, :525631 ps, 2392 ps );
+#    Time: 525631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:523939 ps, :525633 ps, 2392 ps );
+#    Time: 525633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:527936 ps, :529631 ps, 2392 ps );
+#    Time: 529631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:527939 ps, :529633 ps, 2392 ps );
+#    Time: 529633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:531936 ps, :533631 ps, 2392 ps );
+#    Time: 533631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:531939 ps, :533633 ps, 2392 ps );
+#    Time: 533633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:535936 ps, :537631 ps, 2392 ps );
+#    Time: 537631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:535939 ps, :537633 ps, 2392 ps );
+#    Time: 537633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:539936 ps, :541631 ps, 2392 ps );
+#    Time: 541631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:539939 ps, :541633 ps, 2392 ps );
+#    Time: 541633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:543936 ps, :545631 ps, 2392 ps );
+#    Time: 545631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:543939 ps, :545633 ps, 2392 ps );
+#    Time: 545633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:547936 ps, :549631 ps, 2392 ps );
+#    Time: 549631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:547939 ps, :549633 ps, 2392 ps );
+#    Time: 549633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:551936 ps, :553631 ps, 2392 ps );
+#    Time: 553631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:551939 ps, :553633 ps, 2392 ps );
+#    Time: 553633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:555936 ps, :557631 ps, 2392 ps );
+#    Time: 557631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:555939 ps, :557633 ps, 2392 ps );
+#    Time: 557633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:559936 ps, :561631 ps, 2392 ps );
+#    Time: 561631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:559939 ps, :561633 ps, 2392 ps );
+#    Time: 561633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:563936 ps, :565631 ps, 2392 ps );
+#    Time: 565631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:563939 ps, :565633 ps, 2392 ps );
+#    Time: 565633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:567936 ps, :569631 ps, 2392 ps );
+#    Time: 569631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:567939 ps, :569633 ps, 2392 ps );
+#    Time: 569633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:571936 ps, :573631 ps, 2392 ps );
+#    Time: 573631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:571939 ps, :573633 ps, 2392 ps );
+#    Time: 573633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:575936 ps, :577631 ps, 2392 ps );
+#    Time: 577631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:575939 ps, :577633 ps, 2392 ps );
+#    Time: 577633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:579936 ps, :581631 ps, 2392 ps );
+#    Time: 581631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:579939 ps, :581633 ps, 2392 ps );
+#    Time: 581633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:583936 ps, :585631 ps, 2392 ps );
+#    Time: 585631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:583939 ps, :585633 ps, 2392 ps );
+#    Time: 585633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:587936 ps, :589631 ps, 2392 ps );
+#    Time: 589631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:587939 ps, :589633 ps, 2392 ps );
+#    Time: 589633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:591936 ps, :593631 ps, 2392 ps );
+#    Time: 593631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:591939 ps, :593633 ps, 2392 ps );
+#    Time: 593633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:595936 ps, :597631 ps, 2392 ps );
+#    Time: 597631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:595939 ps, :597633 ps, 2392 ps );
+#    Time: 597633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:599936 ps, :601631 ps, 2392 ps );
+#    Time: 601631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:599939 ps, :601633 ps, 2392 ps );
+#    Time: 601633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:603936 ps, :605631 ps, 2392 ps );
+#    Time: 605631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:603939 ps, :605633 ps, 2392 ps );
+#    Time: 605633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:607936 ps, :609631 ps, 2392 ps );
+#    Time: 609631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:607939 ps, :609633 ps, 2392 ps );
+#    Time: 609633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:611936 ps, :613631 ps, 2392 ps );
+#    Time: 613631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:611939 ps, :613633 ps, 2392 ps );
+#    Time: 613633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:615936 ps, :617631 ps, 2392 ps );
+#    Time: 617631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:615939 ps, :617633 ps, 2392 ps );
+#    Time: 617633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:619936 ps, :621631 ps, 2392 ps );
+#    Time: 621631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:619939 ps, :621633 ps, 2392 ps );
+#    Time: 621633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:623936 ps, :625631 ps, 2392 ps );
+#    Time: 625631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:623939 ps, :625633 ps, 2392 ps );
+#    Time: 625633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:627936 ps, :629631 ps, 2392 ps );
+#    Time: 629631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:627939 ps, :629633 ps, 2392 ps );
+#    Time: 629633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:631936 ps, :633631 ps, 2392 ps );
+#    Time: 633631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:631939 ps, :633633 ps, 2392 ps );
+#    Time: 633633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:635936 ps, :637631 ps, 2392 ps );
+#    Time: 637631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:635939 ps, :637633 ps, 2392 ps );
+#    Time: 637633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:639936 ps, :641631 ps, 2392 ps );
+#    Time: 641631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:639939 ps, :641633 ps, 2392 ps );
+#    Time: 641633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:643936 ps, :645631 ps, 2392 ps );
+#    Time: 645631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:643939 ps, :645633 ps, 2392 ps );
+#    Time: 645633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:647936 ps, :649631 ps, 2392 ps );
+#    Time: 649631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:647939 ps, :649633 ps, 2392 ps );
+#    Time: 649633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:651936 ps, :653631 ps, 2392 ps );
+#    Time: 653631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:651939 ps, :653633 ps, 2392 ps );
+#    Time: 653633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:655936 ps, :657631 ps, 2392 ps );
+#    Time: 657631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:655939 ps, :657633 ps, 2392 ps );
+#    Time: 657633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:659936 ps, :661631 ps, 2392 ps );
+#    Time: 661631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:659939 ps, :661633 ps, 2392 ps );
+#    Time: 661633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:663936 ps, :665631 ps, 2392 ps );
+#    Time: 665631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:663939 ps, :665633 ps, 2392 ps );
+#    Time: 665633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:667936 ps, :669631 ps, 2392 ps );
+#    Time: 669631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:667939 ps, :669633 ps, 2392 ps );
+#    Time: 669633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:671936 ps, :673631 ps, 2392 ps );
+#    Time: 673631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:671939 ps, :673633 ps, 2392 ps );
+#    Time: 673633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:675936 ps, :677631 ps, 2392 ps );
+#    Time: 677631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:675939 ps, :677633 ps, 2392 ps );
+#    Time: 677633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:679936 ps, :681631 ps, 2392 ps );
+#    Time: 681631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:679939 ps, :681633 ps, 2392 ps );
+#    Time: 681633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:683936 ps, :685631 ps, 2392 ps );
+#    Time: 685631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:683939 ps, :685633 ps, 2392 ps );
+#    Time: 685633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:687936 ps, :689631 ps, 2392 ps );
+#    Time: 689631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:687939 ps, :689633 ps, 2392 ps );
+#    Time: 689633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:691936 ps, :693631 ps, 2392 ps );
+#    Time: 693631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:691939 ps, :693633 ps, 2392 ps );
+#    Time: 693633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:695936 ps, :697631 ps, 2392 ps );
+#    Time: 697631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:695939 ps, :697633 ps, 2392 ps );
+#    Time: 697633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:699936 ps, :701631 ps, 2392 ps );
+#    Time: 701631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:699939 ps, :701633 ps, 2392 ps );
+#    Time: 701633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:703936 ps, :705631 ps, 2392 ps );
+#    Time: 705631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:703939 ps, :705633 ps, 2392 ps );
+#    Time: 705633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:707936 ps, :709631 ps, 2392 ps );
+#    Time: 709631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:707939 ps, :709633 ps, 2392 ps );
+#    Time: 709633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:711936 ps, :713631 ps, 2392 ps );
+#    Time: 713631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:711939 ps, :713633 ps, 2392 ps );
+#    Time: 713633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:715936 ps, :717631 ps, 2392 ps );
+#    Time: 717631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:715939 ps, :717633 ps, 2392 ps );
+#    Time: 717633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:719936 ps, :721631 ps, 2392 ps );
+#    Time: 721631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:719939 ps, :721633 ps, 2392 ps );
+#    Time: 721633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:723936 ps, :725631 ps, 2392 ps );
+#    Time: 725631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:723939 ps, :725633 ps, 2392 ps );
+#    Time: 725633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:727936 ps, :729631 ps, 2392 ps );
+#    Time: 729631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:727939 ps, :729633 ps, 2392 ps );
+#    Time: 729633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:731936 ps, :733631 ps, 2392 ps );
+#    Time: 733631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:731939 ps, :733633 ps, 2392 ps );
+#    Time: 733633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:735936 ps, :737631 ps, 2392 ps );
+#    Time: 737631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:735939 ps, :737633 ps, 2392 ps );
+#    Time: 737633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:739936 ps, :741631 ps, 2392 ps );
+#    Time: 741631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:739939 ps, :741633 ps, 2392 ps );
+#    Time: 741633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:743936 ps, :745631 ps, 2392 ps );
+#    Time: 745631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:743939 ps, :745633 ps, 2392 ps );
+#    Time: 745633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:747936 ps, :749631 ps, 2392 ps );
+#    Time: 749631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:747939 ps, :749633 ps, 2392 ps );
+#    Time: 749633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:751936 ps, :753631 ps, 2392 ps );
+#    Time: 753631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:751939 ps, :753633 ps, 2392 ps );
+#    Time: 753633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:755936 ps, :757631 ps, 2392 ps );
+#    Time: 757631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:755939 ps, :757633 ps, 2392 ps );
+#    Time: 757633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:759936 ps, :761631 ps, 2392 ps );
+#    Time: 761631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:759939 ps, :761633 ps, 2392 ps );
+#    Time: 761633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:763936 ps, :765631 ps, 2392 ps );
+#    Time: 765631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:763939 ps, :765633 ps, 2392 ps );
+#    Time: 765633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:767936 ps, :769631 ps, 2392 ps );
+#    Time: 769631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:767939 ps, :769633 ps, 2392 ps );
+#    Time: 769633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:771936 ps, :773631 ps, 2392 ps );
+#    Time: 773631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:771939 ps, :773633 ps, 2392 ps );
+#    Time: 773633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:775936 ps, :777631 ps, 2392 ps );
+#    Time: 777631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:775939 ps, :777633 ps, 2392 ps );
+#    Time: 777633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:779936 ps, :781631 ps, 2392 ps );
+#    Time: 781631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:779939 ps, :781633 ps, 2392 ps );
+#    Time: 781633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:783936 ps, :785631 ps, 2392 ps );
+#    Time: 785631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:783939 ps, :785633 ps, 2392 ps );
+#    Time: 785633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:787936 ps, :789631 ps, 2392 ps );
+#    Time: 789631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:787939 ps, :789633 ps, 2392 ps );
+#    Time: 789633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:791936 ps, :793631 ps, 2392 ps );
+#    Time: 793631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:791939 ps, :793633 ps, 2392 ps );
+#    Time: 793633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:795936 ps, :797631 ps, 2392 ps );
+#    Time: 797631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:795939 ps, :797633 ps, 2392 ps );
+#    Time: 797633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:799936 ps, :801631 ps, 2392 ps );
+#    Time: 801631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:799939 ps, :801633 ps, 2392 ps );
+#    Time: 801633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:803936 ps, :805631 ps, 2392 ps );
+#    Time: 805631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:803939 ps, :805633 ps, 2392 ps );
+#    Time: 805633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:807936 ps, :809631 ps, 2392 ps );
+#    Time: 809631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:807939 ps, :809633 ps, 2392 ps );
+#    Time: 809633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:811936 ps, :813631 ps, 2392 ps );
+#    Time: 813631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:811939 ps, :813633 ps, 2392 ps );
+#    Time: 813633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:815936 ps, :817631 ps, 2392 ps );
+#    Time: 817631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:815939 ps, :817633 ps, 2392 ps );
+#    Time: 817633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:819936 ps, :821631 ps, 2392 ps );
+#    Time: 821631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:819939 ps, :821633 ps, 2392 ps );
+#    Time: 821633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:823936 ps, :825631 ps, 2392 ps );
+#    Time: 825631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:823939 ps, :825633 ps, 2392 ps );
+#    Time: 825633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:827936 ps, :829631 ps, 2392 ps );
+#    Time: 829631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:827939 ps, :829633 ps, 2392 ps );
+#    Time: 829633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:831936 ps, :833631 ps, 2392 ps );
+#    Time: 833631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:831939 ps, :833633 ps, 2392 ps );
+#    Time: 833633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:835936 ps, :837631 ps, 2392 ps );
+#    Time: 837631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:835939 ps, :837633 ps, 2392 ps );
+#    Time: 837633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:839936 ps, :841631 ps, 2392 ps );
+#    Time: 841631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:839939 ps, :841633 ps, 2392 ps );
+#    Time: 841633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:843936 ps, :845631 ps, 2392 ps );
+#    Time: 845631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:843939 ps, :845633 ps, 2392 ps );
+#    Time: 845633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:847936 ps, :849631 ps, 2392 ps );
+#    Time: 849631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:847939 ps, :849633 ps, 2392 ps );
+#    Time: 849633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:851936 ps, :853631 ps, 2392 ps );
+#    Time: 853631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:851939 ps, :853633 ps, 2392 ps );
+#    Time: 853633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:855936 ps, :857631 ps, 2392 ps );
+#    Time: 857631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:855939 ps, :857633 ps, 2392 ps );
+#    Time: 857633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:859936 ps, :861631 ps, 2392 ps );
+#    Time: 861631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:859939 ps, :861633 ps, 2392 ps );
+#    Time: 861633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:863936 ps, :865631 ps, 2392 ps );
+#    Time: 865631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:863939 ps, :865633 ps, 2392 ps );
+#    Time: 865633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:867936 ps, :869631 ps, 2392 ps );
+#    Time: 869631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:867939 ps, :869633 ps, 2392 ps );
+#    Time: 869633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:871936 ps, :873631 ps, 2392 ps );
+#    Time: 873631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:871939 ps, :873633 ps, 2392 ps );
+#    Time: 873633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:875936 ps, :877631 ps, 2392 ps );
+#    Time: 877631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:875939 ps, :877633 ps, 2392 ps );
+#    Time: 877633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:879936 ps, :881631 ps, 2392 ps );
+#    Time: 881631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:879939 ps, :881633 ps, 2392 ps );
+#    Time: 881633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:883936 ps, :885631 ps, 2392 ps );
+#    Time: 885631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:883939 ps, :885633 ps, 2392 ps );
+#    Time: 885633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:887936 ps, :889631 ps, 2392 ps );
+#    Time: 889631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:887939 ps, :889633 ps, 2392 ps );
+#    Time: 889633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:891936 ps, :893631 ps, 2392 ps );
+#    Time: 893631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:891939 ps, :893633 ps, 2392 ps );
+#    Time: 893633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:895936 ps, :897631 ps, 2392 ps );
+#    Time: 897631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:895939 ps, :897633 ps, 2392 ps );
+#    Time: 897633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:899936 ps, :901631 ps, 2392 ps );
+#    Time: 901631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:899939 ps, :901633 ps, 2392 ps );
+#    Time: 901633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:903936 ps, :905631 ps, 2392 ps );
+#    Time: 905631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:903939 ps, :905633 ps, 2392 ps );
+#    Time: 905633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:907936 ps, :909631 ps, 2392 ps );
+#    Time: 909631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:907939 ps, :909633 ps, 2392 ps );
+#    Time: 909633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:911936 ps, :913631 ps, 2392 ps );
+#    Time: 913631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:911939 ps, :913633 ps, 2392 ps );
+#    Time: 913633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:915936 ps, :917631 ps, 2392 ps );
+#    Time: 917631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:915939 ps, :917633 ps, 2392 ps );
+#    Time: 917633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:919936 ps, :921631 ps, 2392 ps );
+#    Time: 921631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:919939 ps, :921633 ps, 2392 ps );
+#    Time: 921633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:923936 ps, :925631 ps, 2392 ps );
+#    Time: 925631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:923939 ps, :925633 ps, 2392 ps );
+#    Time: 925633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:927936 ps, :929631 ps, 2392 ps );
+#    Time: 929631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:927939 ps, :929633 ps, 2392 ps );
+#    Time: 929633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:931936 ps, :933631 ps, 2392 ps );
+#    Time: 933631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:931939 ps, :933633 ps, 2392 ps );
+#    Time: 933633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:935936 ps, :937631 ps, 2392 ps );
+#    Time: 937631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:935939 ps, :937633 ps, 2392 ps );
+#    Time: 937633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:939936 ps, :941631 ps, 2392 ps );
+#    Time: 941631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:939939 ps, :941633 ps, 2392 ps );
+#    Time: 941633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:943936 ps, :945631 ps, 2392 ps );
+#    Time: 945631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:943939 ps, :945633 ps, 2392 ps );
+#    Time: 945633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:947936 ps, :949631 ps, 2392 ps );
+#    Time: 949631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:947939 ps, :949633 ps, 2392 ps );
+#    Time: 949633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:951936 ps, :953631 ps, 2392 ps );
+#    Time: 953631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:951939 ps, :953633 ps, 2392 ps );
+#    Time: 953633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:955936 ps, :957631 ps, 2392 ps );
+#    Time: 957631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:955939 ps, :957633 ps, 2392 ps );
+#    Time: 957633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:959936 ps, :961631 ps, 2392 ps );
+#    Time: 961631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:959939 ps, :961633 ps, 2392 ps );
+#    Time: 961633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:963936 ps, :965631 ps, 2392 ps );
+#    Time: 965631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:963939 ps, :965633 ps, 2392 ps );
+#    Time: 965633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:967936 ps, :969631 ps, 2392 ps );
+#    Time: 969631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:967939 ps, :969633 ps, 2392 ps );
+#    Time: 969633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:971936 ps, :973631 ps, 2392 ps );
+#    Time: 973631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:971939 ps, :973633 ps, 2392 ps );
+#    Time: 973633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:975936 ps, :977631 ps, 2392 ps );
+#    Time: 977631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:975939 ps, :977633 ps, 2392 ps );
+#    Time: 977633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:979936 ps, :981631 ps, 2392 ps );
+#    Time: 981631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:979939 ps, :981633 ps, 2392 ps );
+#    Time: 981633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:983936 ps, :985631 ps, 2392 ps );
+#    Time: 985631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:983939 ps, :985633 ps, 2392 ps );
+#    Time: 985633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:987936 ps, :989631 ps, 2392 ps );
+#    Time: 989631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:987939 ps, :989633 ps, 2392 ps );
+#    Time: 989633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:991936 ps, :993631 ps, 2392 ps );
+#    Time: 993631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:991939 ps, :993633 ps, 2392 ps );
+#    Time: 993633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:995936 ps, :997631 ps, 2392 ps );
+#    Time: 997631 ps  Iteration: 0  Instance: /test_74HC74/u1/Qn_inst_1
+# ** Error: src/proasic3.v(11189): $width( posedge CLK &&& Enable05:995939 ps, :997633 ps, 2392 ps );
+#    Time: 997633 ps  Iteration: 0  Instance: /test_74HC74/u1/Q_inst_1
+# End time: 21:45:26 on Dec 22,2020, Elapsed time: 0:01:19
+# Errors: 423, Warnings: 0

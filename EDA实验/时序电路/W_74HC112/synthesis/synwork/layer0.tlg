@@ -1,0 +1,9 @@
+Selecting top level module W_74HC112
+@N: CG364 :"G:\EDA\W_74HC112\hdl\W_74HC112.v":2:7:2:15|Synthesizing module W_74HC112 in library work.
+
+@N: CG179 :"G:\EDA\W_74HC112\hdl\W_74HC112.v":12:28:12:32|Removing redundant assignment.
+@N: CG179 :"G:\EDA\W_74HC112\hdl\W_74HC112.v":25:20:25:24|Removing redundant assignment.
+@W: CG296 :"G:\EDA\W_74HC112\hdl\W_74HC112.v":28:8:28:19|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"G:\EDA\W_74HC112\hdl\W_74HC112.v":30:11:30:11|Referenced variable S is not in sensitivity list.
+@W: CG290 :"G:\EDA\W_74HC112\hdl\W_74HC112.v":30:14:30:14|Referenced variable R is not in sensitivity list.
+@W: CL118 :"G:\EDA\W_74HC112\hdl\W_74HC112.v":21:8:21:11|Latch generated from always block for signal temp2; possible missing assignment in an if or case statement.

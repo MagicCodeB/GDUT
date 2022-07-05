@@ -1,0 +1,206 @@
+Microsemi Libero Software
+Version: 11.9.0.4
+Release: v11.9
+
+Created a new design.
+'BA_NAME' set to 'Ztj_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'G:\EDA\W_zh7\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+'DESDIR' set to 'G:/EDA/W_zh7/designer/impl1'
+'BA_DIR' set to 'G:/EDA/W_zh7/designer/impl1'
+'BA_NETLIST_ALSO' set to '1'
+'EDNINFLAVOR' set to 'GENERIC'
+'NETLIST_NAMING_STYLE' set to 'VERILOG'
+'EXPORT_STATUS_REPORT' set to '1'
+'EXPORT_STATUS_REPORT_FILENAME' set to 'Ztj.rpt'
+'AUDIT_NETLIST_FILE' set to '1'
+'AUDIT_DCF_FILE' set to '1'
+'AUDIT_PIN_FILE' set to '1'
+'AUDIT_ADL_FILE' set to '1'
+
+ Netlist Reading Time = 0.0 seconds
+Imported the file:
+   G:\EDA\W_zh7\synthesis\Ztj.edn
+
+The Import command succeeded ( 00:00:00 )
+Design saved to file Ztj.adb.
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P060
+Package     : 100 VQFP
+Source      : G:\EDA\W_zh7\synthesis\Ztj.edn
+Format      : EDIF
+Topcell     : Ztj
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        0
+
+    Total macros optimized  0
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:     35  Total:   1536   (2.28%)
+    IO (W/ clocks)             Used:     10  Total:     71   (14.08%)
+    GLOBAL (Chip+Quadrant)     Used:      1  Total:     18   (5.56%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      4   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 1      | 6  (16.67%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 25           | 25
+    SEQ     | 10           | 10
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 4             | 0            | 0
+    Output I/O                            | 6             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 4     | 6      | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced:  10 ( 100.00% )
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    10      CLK_NET       Net   : Clk_c
+                          Driver: Clk_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    14      INT_NET       Net   : D_in_c[1]
+                          Driver: D_in_pad[1]
+    12      INT_NET       Net   : D_in_c[0]
+                          Driver: D_in_pad[0]
+    10      SET/RESET_NET Net   : Reset_c
+                          Driver: Reset_pad
+    5       INT_NET       Net   : D_out_moore_c_c
+                          Driver: vend_moore_reg_0/current_state[4]
+    5       INT_NET       Net   : vend_moore_reg_0/current_state[1]
+                          Driver: vend_moore_reg_0/current_state[1]
+    4       INT_NET       Net   : vend_mealy_reg_0/current_state[1]
+                          Driver: vend_mealy_reg_0/current_state[1]
+    3       INT_NET       Net   : vend_mealy_reg_0/N_79
+                          Driver: vend_mealy_reg_0/current_state_RNIVLFB[0]
+    3       INT_NET       Net   : vend_moore_reg_0/N_79
+                          Driver: vend_moore_reg_0/current_state_ns_o3[0]
+    3       INT_NET       Net   : vend_moore_reg_0/current_state[2]
+                          Driver: vend_moore_reg_0/current_state[2]
+    3       INT_NET       Net   : vend_moore_reg_0/current_state[3]
+                          Driver: vend_moore_reg_0/current_state[3]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    14      INT_NET       Net   : D_in_c[1]
+                          Driver: D_in_pad[1]
+    12      INT_NET       Net   : D_in_c[0]
+                          Driver: D_in_pad[0]
+    10      SET/RESET_NET Net   : Reset_c
+                          Driver: Reset_pad
+    5       INT_NET       Net   : D_out_moore_c_c
+                          Driver: vend_moore_reg_0/current_state[4]
+    5       INT_NET       Net   : vend_moore_reg_0/current_state[1]
+                          Driver: vend_moore_reg_0/current_state[1]
+    4       INT_NET       Net   : vend_mealy_reg_0/current_state[1]
+                          Driver: vend_mealy_reg_0/current_state[1]
+    3       INT_NET       Net   : vend_mealy_reg_0/N_79
+                          Driver: vend_mealy_reg_0/current_state_RNIVLFB[0]
+    3       INT_NET       Net   : vend_moore_reg_0/N_79
+                          Driver: vend_moore_reg_0/current_state_ns_o3[0]
+    3       INT_NET       Net   : vend_moore_reg_0/current_state[2]
+                          Driver: vend_moore_reg_0/current_state[2]
+    3       INT_NET       Net   : vend_moore_reg_0/current_state[3]
+                          Driver: vend_moore_reg_0/current_state[3]
+
+The Compile command succeeded ( 00:00:00 )
+Wrote status report to file: Ztj_compile_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: Ztj_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: Ztj_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file G:\EDA\W_zh7\designer\impl1\Ztj.adb.
+
+The Execute Script command succeeded ( 00:00:05 )
+Design closed.
+

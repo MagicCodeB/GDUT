@@ -1,0 +1,3 @@
+D:/Gdut/OSexperirent/OS1-1/cmake-build-debug/CMakeFiles/OS1_1.dir
+D:/Gdut/OSexperirent/OS1-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Gdut/OSexperirent/OS1-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

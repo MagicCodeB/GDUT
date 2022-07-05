@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  1  -prjfile  G:\EDA\W_74HC32\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  G:\EDA\W_74HC32\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile G:\EDA\W_74HC32\synthesis\synlog\report\W_74HC32_premap.xml  -top_level_module  W_74HC32  -oedif  G:\EDA\W_74HC32\synthesis\W_74HC32.edn  -conchk_prepass  G:\EDA\W_74HC32\synthesis\W_74HC32_cck.rpt   -freq 100.000   G:\EDA\W_74HC32\synthesis\synwork\W_74HC32_mult.srs  -flow prepass  -gcc_prepass  -osrd  G:\EDA\W_74HC32\synthesis\synwork\W_74HC32_prem.srd  -qsap  G:\EDA\W_74HC32\synthesis\W_74HC32.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  G:\EDA\W_74HC32\synthesis\syntmp\W_74HC32.plg  -osyn  G:\EDA\W_74HC32\synthesis\synwork\W_74HC32_prem.srd  -prjdir  G:\EDA\W_74HC32\synthesis\  -prjname  W_74HC32_syn  -log  G:\EDA\W_74HC32\synthesis\synlog\W_74HC32_premap.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\W_74HC32_premap.xml -top_level_module W_74HC32 -oedif ..\W_74HC32.edn -conchk_prepass ..\W_74HC32_cck.rpt -freq 100.000 ..\synwork\W_74HC32_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\W_74HC32_prem.srd -qsap ..\W_74HC32.sap -devicelib C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam W_74HC32.plg -osyn ..\synwork\W_74HC32_prem.srd -prjdir ..\ -prjname W_74HC32_syn -log ..\synlog\W_74HC32_premap.srr
+rc:0 success:1 runtime:1
+file:..\scratchproject.prs|io:o|time:1608564778|size:1663|exec:0|csum:
+file:..\W_74HC32.edn|io:o|time:1608564780|size:8366|exec:0|csum:
+file:..\W_74HC32_cck.rpt|io:o|time:1608564800|size:19942|exec:0|csum:
+file:..\synwork\W_74HC32_mult.srs|io:i|time:1608564780|size:1142|exec:0|csum:02E86A49067107ABA8219027BA0B9120
+file:..\synwork\W_74HC32_prem.srd|io:o|time:1608564800|size:1407|exec:0|csum:
+file:..\W_74HC32.sap|io:o|time:1608564800|size:117|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:W_74HC32.plg|io:o|time:1608564800|size:0|exec:0|csum:
+file:..\synwork\W_74HC32_prem.srd|io:o|time:1608564800|size:1407|exec:0|csum:
+file:..\synlog\W_74HC32_premap.srr|io:o|time:1608564800|size:2391|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

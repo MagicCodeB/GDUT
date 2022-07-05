@@ -1,0 +1,1 @@
+@W: MT530 :"g:\eda\w_zh7\hdl\mealy.v":72:2:72:7|Found inferred clock Ztj|Clk which controls 13 sequential elements including vend_mealy_reg_0.D_out_reg_mealy_adv. This clock has no specified timing constraint which may adversely impact design performance. 

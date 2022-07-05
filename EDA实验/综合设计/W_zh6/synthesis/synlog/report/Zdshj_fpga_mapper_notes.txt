@@ -1,0 +1,6 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO225 :"g:\eda\w_zh6\hdl\w_zh6mealy.v":10:0:10:5|There are no possible illegal states for state machine current[3:0] (in view: work.Mealy(verilog)); safe FSM implementation is not required.
+@N: FP130 |Promoting Net Clk_c on CLKBUF  Clk_pad 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/EDA/W_zh7/simulation
+vtest_zh7
+!s110 1608970817
+!i10b 1
+!s100 AXOff898ad=L=VZzcQ48D3
+I7=BNMbdbQ;ANT3Q4CX98Y1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1608970691
+8G:/EDA/W_zh7/stimulus/test_zh7.v
+FG:/EDA/W_zh7/stimulus/test_zh7.v
+L0 3
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1608970817.000000
+!s107 G:/EDA/W_zh7/stimulus/test_zh7.v|
+!s90 -reportprogress|300|+incdir+G:/EDA/W_zh7/stimulus|-vlog01compat|-work|presynth|G:/EDA/W_zh7/stimulus/test_zh7.v|
+!s101 -O0
+!i113 1
+Z3 o-vlog01compat -work presynth -O0
+!s92 +incdir+G:/EDA/W_zh7/stimulus -vlog01compat -work presynth -O0
+Z4 tCvgOpt 0
+vvend_mealy_reg
+Z5 !s110 1608970816
+!i10b 1
+!s100 7nSRh5e`4iC;SO8e:@Vk]2
+IcfQj[nAW`h_P09fOzIj^[0
+R1
+R0
+w1608970518
+8G:/EDA/W_zh7/hdl/Mealy.v
+FG:/EDA/W_zh7/hdl/Mealy.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z6 !s108 1608970816.000000
+!s107 G:/EDA/W_zh7/hdl/Mealy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|G:/EDA/W_zh7/hdl/Mealy.v|
+!s101 -O0
+!i113 1
+R3
+R4
+vvend_moore_reg
+R5
+!i10b 1
+!s100 A:QU5YNkbS=B`zDBJFhWN1
+IbU8_XR>n=fzifGS=Fc^Xz3
+R1
+R0
+w1608970544
+8G:/EDA/W_zh7/hdl/Moore.v
+FG:/EDA/W_zh7/hdl/Moore.v
+L0 2
+R2
+r1
+!s85 0
+31
+R6
+!s107 G:/EDA/W_zh7/hdl/Moore.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|G:/EDA/W_zh7/hdl/Moore.v|
+!s101 -O0
+!i113 1
+R3
+R4
+vZtj
+R5
+!i10b 1
+!s100 ]@S;Y7_gIa]07>lR_TWf@1
+IQnN@kTFWUn6^dk1Z1]06c0
+R1
+R0
+w1608970802
+8G:/EDA/W_zh7/component/work/Ztj/Ztj.v
+FG:/EDA/W_zh7/component/work/Ztj/Ztj.v
+L0 9
+R2
+r1
+!s85 0
+31
+R6
+!s107 G:/EDA/W_zh7/component/work/Ztj/Ztj.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|G:/EDA/W_zh7/component/work/Ztj/Ztj.v|
+!s101 -O0
+!i113 1
+R3
+R4
+n@ztj

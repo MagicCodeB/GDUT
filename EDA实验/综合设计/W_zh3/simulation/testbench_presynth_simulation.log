@@ -1,0 +1,97 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 16:31:51 on Dec 25,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth G:/EDA/W_zh3/hdl/comparator.v 
+# -- Compiling module Comparator
+# 
+# Top level modules:
+# 	Comparator
+# End time: 16:31:51 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 16:31:51 on Dec 25,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth G:/EDA/W_zh3/smartgen/newCore/newCore.v 
+# -- Compiling module newCore
+# 
+# Top level modules:
+# 	newCore
+# End time: 16:31:51 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 16:31:51 on Dec 25,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth G:/EDA/W_zh3/component/work/Compare2come/Compare2come.v 
+# -- Compiling module Compare2come
+# 
+# Top level modules:
+# 	Compare2come
+# End time: 16:31:51 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 16:31:51 on Dec 25,2020
+# vlog -reportprogress 300 "+incdir+G:/EDA/W_zh3/stimulus" -vlog01compat -work presynth G:/EDA/W_zh3/stimulus/test_zh3.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:31:51 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.testbench 
+# Start time: 16:31:51 on Dec 25,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading presynth.testbench
+# Loading presynth.Compare2come
+# Loading presynth.Comparator
+# Loading presynth.newCore
+# Loading proasic3.AO1C
+# Loading proasic3.NOR3A
+# Loading proasic3.AO1D
+# Loading proasic3.AND2A
+# Loading proasic3.AND3
+# Loading proasic3.OR2A
+# Loading proasic3.NAND3A
+# Loading proasic3.NOR2A
+# Loading proasic3.XNOR2
+# Loading proasic3.AO1
+# Loading proasic3.AOI1
+# Loading proasic3.UDPN_MUX2
+# time=                   0,DataA=00011001,DataB=00000000,AGEB=x
+# time=                   0,DataA=00011001,DataB=00000000,AGEB=1
+# time=               10000,DataA=00011001,DataB=11011001,AGEB=1
+# time=               20000,DataA=10110011,DataB=11011001,AGEB=1
+# time=               20000,DataA=10110011,DataB=11011001,AGEB=0
+# time=               21000,DataA=10110011,DataB=11011001,AGEB=1
+# time=               30000,DataA=10110011,DataB=10000011,AGEB=1
+# time=               31000,DataA=10110011,DataB=10000011,AGEB=0
+# time=               40000,DataA=11110100,DataB=10000011,AGEB=0
+# time=               50000,DataA=11110100,DataB=00110100,AGEB=0
+# time=               60000,DataA=01110000,DataB=00110100,AGEB=0
+# time=               60000,DataA=01110000,DataB=00110100,AGEB=1
+# time=               70000,DataA=01110000,DataB=01111110,AGEB=1
+# time=               70000,DataA=01110000,DataB=01111110,AGEB=0
+# time=               80000,DataA=10011100,DataB=01111110,AGEB=0
+# time=               90000,DataA=10011100,DataB=01011100,AGEB=0
+# time=              100000,DataA=10000011,DataB=01011100,AGEB=0
+# time=              110000,DataA=10000011,DataB=10000011,AGEB=0
+# time=              110000,DataA=10000011,DataB=10000011,AGEB=1
+# End time: 16:31:57 on Dec 25,2020, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0

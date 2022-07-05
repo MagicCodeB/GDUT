@@ -1,0 +1,31 @@
+FlashPro
+Version: 11.9.0.4
+Release: v11.9
+
+Software Version: 11.9.0.4
+PDB file 'C:\EDA\W_74HC138\designer\impl1\W_74HC138.pdb' has been loaded successfully.
+DESIGN : W_74HC138;  CHECKSUM : E988;  PDB_VERSION : 1.9
+programmer 'S2001MK5U5' : FlashPro5
+Opened 'C:\EDA\W_74HC138\designer\impl1\W_74HC138_fp\W_74HC138.pro'
+PDB file 'C:\EDA\W_74HC138\designer\impl1\W_74HC138.pdb' has been loaded successfully.
+DESIGN : W_74HC138;  CHECKSUM : E988;  PDB_VERSION : 1.9
+programmer 'S2001MK5U5' : Scan Chain...
+Warning: programmer 'S2001MK5U5' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S2001MK5U5' : Scan Chain PASSED.
+programmer 'S2001MK5U5' : Executing action PROGRAM
+programmer 'S2001MK5U5' : EXPORT FSN[48] = 8178a714ecf8
+programmer 'S2001MK5U5' : Erase ...
+programmer 'S2001MK5U5' : Completed erase
+programmer 'S2001MK5U5' : EXPORT CHECKSUM[16] = e988
+programmer 'S2001MK5U5' : Programming FPGA Array
+programmer 'S2001MK5U5' : Verifying FPGA Array
+programmer 'S2001MK5U5' :         Verifying FPGA Array -- pass
+programmer 'S2001MK5U5' : Finished: Wed Dec 16 16:10:45 2020 (Elapsed time 00:01:02)
+programmer 'S2001MK5U5' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'W_74HC138' has been modified. Do you want to save it? [YES]
+Project saved.
+Project closed.

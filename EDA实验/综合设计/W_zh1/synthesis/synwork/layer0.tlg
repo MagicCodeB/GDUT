@@ -1,0 +1,15 @@
+Selecting top level module Bmtz
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1349:7:1349:11|Synthesizing module NAND2 in library work.
+
+@N: CG364 :"C:\EDA\W_zh1\hdl\74HC148.v":2:7:2:15|Synthesizing module W_74HC148 in library work.
+
+@N: CG364 :"C:\EDA\W_zh1\hdl\74HC4511.v":2:7:2:16|Synthesizing module W_74HC4511 in library work.
+
+@N: CG364 :"C:\EDA\W_zh1\hdl\74HC85.v":2:7:2:12|Synthesizing module W_HC85 in library work.
+
+@W: CG296 :"C:\EDA\W_zh1\hdl\74HC85.v":15:9:15:23|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\EDA\W_zh1\hdl\74HC85.v":25:20:25:23|Referenced variable IAEB is not in sensitivity list.
+@W: CG290 :"C:\EDA\W_zh1\hdl\74HC85.v":25:8:25:11|Referenced variable IAGB is not in sensitivity list.
+@W: CG290 :"C:\EDA\W_zh1\hdl\74HC85.v":25:14:25:17|Referenced variable IASB is not in sensitivity list.
+@N: CG364 :"C:\EDA\W_zh1\component\work\Bmtz\Bmtz.v":9:7:9:10|Synthesizing module Bmtz in library work.
+

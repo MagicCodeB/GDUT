@@ -1,0 +1,141 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 00:18:08 on Dec 18,2020
+# vlog -reportprogress 300 -vlog01compat -work postlayout C:/EDA/W_74HC4511/designer/impl1/W_74HC4511_ba.v 
+# -- Compiling module W_74HC4511
+# 
+# Top level modules:
+# 	W_74HC4511
+# End time: 00:18:08 on Dec 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 00:18:08 on Dec 18,2020
+# vlog -reportprogress 300 "+incdir+C:/EDA/W_74HC4511/stimulus" -vlog01compat -work postlayout C:/EDA/W_74HC4511/stimulus/test_74HC4511.v 
+# -- Compiling module test_74HC4511
+# 
+# Top level modules:
+# 	test_74HC4511
+# End time: 00:18:08 on Dec 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L postlayout -t 1ps -sdfmax /u1=C:/EDA/W_74HC4511/designer/impl1/W_74HC4511_ba.sdf postlayout.test_74HC4511 
+# Start time: 00:18:08 on Dec 18,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.test_74HC4511
+# Loading postlayout.W_74HC4511
+# Loading proasic3.MX2B
+# Loading proasic3.MX2
+# Loading proasic3.IOIN_IB
+# Loading proasic3.IOPAD_IN
+# Loading proasic3.IOTRI_OB_EB
+# Loading proasic3.IOPAD_TRI
+# Loading proasic3.MX2A
+# Loading proasic3.NOR2
+# Loading proasic3.INV
+# Loading proasic3.MX2C
+# Loading proasic3.NOR2B
+# Loading proasic3.OA1A
+# Loading proasic3.GND
+# Loading proasic3.VCC
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# Loading instances from C:/EDA/W_74HC4511/designer/impl1/W_74HC4511_ba.sdf
+# Loading proasic3.UDP_MUX2
+# Loading timing data from C:/EDA/W_74HC4511/designer/impl1/W_74HC4511_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /test_74HC4511 File: C:/EDA/W_74HC4511/stimulus/test_74HC4511.v
+# time=                   0,IN=0000,Seg=xxxxxxxx,LT=1,BI=1,LE=0
+# time=                5000,IN=0000,Seg=0xxxxxxx,LT=1,BI=1,LE=0
+# time=                9000,IN=0000,Seg=0xxx0xxx,LT=1,BI=1,LE=0
+# time=               10000,IN=0000,Seg=0xxx0xx0,LT=1,BI=1,LE=0
+# time=               10000,IN=0000,Seg=0xx00xx0,LT=1,BI=1,LE=0
+# time=               10000,IN=0000,Seg=0x000xx0,LT=1,BI=1,LE=0
+# time=               11000,IN=0000,Seg=0x0000x0,LT=1,BI=1,LE=0
+# time=               11000,IN=0000,Seg=0x000000,LT=1,BI=1,LE=0
+# time=               12000,IN=0000,Seg=00000000,LT=1,BI=1,LE=0
+# time=               30000,IN=0001,Seg=00000000,LT=1,BI=1,LE=0
+# time=               36000,IN=0001,Seg=00000100,LT=1,BI=1,LE=0
+# time=               37000,IN=0001,Seg=00000110,LT=1,BI=1,LE=0
+# time=               60000,IN=1000,Seg=00000110,LT=1,BI=1,LE=0
+# time=               66000,IN=1000,Seg=00000010,LT=1,BI=1,LE=0
+# time=               67000,IN=1000,Seg=00000000,LT=1,BI=1,LE=0
+# time=               68000,IN=1000,Seg=00001000,LT=1,BI=1,LE=0
+# time=               69000,IN=1000,Seg=00001001,LT=1,BI=1,LE=0
+# time=               69000,IN=1000,Seg=00011001,LT=1,BI=1,LE=0
+# time=               69000,IN=1000,Seg=00111001,LT=1,BI=1,LE=0
+# time=               71000,IN=1000,Seg=00111101,LT=1,BI=1,LE=0
+# time=               71000,IN=1000,Seg=00111111,LT=1,BI=1,LE=0
+# time=               71000,IN=1000,Seg=01111111,LT=1,BI=1,LE=0
+# time=               90000,IN=0111,Seg=01111111,LT=1,BI=1,LE=0
+# ** Error: src/proasic3.v(27148): $width( negedge D:95127 ps, :96537 ps, 2 ns );
+#    Time: 96537 ps  Iteration: 0  Instance: /test_74HC4511/u1/\Seg_pad[2]/U0/U0 
+# ** Error: src/proasic3.v(27148): $width( negedge D:95820 ps, :97774 ps, 2 ns );
+#    Time: 97774 ps  Iteration: 0  Instance: /test_74HC4511/u1/\Seg_pad[1]/U0/U0 
+# time=               98000,IN=0111,Seg=01111011,LT=1,BI=1,LE=0
+# time=               99000,IN=0111,Seg=01111001,LT=1,BI=1,LE=0
+# time=               99000,IN=0111,Seg=01111101,LT=1,BI=1,LE=0
+# time=               99000,IN=0111,Seg=01110101,LT=1,BI=1,LE=0
+# time=               99000,IN=0111,Seg=01010101,LT=1,BI=1,LE=0
+# time=               99000,IN=0111,Seg=01000101,LT=1,BI=1,LE=0
+# time=              100000,IN=0111,Seg=01000111,LT=1,BI=1,LE=0
+# time=              101000,IN=0111,Seg=00000111,LT=1,BI=1,LE=0
+# time=              120000,IN=1010,Seg=00000111,LT=1,BI=1,LE=0
+# ** Error: src/proasic3.v(27149): $width( posedge D:123410 ps, :125180 ps, 2 ns );
+#    Time: 125180 ps  Iteration: 0  Instance: /test_74HC4511/u1/\Seg_pad[5]/U0/U0 
+# time=              126000,IN=1010,Seg=00100111,LT=1,BI=1,LE=0
+# time=              126000,IN=1010,Seg=00101111,LT=1,BI=1,LE=0
+# time=              126000,IN=1010,Seg=01101111,LT=1,BI=1,LE=0
+# time=              127000,IN=1010,Seg=01101101,LT=1,BI=1,LE=0
+# time=              128000,IN=1010,Seg=01111101,LT=1,BI=1,LE=0
+# time=              128000,IN=1010,Seg=01011101,LT=1,BI=1,LE=0
+# time=              129000,IN=1010,Seg=01011111,LT=1,BI=1,LE=0
+# time=              129000,IN=1010,Seg=01111111,LT=1,BI=1,LE=0
+# time=              131000,IN=1010,Seg=01110111,LT=1,BI=1,LE=0
+# time=              150000,IN=0101,Seg=01110111,LT=1,BI=1,LE=0
+# ** Error: src/proasic3.v(27148): $width( negedge D:154472 ps, :155757 ps, 2 ns );
+#    Time: 155757 ps  Iteration: 0  Instance: /test_74HC4511/u1/\Seg_pad[1]/U0/U0 
+# ** Error: src/proasic3.v(27148): $width( negedge D:155111 ps, :156350 ps, 2 ns );
+#    Time: 156350 ps  Iteration: 0  Instance: /test_74HC4511/u1/\Seg_pad[0]/U0/U0 
+# time=              157000,IN=0101,Seg=01111111,LT=1,BI=1,LE=0
+# time=              157000,IN=0101,Seg=01111101,LT=1,BI=1,LE=0
+# time=              158000,IN=0101,Seg=01111100,LT=1,BI=1,LE=0
+# time=              158000,IN=0101,Seg=01111110,LT=1,BI=1,LE=0
+# time=              159000,IN=0101,Seg=01111111,LT=1,BI=1,LE=0
+# time=              159000,IN=0101,Seg=01101111,LT=1,BI=1,LE=0
+# time=              161000,IN=0101,Seg=01101101,LT=1,BI=1,LE=0
+# time=              180000,IN=0101,Seg=01101101,LT=1,BI=1,LE=1
+# time=              190000,IN=0101,Seg=01101001,LT=1,BI=1,LE=1
+# time=              192000,IN=0101,Seg=01101000,LT=1,BI=1,LE=1
+# time=              192000,IN=0101,Seg=01100000,LT=1,BI=1,LE=1
+# time=              192000,IN=0101,Seg=01000000,LT=1,BI=1,LE=1
+# time=              192000,IN=0101,Seg=00000000,LT=1,BI=1,LE=1
+# time=              210000,IN=0101,Seg=00000000,LT=1,BI=0,LE=1
+# time=              240000,IN=0101,Seg=00000000,LT=0,BI=0,LE=1
+# time=              244000,IN=0101,Seg=10000000,LT=0,BI=0,LE=1
+# time=              249000,IN=0101,Seg=10000100,LT=0,BI=0,LE=1
+# time=              249000,IN=0101,Seg=10010100,LT=0,BI=0,LE=1
+# time=              251000,IN=0101,Seg=10010110,LT=0,BI=0,LE=1
+# time=              251000,IN=0101,Seg=10011110,LT=0,BI=0,LE=1
+# time=              251000,IN=0101,Seg=10011111,LT=0,BI=0,LE=1
+# time=              252000,IN=0101,Seg=10111111,LT=0,BI=0,LE=1
+# time=              252000,IN=0101,Seg=11111111,LT=0,BI=0,LE=1
+# End time: 00:19:28 on Dec 18,2020, Elapsed time: 0:01:20
+# Errors: 5, Warnings: 0

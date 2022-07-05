@@ -1,0 +1,30 @@
+Target Part: A3P060_VQFP100_STD
+Report for cell W_74HC74.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               INV     3      1.0        3.0
+             NOR2A     2      1.0        2.0
+               VCC     1      0.0        0.0
+
+
+          DFN1P1C1     2      1.0        2.0
+                   -----          ----------
+             TOTAL     9                 7.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     3
+            OUTBUF     2
+                   -----
+             TOTAL     6
+
+
+Core Cells         : 7 of 1536 (0%)
+IO Cells           : 6
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 4 (0%)
+

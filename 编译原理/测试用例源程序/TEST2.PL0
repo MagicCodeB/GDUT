@@ -1,0 +1,16 @@
+PROGRAM TEST2;
+VAR A,B,C;
+BEGIN
+  A:=6;
+  B:=4;
+  C:=2;
+  IF A<>6 THEN
+    WRITE(B)
+  ELSE
+    WRITE(C);
+  A:=4;
+  IF A<>6 THEN
+    WRITE(B)
+  ELSE
+    WRITE(C);
+END.

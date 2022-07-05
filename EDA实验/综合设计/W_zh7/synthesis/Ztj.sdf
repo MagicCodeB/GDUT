@@ -1,0 +1,82 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "Ztj")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "Ztj")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[1\]/CLK  vend_moore_reg_0/current_state\[1\]/Q  vend_moore_reg_0/current_state_ns_a2\[3\]/A  vend_moore_reg_0/current_state_ns_a2\[3\]/Y  vend_moore_reg_0/current_state_ns_1\[3\]/C  vend_moore_reg_0/current_state_ns_1\[3\]/Y  vend_moore_reg_0/current_state_ns\[3\]/C  vend_moore_reg_0/current_state_ns\[3\]/Y  vend_moore_reg_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[3\]/CLK  vend_moore_reg_0/current_state\[3\]/Q  vend_moore_reg_0/current_state_ns_o3\[0\]/B  vend_moore_reg_0/current_state_ns_o3\[0\]/Y  vend_moore_reg_0/current_state_RNO_1\[4\]/A  vend_moore_reg_0/current_state_RNO_1\[4\]/Y  vend_moore_reg_0/current_state_RNO\[4\]/C  vend_moore_reg_0/current_state_RNO\[4\]/Y  vend_moore_reg_0/current_state\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[2\]/CLK  vend_moore_reg_0/current_state\[2\]/Q  vend_moore_reg_0/current_state_ns_o3\[0\]/A  vend_moore_reg_0/current_state_ns_o3\[0\]/Y  vend_moore_reg_0/current_state_RNO_1\[4\]/A  vend_moore_reg_0/current_state_RNO_1\[4\]/Y  vend_moore_reg_0/current_state_RNO\[4\]/C  vend_moore_reg_0/current_state_RNO\[4\]/Y  vend_moore_reg_0/current_state\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[1\]/CLK  vend_moore_reg_0/current_state\[1\]/Q  vend_moore_reg_0/current_state_ns_i_a2_1\[2\]/B  vend_moore_reg_0/current_state_ns_i_a2_1\[2\]/Y  vend_moore_reg_0/current_state_ns_a2_2_1\[3\]/B  vend_moore_reg_0/current_state_ns_a2_2_1\[3\]/Y  vend_moore_reg_0/current_state_ns\[3\]/B  vend_moore_reg_0/current_state_ns\[3\]/Y  vend_moore_reg_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[3\]/CLK  vend_moore_reg_0/current_state\[3\]/Q  vend_moore_reg_0/current_state_ns_a2_1\[3\]/A  vend_moore_reg_0/current_state_ns_a2_1\[3\]/Y  vend_moore_reg_0/current_state_ns_1\[3\]/B  vend_moore_reg_0/current_state_ns_1\[3\]/Y  vend_moore_reg_0/current_state_ns\[3\]/C  vend_moore_reg_0/current_state_ns\[3\]/Y  vend_moore_reg_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[2\]/CLK  vend_moore_reg_0/current_state\[2\]/Q  vend_moore_reg_0/current_state_ns_a2_0\[3\]/B  vend_moore_reg_0/current_state_ns_a2_0\[3\]/Y  vend_moore_reg_0/current_state_ns_1\[3\]/A  vend_moore_reg_0/current_state_ns_1\[3\]/Y  vend_moore_reg_0/current_state_ns\[3\]/C  vend_moore_reg_0/current_state_ns\[3\]/Y  vend_moore_reg_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[1\]/CLK  vend_mealy_reg_0/current_state\[1\]/Q  vend_mealy_reg_0/D_out_reg_mealy_adv_RNO_0/A  vend_mealy_reg_0/D_out_reg_mealy_adv_RNO_0/Y  vend_mealy_reg_0/D_out_reg_mealy_adv_RNO/C  vend_mealy_reg_0/D_out_reg_mealy_adv_RNO/Y  vend_mealy_reg_0/D_out_reg_mealy_adv/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[3\]/CLK  vend_moore_reg_0/current_state\[3\]/Q  vend_moore_reg_0/current_state_ns_o3\[0\]/B  vend_moore_reg_0/current_state_ns_o3\[0\]/Y  vend_moore_reg_0/current_state_ns_a2\[0\]/C  vend_moore_reg_0/current_state_ns_a2\[0\]/Y  vend_moore_reg_0/current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[1\]/CLK  vend_mealy_reg_0/current_state\[1\]/Q  vend_mealy_reg_0/current_state_RNI1OFB\[1\]/B  vend_mealy_reg_0/current_state_RNI1OFB\[1\]/Y  vend_mealy_reg_0/D_out_reg_mealy_adv_RNO/B  vend_mealy_reg_0/D_out_reg_mealy_adv_RNO/Y  vend_mealy_reg_0/D_out_reg_mealy_adv/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[4\]/CLK  vend_moore_reg_0/current_state\[4\]/Q  vend_moore_reg_0/current_state_ns_o2\[0\]/C  vend_moore_reg_0/current_state_ns_o2\[0\]/Y  vend_moore_reg_0/current_state_ns_a2\[0\]/A  vend_moore_reg_0/current_state_ns_a2\[0\]/Y  vend_moore_reg_0/current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[1\]/CLK  vend_moore_reg_0/current_state\[1\]/Q  vend_moore_reg_0/current_state_ns_i_a2_1\[2\]/B  vend_moore_reg_0/current_state_ns_i_a2_1\[2\]/Y  vend_moore_reg_0/current_state_ns_i\[2\]/C  vend_moore_reg_0/current_state_ns_i\[2\]/Y  vend_moore_reg_0/current_state\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[3\]/CLK  vend_moore_reg_0/current_state\[3\]/Q  vend_moore_reg_0/current_state_ns_o3\[0\]/B  vend_moore_reg_0/current_state_ns_o3\[0\]/Y  vend_moore_reg_0/current_state_ns\[3\]/A  vend_moore_reg_0/current_state_ns\[3\]/Y  vend_moore_reg_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[1\]/CLK  vend_moore_reg_0/current_state\[1\]/Q  vend_moore_reg_0/current_state_RNO_0\[4\]/B  vend_moore_reg_0/current_state_RNO_0\[4\]/Y  vend_moore_reg_0/current_state_RNO\[4\]/A  vend_moore_reg_0/current_state_RNO\[4\]/Y  vend_moore_reg_0/current_state\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[1\]/CLK  vend_mealy_reg_0/current_state\[1\]/Q  vend_mealy_reg_0/current_state_RNI1OFB\[1\]/B  vend_mealy_reg_0/current_state_RNI1OFB\[1\]/Y  vend_mealy_reg_0/current_state_ns_i\[0\]/C  vend_mealy_reg_0/current_state_ns_i\[0\]/Y  vend_mealy_reg_0/current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[4\]/CLK  vend_moore_reg_0/current_state\[4\]/Q  vend_moore_reg_0/current_state_ns_a2_2_1\[3\]/C  vend_moore_reg_0/current_state_ns_a2_2_1\[3\]/Y  vend_moore_reg_0/current_state_ns\[3\]/B  vend_moore_reg_0/current_state_ns\[3\]/Y  vend_moore_reg_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[0\]/CLK  vend_mealy_reg_0/current_state\[0\]/Q  vend_mealy_reg_0/current_state_RNIVLFB\[0\]/A  vend_mealy_reg_0/current_state_RNIVLFB\[0\]/Y  vend_mealy_reg_0/current_state_ns_i\[1\]/C  vend_mealy_reg_0/current_state_ns_i\[1\]/Y  vend_mealy_reg_0/current_state\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[0\]/CLK  vend_mealy_reg_0/current_state\[0\]/Q  vend_mealy_reg_0/current_state_RNIVLFB\[0\]/A  vend_mealy_reg_0/current_state_RNIVLFB\[0\]/Y  vend_mealy_reg_0/current_state_RNI0EVM\[1\]/C  vend_mealy_reg_0/current_state_RNI0EVM\[1\]/Y  vend_mealy_reg_0/D_out_reg_mealy/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[2\]/CLK  vend_moore_reg_0/current_state\[2\]/Q  vend_moore_reg_0/current_state_ns_i_a2_0\[2\]/C  vend_moore_reg_0/current_state_ns_i_a2_0\[2\]/Y  vend_moore_reg_0/current_state_ns_i\[2\]/A  vend_moore_reg_0/current_state_ns_i\[2\]/Y  vend_moore_reg_0/current_state\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[3\]/CLK  vend_moore_reg_0/current_state\[3\]/Q  vend_moore_reg_0/current_state_RNO_0\[4\]/C  vend_moore_reg_0/current_state_RNO_0\[4\]/Y  vend_moore_reg_0/current_state_RNO\[4\]/A  vend_moore_reg_0/current_state_RNO\[4\]/Y  vend_moore_reg_0/current_state\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[0\]/CLK  vend_mealy_reg_0/current_state\[0\]/Q  vend_mealy_reg_0/current_state_RNIVLFB\[0\]/A  vend_mealy_reg_0/current_state_RNIVLFB\[0\]/Y  vend_mealy_reg_0/D_out_reg_mealy_adv_RNO/A  vend_mealy_reg_0/D_out_reg_mealy_adv_RNO/Y  vend_mealy_reg_0/D_out_reg_mealy_adv/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[1\]/CLK  vend_moore_reg_0/current_state\[1\]/Q  vend_moore_reg_0/current_state_ns_i\[1\]/A  vend_moore_reg_0/current_state_ns_i\[1\]/Y  vend_moore_reg_0/current_state\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[0\]/CLK  vend_moore_reg_0/current_state\[0\]/Q  vend_moore_reg_0/current_state_ns_i_a2\[2\]/B  vend_moore_reg_0/current_state_ns_i_a2\[2\]/Y  vend_moore_reg_0/current_state_ns_i\[2\]/B  vend_moore_reg_0/current_state_ns_i\[2\]/Y  vend_moore_reg_0/current_state\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[1\]/CLK  vend_moore_reg_0/current_state\[1\]/Q  vend_moore_reg_0/current_state_ns_a2\[0\]/B  vend_moore_reg_0/current_state_ns_a2\[0\]/Y  vend_moore_reg_0/current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[0\]/CLK  vend_moore_reg_0/current_state\[0\]/Q  vend_moore_reg_0/current_state_ns_i_0\[1\]/A  vend_moore_reg_0/current_state_ns_i_0\[1\]/Y  vend_moore_reg_0/current_state_ns_i\[1\]/C  vend_moore_reg_0/current_state_ns_i\[1\]/Y  vend_moore_reg_0/current_state\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[1\]/CLK  vend_mealy_reg_0/current_state\[1\]/Q  vend_mealy_reg_0/current_state_RNI0EVM\[1\]/A  vend_mealy_reg_0/current_state_RNI0EVM\[1\]/Y  vend_mealy_reg_0/D_out_reg_mealy/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[1\]/CLK  vend_mealy_reg_0/current_state\[1\]/Q  vend_mealy_reg_0/current_state_ns_i\[1\]/A  vend_mealy_reg_0/current_state_ns_i\[1\]/Y  vend_mealy_reg_0/current_state\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[0\]/CLK  vend_mealy_reg_0/current_state\[0\]/Q  vend_mealy_reg_0/current_state_ns_i\[0\]/B  vend_mealy_reg_0/current_state_ns_i\[0\]/Y  vend_mealy_reg_0/current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[4\]/CLK  vend_moore_reg_0/current_state\[4\]/Q  vend_moore_reg_0/D_out_reg_moore/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT vend_mealy_reg_0/current_state\[0\]/CLK  vend_mealy_reg_0/current_state\[0\]/Q  vend_mealy_reg_0/current_state_RNIVLFB\[0\]/A  vend_mealy_reg_0/current_state_RNIVLFB\[0\]/Y  vend_mealy_reg_0/current_state_RNI0EVM\[1\]/C  vend_mealy_reg_0/current_state_RNI0EVM\[1\]/Y  D_out_mealy_pad/D  D_out_mealy_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[4\]/CLK  vend_moore_reg_0/current_state\[4\]/Q  D_out_moore_pad/D  D_out_moore_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT vend_moore_reg_0/current_state\[4\]/CLK  vend_moore_reg_0/current_state\[4\]/Q  D_out_reg_moore_adv_pad/D  D_out_reg_moore_adv_pad/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

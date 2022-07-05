@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  W_74HC148  -multisrs  I:\EDA\zuhe\W_74HC148\synthesis\synwork\W_74HC148_comp.srs  -osyn  I:\EDA\zuhe\W_74HC148\synthesis\synwork\W_74HC148_mult.srs  -log  I:\EDA\zuhe\W_74HC148\synthesis\synlog\W_74HC148_multi_srs_gen.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top W_74HC148 -multisrs ..\synwork\W_74HC148_comp.srs -osyn ..\synwork\W_74HC148_mult.srs -log ..\synlog\W_74HC148_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\W_74HC148_comp.srs|io:i|time:1608619858|size:2436|exec:0|csum:582EBF02CD1B7E860B5261FCE118B350
+file:..\synwork\W_74HC148_mult.srs|io:o|time:1608619860|size:2194|exec:0|csum:
+file:..\synlog\W_74HC148_multi_srs_gen.srr|io:o|time:1608619860|size:490|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

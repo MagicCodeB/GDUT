@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>Zhq</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin tens</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Zhq/pins/Zhq:tens</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin hundreds</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Zhq/pins/Zhq:hundreds</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin Zhq:DataIn[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Zhq/pins/Zhq:DataIn</crossprobe>
+  </drc>
+</drcreport>

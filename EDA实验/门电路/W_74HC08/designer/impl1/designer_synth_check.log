@@ -1,0 +1,37 @@
+Microsemi Libero Software
+Version: 11.9.0.4
+Release: v11.9
+
+Created a new design.
+'BA_NAME' set to 'W_74HC08_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'G:\EDA\W_74HC08\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+'DESDIR' set to 'G:/EDA/W_74HC08/designer/impl1'
+'BA_DIR' set to 'G:/EDA/W_74HC08/designer/impl1'
+'BA_NETLIST_ALSO' set to '1'
+'EDNINFLAVOR' set to 'GENERIC'
+'NETLIST_NAMING_STYLE' set to 'VERILOG'
+'EXPORT_STATUS_REPORT' set to '1'
+'EXPORT_STATUS_REPORT_FILENAME' set to 'W_74HC08.rpt'
+'AUDIT_NETLIST_FILE' set to '1'
+'AUDIT_DCF_FILE' set to '1'
+'AUDIT_PIN_FILE' set to '1'
+'AUDIT_ADL_FILE' set to '1'
+
+ Netlist Reading Time = 0.0 seconds
+Imported the file:
+   G:\EDA\W_74HC08\synthesis\W_74HC08.edn
+
+The Import command succeeded ( 00:00:01 )
+Wrote to the file: ..\..\synthesis\W_74HC08.v
+
+The Export command succeeded ( 00:00:02 )
+
+The Execute Script command succeeded ( 00:00:03 )
+Warning: The database was closed without a save, modifications are lost
+Design closed.
+

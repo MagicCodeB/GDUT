@@ -1,0 +1,2 @@
+@E: CS219 :"C:\EDA\W_74HC283\hdl\W_74HC283.v":11:9:11:9|Expecting one of the keywords module, primitive or macromodule
+

@@ -1,0 +1,381 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 22:51:31 on Dec 22,2020
+# vlog -reportprogress 300 -vlog01compat -work postlayout G:/EDA/W_74HC161/designer/impl1/W_74HC161_ba.v 
+# -- Compiling module W_74HC161
+# 
+# Top level modules:
+# 	W_74HC161
+# End time: 22:51:31 on Dec 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 22:51:31 on Dec 22,2020
+# vlog -reportprogress 300 "+incdir+G:/EDA/W_74HC161/stimulus" -vlog01compat -work postlayout G:/EDA/W_74HC161/stimulus/test_74HC161.v 
+# -- Compiling module test_74HC161
+# 
+# Top level modules:
+# 	test_74HC161
+# End time: 22:51:31 on Dec 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L postlayout -t 1ps -sdfmax /u1=G:/EDA/W_74HC161/designer/impl1/W_74HC161_ba.sdf postlayout.test_74HC161 
+# Start time: 22:51:31 on Dec 22,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.test_74HC161
+# Loading postlayout.W_74HC161
+# Loading proasic3.MX2
+# Loading proasic3.IOIN_IB
+# Loading proasic3.IOTRI_OB_EB
+# Loading proasic3.NOR2B
+# Loading proasic3.MX2B
+# Loading proasic3.IOPAD_IN
+# Loading proasic3.IOPAD_TRI
+# Loading proasic3.DFN0C0
+# Loading proasic3.AX1C
+# Loading proasic3.NOR3C
+# Loading proasic3.AO1B
+# Loading proasic3.CLKIO
+# Loading proasic3.GND
+# Loading proasic3.VCC
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# Loading instances from G:/EDA/W_74HC161/designer/impl1/W_74HC161_ba.sdf
+# Loading proasic3.UDP_MUX2
+# Loading proasic3.Dffpf
+# Loading timing data from G:/EDA/W_74HC161/designer/impl1/W_74HC161_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /test_74HC161 File: G:/EDA/W_74HC161/stimulus/test_74HC161.v
+# time=                   0,mr=1,cp=0,cep=1,cet=1,pe=1,d=0000,q=xxxx,tc=x
+# time=                5000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0000,q=xxxx,tc=x
+# time=               10000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0000,q=xxxx,tc=x
+# time=               15000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0000,q=xxxx,tc=x
+# time=               20000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0000,q=xxxx,tc=x
+# time=               25000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0000,q=xxxx,tc=x
+# time=               30000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0000,q=xxxx,tc=x
+# time=               35000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0000,q=xxxx,tc=x
+# time=               40000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0000,q=xxxx,tc=x
+# time=               41000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0100,q=xxxx,tc=x
+# time=               45000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0100,q=xxxx,tc=x
+# time=               50000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0100,q=xxxx,tc=x
+# time=               55000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0100,q=xxxx,tc=x
+# time=               60000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0100,q=xxxx,tc=x
+# time=               65000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0100,q=xxxx,tc=x
+# time=               70000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0100,q=xxxx,tc=x
+# time=               75000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0100,q=xxxx,tc=x
+# time=               80000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0100,q=xxxx,tc=x
+# time=               82000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0001,q=xxxx,tc=x
+# time=               85000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0001,q=xxxx,tc=x
+# time=               90000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0001,q=xxxx,tc=x
+# time=               95000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0001,q=xxxx,tc=x
+# time=              100000,mr=0,cp=0,cep=1,cet=1,pe=1,d=0001,q=xxxx,tc=x
+# time=              105000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0001,q=xxxx,tc=x
+# time=              108000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0001,q=x0xx,tc=x
+# time=              109000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0001,q=x00x,tc=x
+# time=              109000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0001,q=000x,tc=x
+# time=              109000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0001,q=0000,tc=x
+# time=              110000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0001,q=0000,tc=0
+# time=              110000,mr=0,cp=0,cep=1,cet=1,pe=1,d=0001,q=0000,tc=0
+# time=              115000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0001,q=0000,tc=0
+# time=              120000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0001,q=0000,tc=0
+# time=              123000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1001,q=0000,tc=0
+# time=              125000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=0000,tc=0
+# time=              130000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1001,q=0000,tc=0
+# time=              135000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=0000,tc=0
+# time=              137000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=0001,tc=0
+# time=              140000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1001,q=0001,tc=0
+# time=              145000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=0001,tc=0
+# time=              146000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=0011,tc=0
+# time=              147000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=0010,tc=0
+# time=              150000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1001,q=0010,tc=0
+# time=              152000,mr=1,cp=0,cep=1,cet=1,pe=0,d=1001,q=0010,tc=0
+# time=              155000,mr=1,cp=1,cep=1,cet=1,pe=0,d=1001,q=0010,tc=0
+# time=              157000,mr=1,cp=1,cep=1,cet=1,pe=0,d=1001,q=0011,tc=0
+# time=              160000,mr=1,cp=0,cep=1,cet=1,pe=0,d=1001,q=0011,tc=0
+# time=              164000,mr=1,cp=0,cep=1,cet=1,pe=0,d=0011,q=0011,tc=0
+# time=              165000,mr=1,cp=1,cep=1,cet=1,pe=0,d=0011,q=0011,tc=0
+# time=              167000,mr=1,cp=1,cep=1,cet=1,pe=0,d=0011,q=0001,tc=0
+# time=              167000,mr=1,cp=1,cep=1,cet=1,pe=0,d=0011,q=1001,tc=0
+# time=              170000,mr=1,cp=0,cep=1,cet=1,pe=0,d=0011,q=1001,tc=0
+# time=              174000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0011,q=1001,tc=0
+# time=              175000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0011,q=1001,tc=0
+# time=              176000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0011,q=1011,tc=0
+# time=              178000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0011,q=0011,tc=0
+# time=              180000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0011,q=0011,tc=0
+# time=              185000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0011,q=0011,tc=0
+# time=              187000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0011,q=0111,tc=0
+# time=              187000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0011,q=0101,tc=0
+# time=              187000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0011,q=0100,tc=0
+# time=              190000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0011,q=0100,tc=0
+# time=              195000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0011,q=0100,tc=0
+# time=              197000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0011,q=0101,tc=0
+# time=              200000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0011,q=0101,tc=0
+# time=              205000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0101,tc=0
+# time=              206000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0111,tc=0
+# time=              207000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0110,tc=0
+# time=              210000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0110,tc=0
+# time=              215000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0110,tc=0
+# time=              217000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0111,tc=0
+# time=              220000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0111,tc=0
+# time=              222000,mr=1,cp=0,cep=0,cet=1,pe=1,d=1101,q=0111,tc=0
+# time=              225000,mr=1,cp=1,cep=0,cet=1,pe=1,d=1101,q=0111,tc=0
+# time=              227000,mr=1,cp=1,cep=0,cet=1,pe=1,d=1101,q=0101,tc=0
+# time=              227000,mr=1,cp=1,cep=0,cet=1,pe=1,d=1101,q=1101,tc=0
+# time=              227000,mr=1,cp=1,cep=0,cet=1,pe=1,d=1101,q=1001,tc=0
+# time=              227000,mr=1,cp=1,cep=0,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              230000,mr=1,cp=0,cep=0,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              235000,mr=1,cp=1,cep=0,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              240000,mr=1,cp=0,cep=0,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              245000,mr=1,cp=1,cep=0,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              250000,mr=1,cp=0,cep=0,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              255000,mr=1,cp=1,cep=0,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              260000,mr=1,cp=0,cep=0,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              262000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              265000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              270000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              275000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1000,tc=0
+# time=              277000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1001,tc=0
+# time=              280000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=1001,tc=0
+# time=              285000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1001,tc=0
+# time=              286000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1011,tc=0
+# time=              287000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1011,tc=0
+# time=              287000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1010,tc=0
+# time=              290000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=1010,tc=0
+# time=              295000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1010,tc=0
+# time=              297000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1011,tc=0
+# time=              300000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=1011,tc=0
+# time=              305000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1011,tc=0
+# time=              307000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1111,tc=0
+# time=              307000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1101,tc=0
+# time=              307000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1100,tc=0
+# time=              310000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=1100,tc=0
+# time=              315000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1100,tc=0
+# time=              317000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=1101,tc=0
+# time=              320000,mr=0,cp=0,cep=1,cet=1,pe=1,d=0101,q=1101,tc=0
+# time=              325000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0101,q=1101,tc=0
+# ** Error: src/proasic3.v(27149): $width( posedge D:323907 ps, :325835 ps, 2 ns );
+#    Time: 325835 ps  Iteration: 0  Instance: /test_74HC161/u1/\Q_pad[1]/U0/U0 
+# time=              326000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0101,q=1111,tc=0
+# time=              327000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0101,q=1110,tc=0
+# time=              328000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0010,q=1110,tc=0
+# time=              328000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0010,q=1010,tc=0
+# time=              329000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0010,q=1000,tc=0
+# time=              329000,mr=0,cp=1,cep=1,cet=1,pe=1,d=0010,q=0000,tc=0
+# time=              330000,mr=0,cp=0,cep=1,cet=1,pe=1,d=0010,q=0000,tc=0
+# time=              333000,mr=0,cp=0,cep=1,cet=0,pe=1,d=0010,q=0000,tc=0
+# time=              335000,mr=0,cp=1,cep=1,cet=0,pe=1,d=0010,q=0000,tc=0
+# time=              340000,mr=0,cp=0,cep=1,cet=0,pe=1,d=0010,q=0000,tc=0
+# time=              342000,mr=1,cp=0,cep=1,cet=0,pe=1,d=0010,q=0000,tc=0
+# time=              345000,mr=1,cp=1,cep=1,cet=0,pe=1,d=0010,q=0000,tc=0
+# time=              350000,mr=1,cp=0,cep=1,cet=0,pe=1,d=0010,q=0000,tc=0
+# time=              355000,mr=1,cp=1,cep=1,cet=0,pe=1,d=0010,q=0000,tc=0
+# time=              360000,mr=1,cp=0,cep=1,cet=0,pe=1,d=0010,q=0000,tc=0
+# time=              363000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0010,q=0000,tc=0
+# time=              365000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0010,q=0000,tc=0
+# time=              369000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0001,q=0000,tc=0
+# time=              370000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0001,q=0000,tc=0
+# time=              374000,mr=1,cp=0,cep=1,cet=1,pe=0,d=0001,q=0000,tc=0
+# time=              375000,mr=1,cp=1,cep=1,cet=1,pe=0,d=0001,q=0000,tc=0
+# time=              377000,mr=1,cp=1,cep=1,cet=1,pe=0,d=0001,q=0001,tc=0
+# time=              380000,mr=1,cp=0,cep=1,cet=1,pe=0,d=0001,q=0001,tc=0
+# time=              385000,mr=1,cp=1,cep=1,cet=1,pe=0,d=0001,q=0001,tc=0
+# time=              390000,mr=1,cp=0,cep=1,cet=1,pe=0,d=0001,q=0001,tc=0
+# time=              394000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0001,q=0001,tc=0
+# time=              395000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0001,q=0001,tc=0
+# time=              400000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0001,q=0001,tc=0
+# time=              405000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0001,q=0001,tc=0
+# time=              406000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0001,q=0011,tc=0
+# time=              407000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0001,q=0010,tc=0
+# time=              410000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0010,tc=0
+# time=              415000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0010,tc=0
+# time=              417000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0011,tc=0
+# time=              420000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0011,tc=0
+# time=              425000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0011,tc=0
+# time=              427000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0111,tc=0
+# time=              427000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0101,tc=0
+# time=              427000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0100,tc=0
+# time=              430000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0100,tc=0
+# time=              435000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0100,tc=0
+# time=              437000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0101,tc=0
+# time=              440000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0101,tc=0
+# time=              445000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0101,tc=0
+# time=              446000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0111,tc=0
+# time=              447000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0110,tc=0
+# time=              450000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0110,tc=0
+# time=              451000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0110,q=0110,tc=0
+# time=              455000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=0110,tc=0
+# time=              457000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=0111,tc=0
+# time=              460000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0110,q=0111,tc=0
+# time=              465000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=0111,tc=0
+# time=              467000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=0101,tc=0
+# time=              467000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=1101,tc=0
+# time=              467000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=1001,tc=0
+# time=              467000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=1000,tc=0
+# time=              470000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0110,q=1000,tc=0
+# time=              475000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=1000,tc=0
+# time=              477000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=1001,tc=0
+# time=              480000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0110,q=1001,tc=0
+# time=              485000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=1001,tc=0
+# time=              486000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=1011,tc=0
+# time=              487000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=1010,tc=0
+# time=              490000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0110,q=1010,tc=0
+# time=              492000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=1010,tc=0
+# time=              495000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1010,tc=0
+# time=              497000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1011,tc=0
+# time=              500000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=1011,tc=0
+# time=              505000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1011,tc=0
+# time=              507000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1111,tc=0
+# time=              507000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1101,tc=0
+# time=              507000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1100,tc=0
+# time=              510000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=1100,tc=0
+# time=              515000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1100,tc=0
+# time=              517000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1101,tc=0
+# time=              520000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=1101,tc=0
+# time=              525000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1101,tc=0
+# time=              526000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1111,tc=0
+# time=              527000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1110,tc=0
+# time=              530000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=1110,tc=0
+# time=              535000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1110,tc=0
+# time=              537000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1111,tc=0
+# time=              540000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1111,tc=1
+# time=              540000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=1111,tc=1
+# time=              545000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1111,tc=1
+# time=              547000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1101,tc=1
+# time=              547000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1001,tc=1
+# time=              547000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=1000,tc=1
+# time=              548000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0000,tc=1
+# time=              549000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0000,tc=0
+# time=              550000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0000,tc=0
+# time=              555000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0000,tc=0
+# time=              557000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0001,tc=0
+# time=              560000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0001,tc=0
+# time=              565000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0001,tc=0
+# time=              566000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0011,tc=0
+# time=              567000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1101,q=0010,tc=0
+# time=              570000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1101,q=0010,tc=0
+# time=              574000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1100,q=0010,tc=0
+# time=              575000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1100,q=0010,tc=0
+# time=              577000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1100,q=0011,tc=0
+# time=              580000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1100,q=0011,tc=0
+# time=              585000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1100,q=0011,tc=0
+# time=              587000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1100,q=0111,tc=0
+# time=              587000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1100,q=0101,tc=0
+# time=              587000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1100,q=0100,tc=0
+# time=              590000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1100,q=0100,tc=0
+# time=              594000,mr=1,cp=0,cep=1,cet=1,pe=0,d=1100,q=0100,tc=0
+# time=              595000,mr=1,cp=1,cep=1,cet=1,pe=0,d=1100,q=0100,tc=0
+# time=              597000,mr=1,cp=1,cep=1,cet=1,pe=0,d=1100,q=0101,tc=0
+# time=              600000,mr=1,cp=0,cep=1,cet=1,pe=0,d=1100,q=0101,tc=0
+# time=              605000,mr=1,cp=1,cep=1,cet=1,pe=0,d=1100,q=0101,tc=0
+# time=              607000,mr=1,cp=1,cep=1,cet=1,pe=0,d=1100,q=1101,tc=0
+# time=              607000,mr=1,cp=1,cep=1,cet=1,pe=0,d=1100,q=1100,tc=0
+# time=              610000,mr=1,cp=0,cep=1,cet=1,pe=0,d=1100,q=1100,tc=0
+# time=              615000,mr=1,cp=1,cep=1,cet=1,pe=0,d=1001,q=1100,tc=0
+# time=              620000,mr=1,cp=0,cep=1,cet=1,pe=0,d=1001,q=1100,tc=0
+# ** Error: src/proasic3.v(8758): $setup( posedge D:621129 ps, negedge CLK &&& Enable01:621638 ps, 713 ps );
+#    Time: 621638 ps  Iteration: 1  Instance: /test_74HC161/u1/\Q[0]/U1 
+# time=              624000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1001,q=1100,tc=0
+# time=              625000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=1100,tc=0
+# time=              627000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=110x,tc=0
+# time=              627000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=100x,tc=0
+# time=              630000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1001,q=100x,tc=0
+# time=              635000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=100x,tc=0
+# time=              636000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=10xx,tc=0
+# time=              640000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1001,q=10xx,tc=0
+# time=              645000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=10xx,tc=0
+# time=              647000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=1xxx,tc=0
+# time=              649000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=1xxx,tc=x
+# time=              650000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1001,q=1xxx,tc=x
+# time=              655000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1001,q=1xxx,tc=x
+# time=              656000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=1xxx,tc=x
+# time=              658000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=xxxx,tc=x
+# time=              660000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0110,q=xxxx,tc=x
+# time=              665000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=xxxx,tc=x
+# time=              670000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0110,q=xxxx,tc=x
+# time=              675000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=xxxx,tc=x
+# time=              680000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0110,q=xxxx,tc=x
+# time=              685000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=xxxx,tc=x
+# time=              690000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0110,q=xxxx,tc=x
+# time=              695000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0110,q=xxxx,tc=x
+# time=              697000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              700000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              705000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              710000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              715000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              720000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              725000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              730000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              735000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              738000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1010,q=xxxx,tc=x
+# time=              740000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1010,q=xxxx,tc=x
+# time=              745000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1010,q=xxxx,tc=x
+# time=              750000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1010,q=xxxx,tc=x
+# time=              755000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1010,q=xxxx,tc=x
+# time=              760000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1010,q=xxxx,tc=x
+# time=              765000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1010,q=xxxx,tc=x
+# time=              770000,mr=1,cp=0,cep=1,cet=1,pe=1,d=1010,q=xxxx,tc=x
+# time=              775000,mr=1,cp=1,cep=1,cet=1,pe=1,d=1010,q=xxxx,tc=x
+# time=              779000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              780000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              785000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              790000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              795000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              800000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              805000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              810000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              815000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0101,q=xxxx,tc=x
+# time=              820000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              825000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              830000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              835000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              840000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              845000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              850000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              855000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              860000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              865000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              870000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              875000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              880000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              885000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              890000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              895000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              900000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              905000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              910000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              915000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              920000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              925000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              930000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              935000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              940000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              945000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              950000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              955000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              960000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              965000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              970000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              975000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              980000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              985000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              990000,mr=1,cp=0,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# time=              995000,mr=1,cp=1,cep=1,cet=1,pe=1,d=0111,q=xxxx,tc=x
+# End time: 22:52:11 on Dec 22,2020, Elapsed time: 0:00:40
+# Errors: 2, Warnings: 0

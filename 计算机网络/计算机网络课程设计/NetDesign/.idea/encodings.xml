@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Command" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Command/dirCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Command/getCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Command/passCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Command/uploadCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Command/userCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/File" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Server" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Server/ConnectionClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Thread" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/Thread/ThreadInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/User" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/MagicB/www/User/Account.java" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>Zdshj</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P060</die>
+    <package>100 VQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>G:/EDA/W_zh6/component/work/Zdshj</location>
+    <state>GENERATED ( Sat Dec 26 14:04:41 2020 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>G:\EDA\W_zh6\component\work\Zdshj\Zdshj.v</file>
+    <file>G:\EDA\W_zh6\hdl\W_zh5Moore.v</file>
+    <file>G:\EDA\W_zh6\hdl\W_zh6Mealy.v</file>
+  </fileset>
+  <io>
+    <port-name>Dout</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Din[1]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Clk</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Dout_0</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Din[0]</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Reset</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>Mealy</core-exttype>
+    <core-location>hdl\W_zh6Mealy.v</core-location>
+    <core-name>Mealy_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>Moore</core-exttype>
+    <core-location>hdl\W_zh5Moore.v</core-location>
+    <core-name>Moore_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for Zdshj</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

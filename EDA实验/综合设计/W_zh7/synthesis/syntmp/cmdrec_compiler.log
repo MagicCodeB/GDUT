@@ -1,0 +1,11 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  G:\EDA\W_zh7\synthesis\synwork\Ztj_comp.srs  -top  Ztj  -hdllog  G:\EDA\W_zh7\synthesis\synlog\Ztj_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I G:\EDA\W_zh7\synthesis\  -I C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -encrypt  -pro  -dmgen  G:\EDA\W_zh7\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work G:\EDA\W_zh7\hdl\Mealy.v -lib work G:\EDA\W_zh7\hdl\Moore.v -lib work G:\EDA\W_zh7\component\work\Ztj\Ztj.v 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\Ztj_comp.srs -top Ztj -hdllog ..\synlog\Ztj_compiler.srr -encrypt -mp 1 -verification_mode 0 -verilog -prodtype synplify_pro -nram -fixsmult -divnmod -I ..\ -I C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib -v2001 -devicelib C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing on -ll 2000 -autosm -lib work ..\..\hdl\Mealy.v -lib work ..\..\hdl\Moore.v -lib work ..\..\component\work\Ztj\Ztj.v
+rc:0 success:1 runtime:0
+file:..\synwork\Ztj_comp.srs|io:o|time:1608970919|size:5632|exec:0|csum:
+file:..\synlog\Ztj_compiler.srr|io:o|time:1608970939|size:3669|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\..\hdl\Mealy.v|io:i|time:1608970518|size:2090|exec:0|csum:BFE227EF2AFB8821D9E95463CEE9EEB9
+file:..\..\hdl\Moore.v|io:i|time:1608970544|size:1718|exec:0|csum:BFEEC73DF2A480ED954BF18D001843C8
+file:..\..\component\work\Ztj\Ztj.v|io:i|time:1608970802|size:3565|exec:0|csum:1C586D1898E8A5CEBBBCF4725E1F3B72
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

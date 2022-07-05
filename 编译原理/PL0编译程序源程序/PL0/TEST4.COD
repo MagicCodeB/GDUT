@@ -1,0 +1,46 @@
+=== COMPILE PL0 ===
+  0 PROGRAM TEST4; 
+  0 VAR A,B; 
+  1 BEGIN 
+  2 B:=0; 
+  4 FOR A:=0 STEP 1 UNTIL 9 
+ 12      DO  
+ 15 	BEGIN 
+ 15 	B:=B+1; 
+ 19 	END; 
+ 20 ; 
+ 20 WRITE(A); 
+ 23 WRITE(B); 
+ 26 END. 
+  0  JMP   0   1
+  1  INI   0   5
+  2  LIT   0   0
+  3  STO   0   4
+  4  LIT   0   0
+  5  STO   0   3
+  6  JMP   0  11
+  7  LIT   0   1
+  8  LOD   0   3
+  9  OPR   0   2
+ 10  STO   0   3
+ 11  LIT   0   9
+ 12  LOD   0   3
+ 13  OPR   0  11
+ 14  JPC   0  20
+ 15  LOD   0   4
+ 16  LIT   0   1
+ 17  OPR   0   2
+ 18  STO   0   4
+ 19  JMP   0   7
+ 20  LOD   0   3
+ 21  OPR   0  14
+ 22  OPR   0  15
+ 23  LOD   0   4
+ 24  OPR   0  14
+ 25  OPR   0  15
+ 26  OPR   0   0
+~~~ RUN PL0 ~~~
+10
+10
+~~~ END PL0 ~~~
+

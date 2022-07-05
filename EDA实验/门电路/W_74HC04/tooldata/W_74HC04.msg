@@ -1,0 +1,15 @@
+HelpInfo,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\html,fpgahelp.qhc,errormessages.mp,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\mbin\assistant
+Implementation;Synthesis;RootName:W_74HC04
+Implementation;Synthesis||null||@N: Running in 64-bit mode||W_74HC04.srr(11);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/11||null;null
+Implementation;Synthesis||null||@N: Running in 64-bit mode||W_74HC04.srr(15);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/15||null;null
+Implementation;Synthesis|| CG364 ||@N: Synthesizing module W_74HC04 in library work.||W_74HC04.srr(29);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/29||W_74HC04.v(2);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\hdl\W_74HC04.v'/linenumber/2
+Implementation;Synthesis||null||@N: Running in 64-bit mode||W_74HC04.srr(41);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/41||null;null
+Implementation;Synthesis|| MF248 ||@N: Running in 64-bit mode.||W_74HC04.srr(83);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/83||null;null
+Implementation;Synthesis|| MF667 ||@N: Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)||W_74HC04.srr(84);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/84||null;null
+Implementation;Synthesis|| BN225 ||@N: Writing default property annotation file G:\EDA\W_74HC04\synthesis\W_74HC04.sap.||W_74HC04.srr(105);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/105||null;null
+Implementation;Synthesis|| MF248 ||@N: Running in 64-bit mode.||W_74HC04.srr(132);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/132||null;null
+Implementation;Synthesis|| MF667 ||@N: Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)||W_74HC04.srr(133);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/133||null;null
+Implementation;Synthesis|| MT320 ||@N: This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.||W_74HC04.srr(238);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/238||null;null
+Implementation;Synthesis|| MT322 ||@N: Clock constraints include only register-to-register paths associated with each individual clock.||W_74HC04.srr(240);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC04\synthesis\W_74HC04.srr'/linenumber/240||null;null
+Implementation;Compile;RootName:W_74HC04
+Implementation;Compile||(null)||Please refer to the log file for details||W_74HC04_compile_log.rpt;liberoaction://open_report/file/W_74HC04_compile_log.rpt||(null);(null)

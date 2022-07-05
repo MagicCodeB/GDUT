@@ -1,0 +1,69 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\EDA\W_zh1\hdl\74HC148.v" (library work)
+@I::"C:\EDA\W_zh1\hdl\74HC4511.v" (library work)
+@I::"C:\EDA\W_zh1\hdl\74HC85.v" (library work)
+@I::"C:\EDA\W_zh1\component\work\Bmtz\Bmtz.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module Bmtz
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1349:7:1349:11|Synthesizing module NAND2 in library work.
+
+@N: CG364 :"C:\EDA\W_zh1\hdl\74HC148.v":2:7:2:15|Synthesizing module W_74HC148 in library work.
+
+@N: CG364 :"C:\EDA\W_zh1\hdl\74HC4511.v":2:7:2:16|Synthesizing module W_74HC4511 in library work.
+
+@N: CG364 :"C:\EDA\W_zh1\hdl\74HC85.v":2:7:2:12|Synthesizing module W_HC85 in library work.
+
+@W: CG296 :"C:\EDA\W_zh1\hdl\74HC85.v":15:9:15:23|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\EDA\W_zh1\hdl\74HC85.v":25:20:25:23|Referenced variable IAEB is not in sensitivity list.
+@W: CG290 :"C:\EDA\W_zh1\hdl\74HC85.v":25:8:25:11|Referenced variable IAGB is not in sensitivity list.
+@W: CG290 :"C:\EDA\W_zh1\hdl\74HC85.v":25:14:25:17|Referenced variable IASB is not in sensitivity list.
+@N: CG364 :"C:\EDA\W_zh1\component\work\Bmtz\Bmtz.v":9:7:9:10|Synthesizing module Bmtz in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 24 22:04:40 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 24 22:04:40 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 24 22:04:40 2020
+
+###########################################################]

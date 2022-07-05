@@ -1,0 +1,52 @@
+----------------------------------------------------------------------
+Report for cell Zdshj.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         3       0.0        0.0
+                              Mealy         1       7.0        7.0
+                              Moore         1      24.0       24.0
+                             OUTBUF         2       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             10                 31.0
+----------------------------------------------------------------------
+Report for cell Moore.netlist
+     Instance path:  Moore_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1A         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                             DFN1C1         4       1.0        4.0
+                             DFN1P1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         2       1.0        2.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                                OR3         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             26                 24.0
+----------------------------------------------------------------------
+Report for cell Mealy.netlist
+     Instance path:  Mealy_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO13         1       1.0        1.0
+                               AO15         1       1.0        1.0
+                             DFN1C1         1       1.0        1.0
+                             DFN1P1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              NOR2B         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XO1         1       1.0        1.0
+                            
+                         TOTAL              9                  7.0

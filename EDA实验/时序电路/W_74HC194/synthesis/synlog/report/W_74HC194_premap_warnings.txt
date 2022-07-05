@@ -1,0 +1,1 @@
+@W: MT530 :"g:\eda\w_74hc194\hdl\w_74hc194.v":8:0:8:5|Found inferred clock W_74HC194|CLK which controls 4 sequential elements including OUT[0:3]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,81 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 21:57:37 on Dec 24,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth C:/EDA/W_zh1/hdl/74HC148.v 
+# -- Compiling module W_74HC148
+# 
+# Top level modules:
+# 	W_74HC148
+# End time: 21:57:38 on Dec 24,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 21:57:38 on Dec 24,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth C:/EDA/W_zh1/hdl/74HC4511.v 
+# -- Compiling module W_74HC4511
+# 
+# Top level modules:
+# 	W_74HC4511
+# End time: 21:57:38 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 21:57:38 on Dec 24,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth C:/EDA/W_zh1/hdl/74HC85.v 
+# -- Compiling module W_HC85
+# 
+# Top level modules:
+# 	W_HC85
+# End time: 21:57:38 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 21:57:38 on Dec 24,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth C:/EDA/W_zh1/component/work/Bmtz/Bmtz.v 
+# -- Compiling module Bmtz
+# 
+# Top level modules:
+# 	Bmtz
+# End time: 21:57:38 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 21:57:38 on Dec 24,2020
+# vlog -reportprogress 300 "+incdir+C:/EDA/W_zh1/stimulus" -vlog01compat -work presynth C:/EDA/W_zh1/stimulus/test_zh1.v 
+# -- Compiling module test_zh1
+# 
+# Top level modules:
+# 	test_zh1
+# End time: 21:57:38 on Dec 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.test_zh1 
+# Start time: 21:57:38 on Dec 24,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading presynth.test_zh1
+# Loading presynth.Bmtz
+# Loading proasic3.NAND2
+# Loading presynth.W_74HC148
+# Loading presynth.W_74HC4511
+# Loading presynth.W_HC85
+# ** Warning: (vsim-3017) C:/EDA/W_zh1/stimulus/test_zh1.v(7): [TFMPC] - Too few port connections. Expected 6, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /test_zh1/u1 File: C:/EDA/W_zh1/component/work/Bmtz/Bmtz.v
+# ** Warning: (vsim-3722) C:/EDA/W_zh1/stimulus/test_zh1.v(7): [TFMPC] - Missing connection for port 'EO'.
+# ** Warning: (vsim-3722) C:/EDA/W_zh1/stimulus/test_zh1.v(7): [TFMPC] - Missing connection for port 'GS'.
+# ** Warning: (vsim-3722) C:/EDA/W_zh1/stimulus/test_zh1.v(7): [TFMPC] - Missing connection for port 'GS_0'.
+# End time: 22:03:21 on Dec 24,2020, Elapsed time: 0:05:43
+# Errors: 0, Warnings: 4

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OSRW:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OSRW_jar</output-path>
+    <root id="archive" name="OSRW.jar">
+      <element id="module-output" name="OSRW" />
+    </root>
+  </artifact>
+</component>

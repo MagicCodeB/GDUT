@@ -1,0 +1,5 @@
+@W: CG296 :"C:\EDA\W_zh1\hdl\74HC85.v":15:9:15:23|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\EDA\W_zh1\hdl\74HC85.v":25:20:25:23|Referenced variable IAEB is not in sensitivity list.
+@W: CG290 :"C:\EDA\W_zh1\hdl\74HC85.v":25:8:25:11|Referenced variable IAGB is not in sensitivity list.
+@W: CG290 :"C:\EDA\W_zh1\hdl\74HC85.v":25:14:25:17|Referenced variable IASB is not in sensitivity list.
+

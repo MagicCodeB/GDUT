@@ -1,0 +1,32 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\EDA\\W_zh1\\synthesis\\synwork\\Bmtz_comp.srs|-top|Bmtz|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\EDA\\W_zh1\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509315136
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v":1508984288
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1508986328
+#CUR:"C:\\EDA\\W_zh1\\hdl\\74HC148.v":1608727127
+#CUR:"C:\\EDA\\W_zh1\\hdl\\74HC4511.v":1608727753
+#CUR:"C:\\EDA\\W_zh1\\hdl\\74HC85.v":1608814626
+#CUR:"C:\\EDA\\W_zh1\\component\\work\\Bmtz\\Bmtz.v":1608817672
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\EDA\W_zh1\hdl\74HC148.v" verilog
+1			"C:\EDA\W_zh1\hdl\74HC4511.v" verilog
+2			"C:\EDA\W_zh1\hdl\74HC85.v" verilog
+3			"C:\EDA\W_zh1\component\work\Bmtz\Bmtz.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 0 1 2
+#Dependency Lists(Users Of)
+0 3
+1 3
+2 3
+3 -1
+#Design Unit to File Association
+module work W_74HC148 0
+module work W_74HC4511 1
+module work W_HC85 2
+module work Bmtz 3

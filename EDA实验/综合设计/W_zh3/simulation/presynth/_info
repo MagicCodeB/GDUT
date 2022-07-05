@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/EDA/W_zh3/simulation
+vBjq
+!s110 1608884794
+!i10b 1
+!s100 Cdc[Najj;?mJN1mIOnenc3
+I>ODnPAnGgI]WKQSU^7;g53
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1608884489
+8G:/EDA/W_zh3/component/work/Bjq/Bjq.v
+FG:/EDA/W_zh3/component/work/Bjq/Bjq.v
+L0 9
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1608884794.000000
+!s107 G:/EDA/W_zh3/component/work/Bjq/Bjq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|G:/EDA/W_zh3/component/work/Bjq/Bjq.v|
+!s101 -O0
+!i113 1
+Z3 o-vlog01compat -work presynth -O0
+Z4 tCvgOpt 0
+n@bjq
+vComparator
+Z5 !s110 1608885219
+!i10b 1
+!s100 dT^_[OAhcJFiiV8^NzI:R2
+IzW5V4S6eHadJ6bU01XX8X2
+R1
+R0
+w1608883732
+8G:/EDA/W_zh3/hdl/comparator.v
+FG:/EDA/W_zh3/hdl/comparator.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z6 !s108 1608885219.000000
+!s107 G:/EDA/W_zh3/hdl/comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|G:/EDA/W_zh3/hdl/comparator.v|
+!s101 -O0
+!i113 1
+R3
+R4
+n@comparator
+vCompare2come
+R5
+!i10b 1
+!s100 jg96lnl2AaR:G>zJQK0zQ3
+IIg[m]BcT3`hj`H:hbhIL;1
+R1
+R0
+w1608885082
+8G:/EDA/W_zh3/component/work/Compare2come/Compare2come.v
+FG:/EDA/W_zh3/component/work/Compare2come/Compare2come.v
+L0 9
+R2
+r1
+!s85 0
+31
+R6
+!s107 G:/EDA/W_zh3/component/work/Compare2come/Compare2come.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|G:/EDA/W_zh3/component/work/Compare2come/Compare2come.v|
+!s101 -O0
+!i113 1
+R3
+R4
+n@compare2come
+vnewCore
+R5
+!i10b 1
+!s100 T2[C3QJQBcHV2EN[Z>TO@2
+IIC^[f2Hm]L2_0BC7bznZY1
+R1
+R0
+w1608884162
+8G:/EDA/W_zh3/smartgen/newCore/newCore.v
+FG:/EDA/W_zh3/smartgen/newCore/newCore.v
+L0 5
+R2
+r1
+!s85 0
+31
+R6
+!s107 G:/EDA/W_zh3/smartgen/newCore/newCore.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|G:/EDA/W_zh3/smartgen/newCore/newCore.v|
+!s101 -O0
+!i113 1
+R3
+R4
+nnew@core
+vtest_zh3
+R5
+!i10b 1
+!s100 QWj>6@l5jL;JQB]^NcBL32
+IK>hzfLl^NKEZe23OF:BoB0
+R1
+R0
+w1608885174
+Z7 8G:/EDA/W_zh3/stimulus/test_zh3.v
+Z8 FG:/EDA/W_zh3/stimulus/test_zh3.v
+L0 2
+R2
+r1
+!s85 0
+31
+R6
+!s107 G:/EDA/W_zh3/stimulus/test_zh3.v|
+Z9 !s90 -reportprogress|300|+incdir+G:/EDA/W_zh3/stimulus|-vlog01compat|-work|presynth|G:/EDA/W_zh3/stimulus/test_zh3.v|
+!s101 -O0
+!i113 1
+R3
+Z10 !s92 +incdir+G:/EDA/W_zh3/stimulus -vlog01compat -work presynth -O0
+R4
+vtestbench
+!s110 1608885111
+!i10b 1
+!s100 f`Zz6`MDBi3nPNGdgP@A13
+IiJ@ZQAE5>eK`NHID11V:N2
+R1
+R0
+w1608884944
+R7
+R8
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1608885111.000000
+!s107 G:/EDA/W_zh3/stimulus/test_zh3.v|
+R9
+!s101 -O0
+!i113 1
+R3
+R10
+R4

@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  1  -prjfile  G:\EDA\W_zh3\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  G:\EDA\W_zh3\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile G:\EDA\W_zh3\synthesis\synlog\report\Compare2come_premap.xml  -top_level_module  Compare2come  -oedif  G:\EDA\W_zh3\synthesis\Compare2come.edn  -conchk_prepass  G:\EDA\W_zh3\synthesis\Compare2come_cck.rpt   -freq 100.000   G:\EDA\W_zh3\synthesis\synwork\Compare2come_mult.srs  -flow prepass  -gcc_prepass  -osrd  G:\EDA\W_zh3\synthesis\synwork\Compare2come_prem.srd  -qsap  G:\EDA\W_zh3\synthesis\Compare2come.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  G:\EDA\W_zh3\synthesis\syntmp\Compare2come.plg  -osyn  G:\EDA\W_zh3\synthesis\synwork\Compare2come_prem.srd  -prjdir  G:\EDA\W_zh3\synthesis\  -prjname  Compare2come_syn  -log  G:\EDA\W_zh3\synthesis\synlog\Compare2come_premap.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\Compare2come_premap.xml -top_level_module Compare2come -oedif ..\Compare2come.edn -conchk_prepass ..\Compare2come_cck.rpt -freq 100.000 ..\synwork\Compare2come_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\Compare2come_prem.srd -qsap ..\Compare2come.sap -devicelib C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam Compare2come.plg -osyn ..\synwork\Compare2come_prem.srd -prjdir ..\ -prjname Compare2come_syn -log ..\synlog\Compare2come_premap.srr
+rc:0 success:1 runtime:0
+file:..\scratchproject.prs|io:o|time:1608884993|size:1799|exec:0|csum:
+file:..\Compare2come.edn|io:o|time:1608885404|size:54486|exec:0|csum:
+file:..\Compare2come_cck.rpt|io:o|time:1608885477|size:20050|exec:0|csum:
+file:..\synwork\Compare2come_mult.srs|io:i|time:1608885403|size:1979|exec:0|csum:2FEEA34CD598620B4DC107988F16DE63
+file:..\synwork\Compare2come_prem.srd|io:o|time:1608885477|size:4779|exec:0|csum:
+file:..\Compare2come.sap|io:o|time:1608885477|size:121|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:Compare2come.plg|io:o|time:1608885477|size:0|exec:0|csum:
+file:..\synwork\Compare2come_prem.srd|io:o|time:1608885477|size:4779|exec:0|csum:
+file:..\synlog\Compare2come_premap.srr|io:o|time:1608885477|size:2394|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

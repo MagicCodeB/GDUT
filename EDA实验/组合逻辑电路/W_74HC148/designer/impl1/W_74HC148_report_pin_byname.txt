@@ -1,0 +1,26 @@
+*****************************************************************
+Pin Report - Date: Tue Dec 22 14:52:38 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: W_74HC148
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port       |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+DataIn[0]   32   No     IO65RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[1]   33   No     IO64RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[2]   31   No     IO66RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[3]   34   No     IO63RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[4]   40   No     IO60RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[5]   45   No     GDB2/IO55RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[6]   91   No     IO09RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[7]   90   No     IO10RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+DataOut[0]  86   No     IO11RSB0       LVTTL    12                 High  None           No    35                No           No
+DataOut[1]  36   No     IO61RSB1       LVTTL    12                 High  None           No    35                No           No
+DataOut[2]  41   No     IO59RSB1       LVTTL    12                 High  None           No    35                No           No
+EI          43   No     IO57RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+EO          42   No     IO58RSB1       LVTTL    12                 High  None           No    35                No           No
+GS          44   No     GDC2/IO56RSB1  LVTTL    12                 High  None           No    35                No           No

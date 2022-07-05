@@ -1,0 +1,52 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "W_74HC161")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "W_74HC161")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT Q\[0\]/CLK  Q\[0\]/Q  Q_RNIJ6QN\[1\]/B  Q_RNIJ6QN\[1\]/Y  Q_RNIUNGJ1\[1\]/A  Q_RNIUNGJ1\[1\]/Y  Q_n3/B  Q_n3/Y  Q\[3\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[1\]/CLK  Q\[1\]/Q  Q_RNIJ6QN\[1\]/A  Q_RNIJ6QN\[1\]/Y  Q_RNIUNGJ1\[1\]/A  Q_RNIUNGJ1\[1\]/Y  Q_n3/B  Q_n3/Y  Q\[3\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[2\]/CLK  Q\[2\]/Q  CET_pad_RNIBHMR/B  CET_pad_RNIBHMR/Y  Q_RNIUNGJ1\[1\]/B  Q_RNIUNGJ1\[1\]/Y  Q_n3/B  Q_n3/Y  Q\[3\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[1\]/CLK  Q\[1\]/Q  Q_6_0/B  Q_6_0/Y  Q_n2/B  Q_n2/Y  Q\[2\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[1\]/CLK  Q\[1\]/Q  Q_5/B  Q_5/Y  Q_n1/C  Q_n1/Y  Q\[1\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[0\]/CLK  Q\[0\]/Q  Q_n1/B  Q_n1/Y  Q\[1\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[0\]/CLK  Q\[0\]/Q  Q_n2/A  Q_n2/Y  Q\[2\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[3\]/CLK  Q\[3\]/Q  Q_9/B  Q_9/Y  Q_n3/C  Q_n3/Y  Q\[3\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[2\]/CLK  Q\[2\]/Q  Q_7/B  Q_7/Y  Q_n2/C  Q_n2/Y  Q\[2\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[0\]/CLK  Q\[0\]/Q  Q_n0/B  Q_n0/Y  Q\[0\]/D  	(9.3:9.3:9.3) )
+
+    (PATHCONSTRAINT Q\[0\]/CLK  Q\[0\]/Q  Q_RNIJ6QN\[1\]/B  Q_RNIJ6QN\[1\]/Y  Q_RNIUNGJ1\[1\]/A  Q_RNIUNGJ1\[1\]/Y  TC_pad_RNO/A  TC_pad_RNO/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Q\[0\]/CLK  Q\[0\]/Q  Q_pad\[0\]/D  Q_pad\[0\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Q\[1\]/CLK  Q\[1\]/Q  Q_pad\[1\]/D  Q_pad\[1\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Q\[2\]/CLK  Q\[2\]/Q  Q_pad\[2\]/D  Q_pad\[2\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Q\[3\]/CLK  Q\[3\]/Q  Q_pad\[3\]/D  Q_pad\[3\]/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Q\[3\]/CLK  Q\[3\]/Q  TC_pad_RNO/B  TC_pad_RNO/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

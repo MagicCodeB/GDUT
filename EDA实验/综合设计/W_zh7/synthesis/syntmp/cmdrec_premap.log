@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  1  -prjfile  G:\EDA\W_zh7\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  G:\EDA\W_zh7\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile G:\EDA\W_zh7\synthesis\synlog\report\Ztj_premap.xml  -top_level_module  Ztj  -oedif  G:\EDA\W_zh7\synthesis\Ztj.edn  -conchk_prepass  G:\EDA\W_zh7\synthesis\Ztj_cck.rpt   -freq 100.000   G:\EDA\W_zh7\synthesis\synwork\Ztj_mult.srs  -flow prepass  -gcc_prepass  -osrd  G:\EDA\W_zh7\synthesis\synwork\Ztj_prem.srd  -qsap  G:\EDA\W_zh7\synthesis\Ztj.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  G:\EDA\W_zh7\synthesis\syntmp\Ztj.plg  -osyn  G:\EDA\W_zh7\synthesis\synwork\Ztj_prem.srd  -prjdir  G:\EDA\W_zh7\synthesis\  -prjname  Ztj_syn  -log  G:\EDA\W_zh7\synthesis\synlog\Ztj_premap.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\Ztj_premap.xml -top_level_module Ztj -oedif ..\Ztj.edn -conchk_prepass ..\Ztj_cck.rpt -freq 100.000 ..\synwork\Ztj_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\Ztj_prem.srd -qsap ..\Ztj.sap -devicelib C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam Ztj.plg -osyn ..\synwork\Ztj_prem.srd -prjdir ..\ -prjname Ztj_syn -log ..\synlog\Ztj_premap.srr
+rc:1 success:1 runtime:1
+file:..\scratchproject.prs|io:o|time:1608970919|size:1743|exec:0|csum:
+file:..\Ztj.edn|io:o|time:1608970921|size:33556|exec:0|csum:
+file:..\Ztj_cck.rpt|io:o|time:1608970940|size:20124|exec:0|csum:
+file:..\synwork\Ztj_mult.srs|io:i|time:1608970920|size:2446|exec:0|csum:B0808813E758022D8EBDDA3965734117
+file:..\synwork\Ztj_prem.srd|io:o|time:1608970940|size:7050|exec:0|csum:
+file:..\Ztj.sap|io:o|time:1608970940|size:532|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:Ztj.plg|io:o|time:1608970939|size:0|exec:0|csum:
+file:..\synwork\Ztj_prem.srd|io:o|time:1608970940|size:7050|exec:0|csum:
+file:..\synlog\Ztj_premap.srr|io:o|time:1608970940|size:3367|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

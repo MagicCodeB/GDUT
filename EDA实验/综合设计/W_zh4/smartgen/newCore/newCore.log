@@ -1,0 +1,52 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Fri Dec 25 23:01:02 2020
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : newCore
+Family                          : PA3LC
+Output Format                   : VERILOG
+Type                            : Multiplexor
+Sel0                            : Active High
+Sel1                            : None
+Sel2                            : None
+Sel3                            : None
+Sel4                            : None
+Sel5                            : None
+Output Bus Width                : 1
+No Of Input Buses               : 2
+Placement Info                  : yes
+
+*************
+Fanin Control
+*************
+
+Signal      Buffering   Max Load   Signal Width
+------      ---------   --------   ------------
+Sel0          Auto         6
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      1  Total:   1536   (0.07%)
+    IO (W/ clocks)             Used:      0  Total:     71   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      4   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to G:/EDA/W_zh4/smartgen\newCore\newCore.v.
+
+ ** Log Ended:   Fri Dec 25 23:01:02 2020
+

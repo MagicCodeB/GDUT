@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>W_74HC85</design>
+	<target_edif>C:\EDA\W_74HC85\synthesis\W_74HC85.edn</target_edif>
+</SynplifyOutput>

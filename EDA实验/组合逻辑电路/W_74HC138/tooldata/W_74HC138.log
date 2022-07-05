@@ -1,0 +1,16 @@
+Project Name: W_74HC138
+Location: C:\EDA\W_74HC138
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A3P060-1VQ100
+Family         : ProASIC3
+Die            : A3P060
+Package        : 100 VQFP
+Speed          : -1
+Core Voltage   : 1.5
+Range          : COM

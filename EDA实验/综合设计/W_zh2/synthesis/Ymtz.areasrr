@@ -1,0 +1,47 @@
+----------------------------------------------------------------------
+Report for cell Ymtz.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         7       0.0        0.0
+                             OUTBUF        12       0.0        0.0
+                                VCC         1       0.0        0.0
+                          W_74HC138         1       4.0        4.0
+                         W_74HC4511         1      24.0       24.0
+                            
+                         TOTAL             23                 28.0
+----------------------------------------------------------------------
+Report for cell W_74HC4511.netlist
+     Instance path:  W_74HC4511_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                              AXOI7         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               MX2A         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         4       1.0        4.0
+                               NOR3         3       1.0        3.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         3       1.0        3.0
+                               OA1B         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                                OR3         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             26                 24.0
+----------------------------------------------------------------------
+Report for cell W_74HC138.netlist
+     Instance path:  W_74HC138_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                OR3         1       1.0        1.0
+                               OR3A         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              6                  4.0

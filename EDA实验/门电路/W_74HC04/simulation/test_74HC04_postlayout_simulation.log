@@ -1,0 +1,59 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 23:06:13 on Dec 21,2020
+# vlog -reportprogress 300 -vlog01compat -work postlayout G:/EDA/W_74HC04/designer/impl1/W_74HC04_ba.v 
+# -- Compiling module W_74HC04
+# 
+# Top level modules:
+# 	W_74HC04
+# End time: 23:06:13 on Dec 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 23:06:13 on Dec 21,2020
+# vlog -reportprogress 300 "+incdir+G:/EDA/W_74HC04/stimulus" -vlog01compat -work postlayout G:/EDA/W_74HC04/stimulus/test_74HC04.v 
+# ** Warning: G:/EDA/W_74HC04/stimulus/test_74HC04.v(2): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module test_74HC04
+# 
+# Top level modules:
+# 	test_74HC04
+# End time: 23:06:13 on Dec 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -L proasic3 -L postlayout -t 1ps -sdfmax /u1=G:/EDA/W_74HC04/designer/impl1/W_74HC04_ba.sdf postlayout.test_74HC04 
+# Start time: 23:06:13 on Dec 21,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.test_74HC04
+# Loading postlayout.W_74HC04
+# Loading proasic3.IOPAD_IN
+# Loading proasic3.IOTRI_OB_EB
+# Loading proasic3.IOIN_IB
+# Loading proasic3.IOPAD_TRI
+# Loading proasic3.INV
+# Loading proasic3.GND
+# Loading proasic3.VCC
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# Loading instances from G:/EDA/W_74HC04/designer/impl1/W_74HC04_ba.sdf
+# Loading timing data from G:/EDA/W_74HC04/designer/impl1/W_74HC04_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /test_74HC04 File: G:/EDA/W_74HC04/stimulus/test_74HC04.v
+# End time: 23:06:58 on Dec 21,2020, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0

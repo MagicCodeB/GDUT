@@ -1,0 +1,9 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  G:\EDA\W_74HC08\synthesis\synwork\W_74HC08_comp.srs  -top  W_74HC08  -hdllog  G:\EDA\W_74HC08\synthesis\synlog\W_74HC08_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I G:\EDA\W_74HC08\synthesis\  -I C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -encrypt  -pro  -dmgen  G:\EDA\W_74HC08\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work G:\EDA\W_74HC08\hdl\W_74HC08.v 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\W_74HC08_comp.srs -top W_74HC08 -hdllog ..\synlog\W_74HC08_compiler.srr -encrypt -mp 1 -verification_mode 0 -verilog -prodtype synplify_pro -nram -fixsmult -divnmod -I ..\ -I C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib -v2001 -devicelib C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing on -ll 2000 -autosm -lib work ..\..\hdl\W_74HC08.v
+rc:0 success:1 runtime:0
+file:..\synwork\W_74HC08_comp.srs|io:o|time:1608563600|size:1402|exec:0|csum:
+file:..\synlog\W_74HC08_compiler.srr|io:o|time:1608563633|size:2828|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\..\hdl\W_74HC08.v|io:i|time:1608563321|size:107|exec:0|csum:15160B4FA9B23C6C60F1164600B8271A
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

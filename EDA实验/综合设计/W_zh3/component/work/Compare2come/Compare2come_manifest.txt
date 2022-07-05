@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Fri Dec 25 16:31:22 2020
+Project   :  G:\EDA\W_zh3
+Component :  Compare2come
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    G:/EDA/W_zh3/component/work/Compare2come/Compare2come.v
+

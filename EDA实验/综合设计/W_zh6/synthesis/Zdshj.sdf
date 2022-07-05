@@ -1,0 +1,70 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "Zdshj")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "Zdshj")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT Moore_0/current_state\[1\]/CLK  Moore_0/current_state\[1\]/Q  Moore_0/current_state_ns_a4\[3\]/B  Moore_0/current_state_ns_a4\[3\]/Y  Moore_0/current_state_ns_1\[3\]/C  Moore_0/current_state_ns_1\[3\]/Y  Moore_0/current_state_ns\[3\]/C  Moore_0/current_state_ns\[3\]/Y  Moore_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[3\]/CLK  Moore_0/current_state\[3\]/Q  Moore_0/current_state_ns_o2\[4\]/B  Moore_0/current_state_ns_o2\[4\]/Y  Moore_0/current_state_ns_a4\[4\]/A  Moore_0/current_state_ns_a4\[4\]/Y  Moore_0/current_state_ns\[4\]/C  Moore_0/current_state_ns\[4\]/Y  Moore_0/current_state\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[3\]/CLK  Moore_0/current_state\[3\]/Q  Moore_0/current_state_ns_o2\[4\]/B  Moore_0/current_state_ns_o2\[4\]/Y  Moore_0/current_state_ns_a4_2_1\[3\]/C  Moore_0/current_state_ns_a4_2_1\[3\]/Y  Moore_0/current_state_ns\[3\]/A  Moore_0/current_state_ns\[3\]/Y  Moore_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[2\]/CLK  Moore_0/current_state\[2\]/Q  Moore_0/current_state_ns_o2\[4\]/A  Moore_0/current_state_ns_o2\[4\]/Y  Moore_0/current_state_ns_a4\[4\]/A  Moore_0/current_state_ns_a4\[4\]/Y  Moore_0/current_state_ns\[4\]/C  Moore_0/current_state_ns\[4\]/Y  Moore_0/current_state\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[2\]/CLK  Moore_0/current_state\[2\]/Q  Moore_0/current_state_ns_a4_0\[3\]/B  Moore_0/current_state_ns_a4_0\[3\]/Y  Moore_0/current_state_ns_1\[3\]/B  Moore_0/current_state_ns_1\[3\]/Y  Moore_0/current_state_ns\[3\]/C  Moore_0/current_state_ns\[3\]/Y  Moore_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[3\]/CLK  Moore_0/current_state\[3\]/Q  Moore_0/current_state_ns_a4_1\[3\]/A  Moore_0/current_state_ns_a4_1\[3\]/Y  Moore_0/current_state_ns_1\[3\]/A  Moore_0/current_state_ns_1\[3\]/Y  Moore_0/current_state_ns\[3\]/C  Moore_0/current_state_ns\[3\]/Y  Moore_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[3\]/CLK  Moore_0/current_state\[3\]/Q  Moore_0/current_state_ns_o2\[4\]/B  Moore_0/current_state_ns_o2\[4\]/Y  Moore_0/current_state_ns_a4\[0\]/C  Moore_0/current_state_ns_a4\[0\]/Y  Moore_0/current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[1\]/CLK  Moore_0/current_state\[1\]/Q  Moore_0/current_state_ns_i_a2\[2\]/B  Moore_0/current_state_ns_i_a2\[2\]/Y  Moore_0/current_state_ns_i\[2\]/C  Moore_0/current_state_ns_i\[2\]/Y  Moore_0/current_state\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[1\]/CLK  Moore_0/current_state\[1\]/Q  Moore_0/current_state_ns_a4_1\[4\]/C  Moore_0/current_state_ns_a4_1\[4\]/Y  Moore_0/current_state_ns\[4\]/A  Moore_0/current_state_ns\[4\]/Y  Moore_0/current_state\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[1\]/CLK  Moore_0/current_state\[1\]/Q  Moore_0/current_state_ns_i_a2\[2\]/B  Moore_0/current_state_ns_i_a2\[2\]/Y  Moore_0/current_state_ns\[3\]/B  Moore_0/current_state_ns\[3\]/Y  Moore_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Mealy_0/current\[0\]/CLK  Mealy_0/current\[0\]/Q  Mealy_0/current_ns_i_o3\[0\]/B  Mealy_0/current_ns_i_o3\[0\]/Y  Mealy_0/current_ns_i\[1\]/C  Mealy_0/current_ns_i\[1\]/Y  Mealy_0/current\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[4\]/CLK  Moore_0/current_state\[4\]/Q  Moore_0/current_state_ns_o2\[0\]/C  Moore_0/current_state_ns_o2\[0\]/Y  Moore_0/current_state_ns_a4\[0\]/A  Moore_0/current_state_ns_a4\[0\]/Y  Moore_0/current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[3\]/CLK  Moore_0/current_state\[3\]/Q  Moore_0/current_state_ns_a4_0\[4\]/A  Moore_0/current_state_ns_a4_0\[4\]/Y  Moore_0/current_state_ns\[4\]/B  Moore_0/current_state_ns\[4\]/Y  Moore_0/current_state\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[2\]/CLK  Moore_0/current_state\[2\]/Q  Moore_0/current_state_ns_i_a4_0\[2\]/C  Moore_0/current_state_ns_i_a4_0\[2\]/Y  Moore_0/current_state_ns_i\[2\]/A  Moore_0/current_state_ns_i\[2\]/Y  Moore_0/current_state\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[1\]/CLK  Moore_0/current_state\[1\]/Q  Moore_0/current_state_ns_i\[1\]/B  Moore_0/current_state_ns_i\[1\]/Y  Moore_0/current_state\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Mealy_0/current\[1\]/CLK  Mealy_0/current\[1\]/Q  Mealy_0/current_ns_i_RNO\[0\]/A  Mealy_0/current_ns_i_RNO\[0\]/Y  Mealy_0/current_ns_i\[0\]/C  Mealy_0/current_ns_i\[0\]/Y  Mealy_0/current\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[4\]/CLK  Moore_0/current_state\[4\]/Q  Moore_0/current_state_ns_a4_2_1\[3\]/B  Moore_0/current_state_ns_a4_2_1\[3\]/Y  Moore_0/current_state_ns\[3\]/A  Moore_0/current_state_ns\[3\]/Y  Moore_0/current_state\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[0\]/CLK  Moore_0/current_state\[0\]/Q  Moore_0/current_state_ns_i_a4\[2\]/B  Moore_0/current_state_ns_i_a4\[2\]/Y  Moore_0/current_state_ns_i\[2\]/B  Moore_0/current_state_ns_i\[2\]/Y  Moore_0/current_state\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[1\]/CLK  Moore_0/current_state\[1\]/Q  Moore_0/current_state_ns_a4\[0\]/B  Moore_0/current_state_ns_a4\[0\]/Y  Moore_0/current_state\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[0\]/CLK  Moore_0/current_state\[0\]/Q  Moore_0/current_state_ns_i_0\[1\]/A  Moore_0/current_state_ns_i_0\[1\]/Y  Moore_0/current_state_ns_i\[1\]/C  Moore_0/current_state_ns_i\[1\]/Y  Moore_0/current_state\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Mealy_0/current\[1\]/CLK  Mealy_0/current\[1\]/Q  Mealy_0/current_ns_i\[1\]/A  Mealy_0/current_ns_i\[1\]/Y  Mealy_0/current\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Mealy_0/current\[0\]/CLK  Mealy_0/current\[0\]/Q  Mealy_0/current_ns_i\[0\]/B  Mealy_0/current_ns_i\[0\]/Y  Mealy_0/current\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT Mealy_0/current\[0\]/CLK  Mealy_0/current\[0\]/Q  Mealy_0/current_ns_i_o3\[0\]/B  Mealy_0/current_ns_i_o3\[0\]/Y  Mealy_0/current_ns_i_o3_RNI2CRU\[0\]/C  Mealy_0/current_ns_i_o3_RNI2CRU\[0\]/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Moore_0/current_state\[4\]/CLK  Moore_0/current_state\[4\]/Q  Dout_pad/D  Dout_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT Mealy_0/current\[1\]/CLK  Mealy_0/current\[1\]/Q  Mealy_0/current_ns_i_o3_RNI2CRU\[0\]/A  Mealy_0/current_ns_i_o3_RNI2CRU\[0\]/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

@@ -1,0 +1,26 @@
+
+fsm_encoding {5112112} sequential
+
+fsm_state_encoding {5112112} S0 {00}
+
+fsm_state_encoding {5112112} S1 {01}
+
+fsm_state_encoding {5112112} S2 {10}
+
+fsm_state_encoding {5112112} S3 {11}
+
+fsm_registers {5112112} {current_state[1]}  {current_state[0]} 
+
+fsm_encoding {6112111} onehot
+
+fsm_state_encoding {6112111} S0 {00001}
+
+fsm_state_encoding {6112111} S1 {00010}
+
+fsm_state_encoding {6112111} S2 {00100}
+
+fsm_state_encoding {6112111} S3 {01000}
+
+fsm_state_encoding {6112111} S4 {10000}
+
+fsm_registers {6112111} {current_state[4]}  {current_state[3]}  {current_state[2]}  {current_state[1]}  {current_state[0]} 

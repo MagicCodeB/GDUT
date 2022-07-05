@@ -1,0 +1,12 @@
+PROGRAM TEST3;
+VAR A,B,C,D;
+BEGIN
+	A:=10;
+	B:=2;
+	C:=9;
+	D:=3;
+	A*=B;
+	C/=D;
+	WRITE(A);
+	WRITE(C);
+END.

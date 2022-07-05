@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Fri Dec 25 23:13:33 2020
+Project   :  G:\EDA\W_zh4
+Component :  Jfq
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    G:/EDA/W_zh4/component/work/Jfq/Jfq.v
+

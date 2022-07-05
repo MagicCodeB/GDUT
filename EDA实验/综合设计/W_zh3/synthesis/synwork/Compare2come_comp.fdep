@@ -1,0 +1,25 @@
+#OPTIONS:"|-layerid|0|-orig_srs|G:\\EDA\\W_zh3\\synthesis\\synwork\\Compare2come_comp.srs|-top|Compare2come|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|G:\\EDA\\W_zh3\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509315136
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v":1508984288
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1508986328
+#CUR:"G:\\EDA\\W_zh3\\hdl\\comparator.v":1608883732
+#CUR:"G:\\EDA\\W_zh3\\smartgen\\newCore\\newCore.v":1608884162
+#CUR:"G:\\EDA\\W_zh3\\component\\work\\Compare2come\\Compare2come.v":1608885082
+0			"G:\EDA\W_zh3\hdl\comparator.v" verilog
+1			"G:\EDA\W_zh3\smartgen\newCore\newCore.v" verilog
+2			"G:\EDA\W_zh3\component\work\Compare2come\Compare2come.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1 0
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 -1
+#Design Unit to File Association
+module work Compare2come 2
+module work newCore 1
+module work Comparator 0

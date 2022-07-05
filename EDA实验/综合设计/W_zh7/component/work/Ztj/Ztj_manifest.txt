@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Sat Dec 26 16:20:02 2020
+Project   :  G:\EDA\W_zh7
+Component :  Ztj
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    G:/EDA/W_zh7/component/work/Ztj/Ztj.v
+

@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/EDA/W_zh5/simulation
+vtest_zh5
+!s110 1608960221
+!i10b 1
+!s100 P_[O[;R9B9niFN6Pe=D<P3
+I_>jX^Im42;BjSQ@26^0W]2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1608960210
+8G:/EDA/W_zh5/stimulus/test_zh5.v
+FG:/EDA/W_zh5/stimulus/test_zh5.v
+L0 3
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1608960221.000000
+!s107 G:/EDA/W_zh5/stimulus/test_zh5.v|
+!s90 -reportprogress|300|+incdir+G:/EDA/W_zh5/stimulus|-vlog01compat|-work|presynth|G:/EDA/W_zh5/stimulus/test_zh5.v|
+!s101 -O0
+!i113 1
+Z3 o-vlog01compat -work presynth -O0
+!s92 +incdir+G:/EDA/W_zh5/stimulus -vlog01compat -work presynth -O0
+Z4 tCvgOpt 0
+vW_zh5
+Z5 !s110 1608960220
+!i10b 1
+!s100 5WPoef@iaj3oJ?h70C^9@3
+InE8W9;CUmcPX4>b<nESXH0
+R1
+R0
+w1608959451
+8G:/EDA/W_zh5/hdl/W_zh4.v
+FG:/EDA/W_zh5/hdl/W_zh4.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z6 !s108 1608960220.000000
+!s107 G:/EDA/W_zh5/hdl/W_zh4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|G:/EDA/W_zh5/hdl/W_zh4.v|
+!s101 -O0
+!i113 1
+R3
+R4
+n@w_zh5
+vZhq
+R5
+!i10b 1
+!s100 zCZ10YXklBXYi]1K<flOa2
+IgS@kLXU43U1Tz_CbS3mhE3
+R1
+R0
+w1608959481
+8G:/EDA/W_zh5/component/work/Zhq/Zhq.v
+FG:/EDA/W_zh5/component/work/Zhq/Zhq.v
+L0 9
+R2
+r1
+!s85 0
+31
+R6
+!s107 G:/EDA/W_zh5/component/work/Zhq/Zhq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|G:/EDA/W_zh5/component/work/Zhq/Zhq.v|
+!s101 -O0
+!i113 1
+R3
+R4
+n@zhq

@@ -1,0 +1,88 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 22:03:23 on Dec 22,2020
+# vlog -reportprogress 300 -vlog01compat -work presynth G:/EDA/W_74HC112/hdl/W_74HC112.v 
+# -- Compiling module W_74HC112
+# 
+# Top level modules:
+# 	W_74HC112
+# End time: 22:03:23 on Dec 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 22:03:23 on Dec 22,2020
+# vlog -reportprogress 300 "+incdir+G:/EDA/W_74HC112/stimulus" -vlog01compat -work presynth G:/EDA/W_74HC112/stimulus/test_74HC112.v 
+# -- Compiling module test_74HC112
+# 
+# Top level modules:
+# 	test_74HC112
+# End time: 22:03:23 on Dec 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.test_74HC112 
+# Start time: 22:03:23 on Dec 22,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading presynth.test_74HC112
+# Loading presynth.W_74HC112
+# time=                   0,clk=0,j=0,k=0,q=1,qn=0
+# time=               33000,clk=1,j=0,k=0,q=1,qn=0
+# time=               66000,clk=0,j=0,k=0,q=1,qn=0
+# time=               99000,clk=1,j=0,k=0,q=1,qn=0
+# time=              100000,clk=1,j=0,k=0,q=0,qn=1
+# time=              132000,clk=0,j=0,k=0,q=0,qn=1
+# time=              165000,clk=1,j=0,k=0,q=0,qn=1
+# time=              198000,clk=0,j=0,k=0,q=0,qn=1
+# time=              200000,clk=0,j=0,k=0,q=1,qn=0
+# time=              231000,clk=1,j=0,k=0,q=1,qn=0
+# time=              264000,clk=0,j=0,k=0,q=1,qn=0
+# time=              297000,clk=1,j=0,k=0,q=1,qn=0
+# time=              300000,clk=1,j=0,k=0,q=0,qn=1
+# time=              330000,clk=0,j=0,k=0,q=0,qn=1
+# time=              363000,clk=1,j=0,k=0,q=0,qn=1
+# time=              396000,clk=0,j=0,k=0,q=0,qn=1
+# time=              400000,clk=0,j=0,k=0,q=1,qn=0
+# time=              429000,clk=1,j=0,k=0,q=1,qn=0
+# time=              462000,clk=0,j=0,k=0,q=1,qn=0
+# time=              495000,clk=1,j=0,k=0,q=1,qn=0
+# time=              528000,clk=0,j=0,k=0,q=1,qn=0
+# time=              561000,clk=1,j=0,k=0,q=1,qn=0
+# time=              594000,clk=0,j=0,k=0,q=1,qn=0
+# time=              600000,clk=0,j=0,k=0,q=0,qn=1
+# time=              627000,clk=1,j=0,k=0,q=0,qn=1
+# time=              660000,clk=0,j=0,k=0,q=0,qn=1
+# time=              693000,clk=1,j=0,k=0,q=0,qn=1
+# time=              700000,clk=1,j=0,k=0,q=1,qn=0
+# time=              726000,clk=0,j=0,k=0,q=1,qn=0
+# time=              759000,clk=1,j=0,k=0,q=1,qn=0
+# time=              792000,clk=0,j=0,k=0,q=1,qn=0
+# time=              825000,clk=1,j=0,k=0,q=1,qn=0
+# time=              858000,clk=0,j=0,k=0,q=1,qn=0
+# time=              891000,clk=1,j=0,k=0,q=1,qn=0
+# time=              924000,clk=0,j=0,k=0,q=1,qn=0
+# time=              957000,clk=1,j=0,k=0,q=1,qn=0
+# time=              990000,clk=0,j=0,k=0,q=1,qn=0
+# ** Note: $finish    : G:/EDA/W_74HC112/stimulus/test_74HC112.v(20)
+#    Time: 1 us  Iteration: 0  Instance: /test_74HC112
+# 1
+# Break in Module test_74HC112 at G:/EDA/W_74HC112/stimulus/test_74HC112.v line 20
+add wave -position insertpoint sim:/test_74HC112/u1/*
+# End time: 22:07:31 on Dec 22,2020, Elapsed time: 0:04:08
+# Errors: 0, Warnings: 0

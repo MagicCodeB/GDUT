@@ -1,0 +1,96 @@
+drop table if exists client;
+create table client
+(
+c_id varchar(100) primary key,
+cname varchar(100) not null,
+c_mail char(30) unique,
+c_id_card char(20) not null unique,
+c_phone char(20) not null unique,
+c_password char(20) not null,
+);
+drop table if exists bank_card;
+create table bank_card
+(
+b_number char(30) primary key,
+b_type char(20),
+b_c_id varchar(100) not null 
+);
+drop table if exists finances_product;
+create table finances_product
+(
+p_name varchar(100) not null,
+p_id varchar(100) primary key,
+p_description varchar(4000),
+p_amount integer,
+p_year integer
+);
+drop table if exists insurance;
+create table insurance
+(
+i_name varchar(100) not null,
+i_id varchar(100) primary key,
+i_amount integer,
+i_person char(20),
+i_year integer,
+i_project varchar(200)
+);
+drop table if exists fund;
+create table fund
+(
+f_name varchar(100) not null,
+f_id varchar(100) primary key,
+f_type char(20),
+f_amount integer,
+risk_level char(20) not null,
+f_manager integer not null
+);
+drop table if exists property;
+create table property
+(
+pro_id varchar(100) primary key,
+pro_c_id varchar(100) not null,
+pro_pif_id varchar(100) not null,
+pro_type integer not null,
+pro_status char(20),
+pro_quantity integer,
+pro_income integer,
+pro_purchase_time date
+);
+
+select * from bank_card;
+
+select * from property where pro_status='可用';
+
+select conut(distinct c_name) from client;
+
+select b_type,count(*) from bank_card group by b_type;
+
+select avg(i_amount) from insurance;
+
+select i_name,i_amount from insurance where i_amount=(select max(i_amount) from insurance) or i_amount=(select min(i_amount) from insurance);
+
+select b_c_id,c_name,c_id_card from bank_card,client where b_c_id=c_id;
+
+select b_c_id,c_name,c_id_card from bank_card,client where b_number not in (select b_number from bank_card where b_number like'622202130202000001_');
+
+select c_id, c_name, c_id_card from client 
+where c_id not in 
+(select b_c_id from bank_card where b_number like '622202130202000001%');
+
+select i_name, i_person from insurance 
+where i_amount > (select avg(i_amount) from insurance);
+
+select i_name, i_amount, i_person from insurance 
+where i_id > 2 order by (i_amount) desc;
+
+select p_year, count(*) from finances_product group by (p_year);
+
+select count(distinct(i_person)) as 适用人群数, count(i_amount) as total 
+from insurance group by (i_amount) having (total = 2);
+
+with temp as (select f_name, ln(f_amount) from fund order by f_manager desc) 
+select * from temp;
+
+create view client_in_bank as select c_id, c_name, c_id_card from client where c_id in (select b_c_id from bank_card);
+
+

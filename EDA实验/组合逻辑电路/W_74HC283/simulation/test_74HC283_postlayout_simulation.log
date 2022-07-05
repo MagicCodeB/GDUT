@@ -1,0 +1,202 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 23:42:28 on Dec 17,2020
+# vlog -reportprogress 300 -vlog01compat -work postlayout C:/EDA/W_74HC283/designer/impl1/W_74HC283_ba.v 
+# -- Compiling module W_74HC283
+# 
+# Top level modules:
+# 	W_74HC283
+# End time: 23:42:29 on Dec 17,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 23:42:29 on Dec 17,2020
+# vlog -reportprogress 300 "+incdir+C:/EDA/W_74HC283/stimulus" -vlog01compat -work postlayout C:/EDA/W_74HC283/stimulus/test_74HC283.v 
+# ** Warning: C:/EDA/W_74HC283/stimulus/test_74HC283.v(2): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module test_74HC283
+# 
+# Top level modules:
+# 	test_74HC283
+# End time: 23:42:29 on Dec 17,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -L proasic3 -L postlayout -t 1ps -sdfmax /u1=C:/EDA/W_74HC283/designer/impl1/W_74HC283_ba.sdf postlayout.test_74HC283 
+# Start time: 23:42:29 on Dec 17,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.test_74HC283
+# Loading postlayout.W_74HC283
+# Loading proasic3.XOR3
+# Loading proasic3.MAJ3
+# Loading proasic3.IOTRI_OB_EB
+# Loading proasic3.IOPAD_TRI
+# Loading proasic3.IOPAD_IN
+# Loading proasic3.IOIN_IB
+# Loading proasic3.GND
+# Loading proasic3.VCC
+# SDF 10.5c Compiler 2016.07 Jul 21 2016
+# 
+# Loading instances from C:/EDA/W_74HC283/designer/impl1/W_74HC283_ba.sdf
+# Loading proasic3.UDP_MUX2
+# Loading timing data from C:/EDA/W_74HC283/designer/impl1/W_74HC283_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /test_74HC283 File: C:/EDA/W_74HC283/stimulus/test_74HC283.v
+# time=                   0,a=0100,b=0000,in=0,sum=x,out=xxxx
+# time=                5000,a=0100,b=0001,in=0,sum=x,out=xxxx
+# time=                6000,a=0100,b=0001,in=0,sum=0,out=xxxx
+# time=                8000,a=0100,b=0001,in=0,sum=0,out=xxx0
+# time=                8000,a=0100,b=0001,in=0,sum=0,out=x1x0
+# time=                8000,a=0100,b=0001,in=0,sum=0,out=x100
+# time=               10000,a=0100,b=0010,in=0,sum=0,out=x100
+# time=               10000,a=0100,b=0010,in=0,sum=0,out=0100
+# time=               12000,a=0100,b=0010,in=0,sum=0,out=0101
+# time=               15000,a=0100,b=0011,in=0,sum=0,out=0101
+# time=               16000,a=0100,b=0011,in=0,sum=0,out=0111
+# time=               18000,a=0100,b=0011,in=0,sum=0,out=0110
+# time=               20000,a=0100,b=0100,in=0,sum=0,out=0110
+# time=               22000,a=0100,b=0100,in=0,sum=0,out=0111
+# time=               25000,a=0100,b=0101,in=0,sum=0,out=0111
+# time=               25000,a=0100,b=0101,in=0,sum=0,out=0011
+# time=               26000,a=0100,b=0101,in=0,sum=0,out=0001
+# time=               27000,a=0100,b=0101,in=0,sum=0,out=1001
+# time=               28000,a=0100,b=0101,in=0,sum=0,out=1000
+# time=               30000,a=0100,b=0110,in=0,sum=0,out=1000
+# time=               32000,a=0100,b=0110,in=0,sum=0,out=1001
+# time=               35000,a=0100,b=0111,in=0,sum=0,out=1001
+# time=               36000,a=0100,b=0111,in=0,sum=0,out=1011
+# time=               38000,a=0100,b=0111,in=0,sum=0,out=1010
+# time=               40000,a=0100,b=1000,in=0,sum=0,out=1010
+# time=               42000,a=0100,b=1000,in=0,sum=0,out=1011
+# time=               45000,a=0100,b=1000,in=0,sum=0,out=1111
+# time=               45000,a=0100,b=1001,in=0,sum=0,out=1111
+# time=               46000,a=0100,b=1001,in=0,sum=0,out=1101
+# time=               48000,a=0100,b=1001,in=0,sum=0,out=1100
+# time=               50000,a=0100,b=1010,in=0,sum=0,out=1100
+# time=               52000,a=0100,b=1010,in=0,sum=0,out=1101
+# time=               55000,a=0100,b=1011,in=0,sum=0,out=1101
+# time=               56000,a=0100,b=1011,in=0,sum=0,out=1111
+# time=               58000,a=0100,b=1011,in=0,sum=0,out=1110
+# time=               60000,a=0100,b=1100,in=0,sum=0,out=1110
+# time=               62000,a=0100,b=1100,in=0,sum=0,out=1111
+# time=               65000,a=0100,b=1101,in=0,sum=0,out=1111
+# time=               65000,a=0100,b=1101,in=0,sum=0,out=1011
+# time=               66000,a=0100,b=1101,in=0,sum=1,out=1001
+# time=               67000,a=0100,b=1101,in=0,sum=1,out=0001
+# time=               68000,a=0100,b=1101,in=0,sum=1,out=0000
+# time=               70000,a=0100,b=1110,in=0,sum=1,out=0000
+# time=               72000,a=0100,b=1110,in=0,sum=1,out=0001
+# time=               75000,a=0100,b=1111,in=0,sum=1,out=0001
+# time=               76000,a=0100,b=1111,in=0,sum=1,out=0011
+# time=               78000,a=0100,b=1111,in=0,sum=1,out=0010
+# time=               80000,a=0100,b=0000,in=1,sum=1,out=0010
+# time=               82000,a=0100,b=0000,in=1,sum=1,out=0011
+# time=               85000,a=0100,b=0000,in=1,sum=1,out=0111
+# time=               85000,a=0100,b=0001,in=1,sum=1,out=0111
+# time=               86000,a=0100,b=0001,in=1,sum=0,out=0111
+# time=               86000,a=0100,b=0001,in=1,sum=0,out=0101
+# time=               90000,a=0100,b=0010,in=1,sum=0,out=0101
+# time=               93000,a=0100,b=0010,in=1,sum=0,out=0111
+# time=               93000,a=0100,b=0010,in=1,sum=0,out=0110
+# time=               95000,a=0100,b=0011,in=1,sum=0,out=0110
+# ** Error: src/proasic3.v(27148): $width( negedge D:93954 ps, :95188 ps, 2 ns );
+#    Time: 95188 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[1]/U0/U0 
+# time=               97000,a=0100,b=0011,in=1,sum=0,out=0100
+# time=               97000,a=0100,b=0011,in=1,sum=0,out=0101
+# time=               97000,a=0100,b=0011,in=1,sum=0,out=0111
+# time=              100000,a=0100,b=0100,in=1,sum=0,out=0111
+# ** Error: src/proasic3.v(27148): $width( negedge D:101468 ps, :102619 ps, 2 ns );
+#    Time: 102619 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[2]/U0/U0 
+# time=              103000,a=0100,b=0100,in=1,sum=0,out=0110
+# time=              103000,a=0100,b=0100,in=1,sum=0,out=0100
+# time=              104000,a=0100,b=0100,in=1,sum=0,out=0000
+# time=              105000,a=0100,b=0100,in=1,sum=0,out=0100
+# time=              105000,a=0100,b=0101,in=1,sum=0,out=0100
+# time=              105000,a=0100,b=0101,in=1,sum=0,out=1100
+# ** Error: src/proasic3.v(27149): $width( posedge D:103838 ps, :105349 ps, 2 ns );
+#    Time: 105349 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[1]/U0/U0 
+# time=              106000,a=0100,b=0101,in=1,sum=0,out=1110
+# time=              107000,a=0100,b=0101,in=1,sum=0,out=1111
+# time=              108000,a=0100,b=0101,in=1,sum=0,out=1101
+# time=              108000,a=0100,b=0101,in=1,sum=0,out=1001
+# time=              110000,a=0100,b=0110,in=1,sum=0,out=1001
+# time=              113000,a=0100,b=0110,in=1,sum=0,out=1011
+# time=              113000,a=0100,b=0110,in=1,sum=0,out=1010
+# time=              115000,a=0100,b=0111,in=1,sum=0,out=1010
+# ** Error: src/proasic3.v(27148): $width( negedge D:113954 ps, :115188 ps, 2 ns );
+#    Time: 115188 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[1]/U0/U0 
+# time=              117000,a=0100,b=0111,in=1,sum=0,out=1000
+# time=              117000,a=0100,b=0111,in=1,sum=0,out=1001
+# time=              117000,a=0100,b=0111,in=1,sum=0,out=1011
+# time=              120000,a=0100,b=1000,in=1,sum=0,out=1011
+# ** Error: src/proasic3.v(27149): $width( posedge D:121271 ps, :122306 ps, 2 ns );
+#    Time: 122306 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[2]/U0/U0 
+# time=              123000,a=0100,b=1000,in=1,sum=0,out=1010
+# time=              123000,a=0100,b=1000,in=1,sum=0,out=1000
+# time=              123000,a=0100,b=1000,in=1,sum=0,out=1100
+# time=              125000,a=0100,b=1000,in=1,sum=0,out=1000
+# time=              125000,a=0100,b=1001,in=1,sum=0,out=1000
+# ** Error: src/proasic3.v(27149): $width( posedge D:123838 ps, :125349 ps, 2 ns );
+#    Time: 125349 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[1]/U0/U0 
+# time=              126000,a=0100,b=1001,in=1,sum=1,out=1000
+# time=              126000,a=0100,b=1001,in=1,sum=1,out=1010
+# time=              127000,a=0100,b=1001,in=1,sum=1,out=0010
+# time=              127000,a=0100,b=1001,in=1,sum=1,out=0011
+# time=              127000,a=0100,b=1001,in=1,sum=1,out=0111
+# time=              128000,a=0100,b=1001,in=1,sum=1,out=0101
+# time=              129000,a=0100,b=1001,in=1,sum=0,out=0101
+# time=              129000,a=0100,b=1001,in=1,sum=0,out=1101
+# time=              130000,a=0100,b=1010,in=1,sum=0,out=1101
+# time=              133000,a=0100,b=1010,in=1,sum=0,out=1111
+# time=              133000,a=0100,b=1010,in=1,sum=0,out=1110
+# time=              135000,a=0100,b=1011,in=1,sum=0,out=1110
+# ** Error: src/proasic3.v(27148): $width( negedge D:133954 ps, :135188 ps, 2 ns );
+#    Time: 135188 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[1]/U0/U0 
+# time=              137000,a=0100,b=1011,in=1,sum=0,out=1100
+# time=              137000,a=0100,b=1011,in=1,sum=0,out=1101
+# time=              137000,a=0100,b=1011,in=1,sum=0,out=1111
+# time=              140000,a=0100,b=1100,in=1,sum=0,out=1111
+# ** Error: src/proasic3.v(27148): $width( negedge D:141468 ps, :142619 ps, 2 ns );
+#    Time: 142619 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[2]/U0/U0 
+# time=              143000,a=0100,b=1100,in=1,sum=0,out=1110
+# time=              143000,a=0100,b=1100,in=1,sum=0,out=1100
+# time=              144000,a=0100,b=1100,in=1,sum=0,out=1000
+# time=              145000,a=0100,b=1100,in=1,sum=1,out=1000
+# time=              145000,a=0100,b=1100,in=1,sum=1,out=1100
+# time=              145000,a=0100,b=1101,in=1,sum=1,out=1100
+# ** Error: src/proasic3.v(27149): $width( posedge D:143838 ps, :145349 ps, 2 ns );
+#    Time: 145349 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[1]/U0/U0 
+# time=              146000,a=0100,b=1101,in=1,sum=1,out=0100
+# time=              146000,a=0100,b=1101,in=1,sum=1,out=0110
+# time=              147000,a=0100,b=1101,in=1,sum=1,out=0111
+# time=              148000,a=0100,b=1101,in=1,sum=1,out=0101
+# time=              148000,a=0100,b=1101,in=1,sum=1,out=0001
+# time=              150000,a=0100,b=1110,in=1,sum=1,out=0001
+# time=              153000,a=0100,b=1110,in=1,sum=1,out=0011
+# time=              153000,a=0100,b=1110,in=1,sum=1,out=0010
+# time=              155000,a=0100,b=1111,in=1,sum=1,out=0010
+# ** Error: src/proasic3.v(27148): $width( negedge D:153954 ps, :155188 ps, 2 ns );
+#    Time: 155188 ps  Iteration: 0  Instance: /test_74HC283/u1/\Sum_pad[1]/U0/U0 
+# time=              157000,a=0100,b=1111,in=1,sum=1,out=0000
+# time=              157000,a=0100,b=1111,in=1,sum=1,out=0001
+# time=              157000,a=0100,b=1111,in=1,sum=1,out=0011
+# time=              163000,a=0100,b=1111,in=1,sum=1,out=0010
+# time=              163000,a=0100,b=1111,in=1,sum=1,out=0000
+# time=              163000,a=0100,b=1111,in=1,sum=1,out=0100
+# End time: 23:43:37 on Dec 17,2020, Elapsed time: 0:01:08
+# Errors: 10, Warnings: 0

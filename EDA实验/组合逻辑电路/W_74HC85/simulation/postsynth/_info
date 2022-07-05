@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/EDA/W_74HC85/simulation
+vtest_74HC85
+Z0 !s110 1608609168
+!i10b 1
+!s100 EWK]n?lQUY9M_Nzzm?n<90
+IFzV_BcnWWHT_Lg]QhO[DK3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dI:/EDA/zuhe/W_74HC85/simulation
+w1608608976
+8I:/EDA/zuhe/W_74HC85/stimulus/test_74HC85.v
+FI:/EDA/zuhe/W_74HC85/stimulus/test_74HC85.v
+L0 3
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1608609168.000000
+!s107 I:/EDA/zuhe/W_74HC85/stimulus/test_74HC85.v|
+!s90 -reportprogress|300|+incdir+I:/EDA/zuhe/W_74HC85/stimulus|-vlog01compat|-work|postsynth|I:/EDA/zuhe/W_74HC85/stimulus/test_74HC85.v|
+!s101 -O0
+!i113 1
+Z4 o-vlog01compat -work postsynth -O0
+!s92 +incdir+I:/EDA/zuhe/W_74HC85/stimulus -vlog01compat -work postsynth -O0
+Z5 tCvgOpt 0
+ntest_74@h@c85
+vW_74HC85
+R0
+!i10b 1
+!s100 ]Ae2>@PLmGC1WQMjko4Z;0
+I@IPA[6>zP[[M2`m=Hljz<1
+R1
+R2
+w1608214538
+8I:/EDA/zuhe/W_74HC85/synthesis/W_74HC85.v
+FI:/EDA/zuhe/W_74HC85/synthesis/W_74HC85.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1608609167.000000
+!s107 I:/EDA/zuhe/W_74HC85/synthesis/W_74HC85.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postsynth|I:/EDA/zuhe/W_74HC85/synthesis/W_74HC85.v|
+!s101 -O0
+!i113 1
+R4
+R5
+n@w_74@h@c85

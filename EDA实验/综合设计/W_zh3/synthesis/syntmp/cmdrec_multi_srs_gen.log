@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  Compare2come  -multisrs  G:\EDA\W_zh3\synthesis\synwork\Compare2come_comp.srs  -osyn  G:\EDA\W_zh3\synthesis\synwork\Compare2come_mult.srs  -log  G:\EDA\W_zh3\synthesis\synlog\Compare2come_multi_srs_gen.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top Compare2come -multisrs ..\synwork\Compare2come_comp.srs -osyn ..\synwork\Compare2come_mult.srs -log ..\synlog\Compare2come_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\Compare2come_comp.srs|io:i|time:1608885402|size:5572|exec:0|csum:FDE79DA20A11013A16CCD637FBCA8D53
+file:..\synwork\Compare2come_mult.srs|io:o|time:1608885403|size:1979|exec:0|csum:
+file:..\synlog\Compare2come_multi_srs_gen.srr|io:o|time:1608885403|size:490|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

@@ -1,0 +1,337 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7202]
+    workingdir = working
+    udp = 10201
+    [[3640]]
+        image = C:\IOS\C3640-JK.BIN
+        idlepc = 0x60557ba8
+        sparsemem = True
+        ghostios = True
+        chassis = 3640
+    [[ROUTER PC3]]
+        model = 3640
+        console = 2109
+        aux = 2509
+        cnfg = configs\PC3.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/2
+        symbol = computer
+        x = -611.0
+        y = 144.0
+        z = 1.0
+        hx = 14.5
+        hy = -23.0
+    [[ROUTER PC4]]
+        model = 3640
+        console = 2110
+        aux = 2510
+        cnfg = configs\PC4.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW3 f0/1
+        symbol = computer
+        x = 536.0
+        y = 30.0
+        z = 1.0
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10001
+    [[3640]]
+        image = C:\IOS\C3640-JK.BIN
+        idlepc = 0x60557ba8
+        sparsemem = True
+        ghostios = True
+        chassis = 3640
+    [[ROUTER R1]]
+        model = 3640
+        console = 2101
+        aux = 2501
+        cnfg = configs\R1.cfg
+        slot0 = NM-4T
+        s0/0 = R2 s0/0
+        s0/1 = R3 s0/1
+        slot1 = NM-1FE-TX
+        f1/0 = SW1 f0/0
+        x = -74.0
+        y = -166.0
+        z = 1.0
+        hx = 1.0
+        hy = -26.0
+    [[ROUTER R2]]
+        model = 3640
+        console = 2102
+        aux = 2502
+        cnfg = configs\R2.cfg
+        slot0 = NM-4T
+        s0/0 = R1 s0/0
+        s0/1 = R3 s0/0
+        slot1 = NM-1FE-TX
+        f1/0 = SW2 f0/0
+        x = -298.0
+        y = 36.0
+        z = 1.0
+    [[ROUTER R3]]
+        model = 3640
+        console = 2103
+        aux = 2503
+        cnfg = configs\R3.cfg
+        slot0 = NM-4T
+        s0/0 = R2 s0/1
+        s0/1 = R1 s0/1
+        slot1 = NM-1FE-TX
+        f1/0 = SW3 f0/0
+        x = 164.0
+        y = 38.0
+        z = 1.0
+    [[ROUTER SW1]]
+        model = 3640
+        console = 2104
+        aux = 2504
+        cnfg = configs\SW1.cfg
+        slot0 = NM-16ESW
+        f0/0 = R1 f1/0
+        f0/1 = Telnet-Server f0/0
+        symbol = ethernet_switch
+        x = -74.0
+        y = -282.0
+        z = 1.0
+        hx = -32.5
+        hy = -3.0
+[127.0.0.1:7201]
+    workingdir = working
+    udp = 10101
+    [[3640]]
+        image = C:\IOS\C3640-JK.BIN
+        idlepc = 0x60557ba8
+        sparsemem = True
+        ghostios = True
+        chassis = 3640
+    [[ROUTER Telnet-Server]]
+        model = 3640
+        console = 2107
+        aux = 2507
+        cnfg = configs\Telnet-Server.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/1
+        symbol = server
+        x = -63.0
+        y = -456.0
+        z = 1.0
+    [[ROUTER PC2]]
+        model = 3640
+        console = 2108
+        aux = 2508
+        cnfg = configs\PC2.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/1
+        symbol = computer
+        x = -605.0
+        y = -85.0
+        z = 1.0
+    [[ROUTER SW3]]
+        model = 3640
+        console = 2106
+        aux = 2506
+        cnfg = configs\SW3.cfg
+        slot0 = NM-16ESW
+        f0/0 = R3 f1/0
+        f0/1 = PC4 f0/0
+        symbol = ethernet_switch
+        x = 336.0
+        y = 43.0
+        z = 1.0
+    [[ROUTER SW2]]
+        model = 3640
+        console = 2105
+        aux = 2505
+        cnfg = configs\SW2.cfg
+        slot0 = NM-16ESW
+        f0/0 = R2 f1/0
+        f0/1 = PC2 f0/0
+        f0/2 = PC3 f0/0
+        symbol = ethernet_switch
+        x = -474.0
+        y = 43.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    workdir = working
+    [[NOTE 1]]
+        text = ".4"
+        x = 500.0
+        y = 30.5
+    [[NOTE 2]]
+        text = ".254"
+        x = 230.0
+        y = 27.5
+    [[NOTE 3]]
+        text = ".3"
+        x = -560.0
+        y = 109.5
+    [[NOTE 4]]
+        text = ".2"
+        x = -561.0
+        y = -22.5
+    [[NOTE 5]]
+        text = ".254"
+        x = -351.0
+        y = 25.5
+    [[NOTE 6]]
+        text = ".3"
+        x = 124.0
+        y = 26.5
+    [[NOTE 7]]
+        text = ".2"
+        x = -230.0
+        y = 18.5
+    [[NOTE 8]]
+        text = ".1"
+        x = -56.0
+        y = -126.5
+    [[NOTE 9]]
+        text = "1.254"
+        x = -100.0
+        y = -213.5
+    [[NOTE 10]]
+        text = "1.1"
+        x = -78.0
+        y = -386.5
+    [[NOTE 11]]
+        text = "RIP"
+        x = -52.0
+        y = -33.5
+    [[NOTE 12]]
+        text = "23.1.1.0/24"
+        x = -100.0
+        y = 47.5
+    [[NOTE 13]]
+        text = "13.1.1.0/24"
+        x = 42.0
+        y = -59.5
+    [[NOTE 14]]
+        text = "12.1.1.0/24"
+        x = -215.0
+        y = -59.5
+    [[NOTE 15]]
+        text = "192.168.3.0/24"
+        x = 301.0
+        y = -21.5
+    [[NOTE 16]]
+        text = "192.168.2.0/24"
+        x = -464.0
+        y = -55.5
+    [[NOTE 17]]
+        text = "192.168.1.0/24"
+        x = 21.0
+        y = -294.5
+    [[Cloud C3]]
+        x = -124.5
+        y = 31.0
+        z = 1.0
+    [[Cloud C2]]
+        x = 15.5
+        y = -79.0
+        z = 1.0
+    [[NOTE 18]]
+        text = "f0/0"
+        x = -43.499822847
+        y = 29.6190470918
+        interface = PC4 f0/0
+    [[NOTE 19]]
+        text = "f0/0"
+        x = 59.3477981646
+        y = 1.82670549071
+        interface = PC3 f0/0
+    [[NOTE 20]]
+        text = "f0/0"
+        x = 67.7818157339
+        y = 25.4344298905
+        interface = PC2 f0/0
+    [[NOTE 21]]
+        text = "f0/0"
+        x = 25.5557376976
+        y = 74.4860652967
+        interface = Telnet-Server f0/0
+    [[NOTE 22]]
+        text = "f0/1"
+        x = 73.499822847
+        y = -14.1190470918
+        interface = SW3 f0/1
+    [[NOTE 23]]
+        text = "f0/0"
+        x = -44.4938815051
+        y = -13.3003985743
+        interface = SW3 f0/0
+    [[NOTE 24]]
+        text = "f0/2"
+        x = -13.7782385317
+        y = 39.1386356074
+        interface = SW2 f0/2
+    [[NOTE 25]]
+        text = "f0/1"
+        x = -15.9254525871
+        y = -45.7475439124
+        interface = SW2 f0/1
+    [[NOTE 26]]
+        text = "f0/0"
+        x = 66.4992698332
+        y = -12.241687431
+        interface = SW2 f0/0
+    [[NOTE 27]]
+        text = "f0/1"
+        x = 34.4442623024
+        y = -23.9860652967
+        interface = SW1 f0/1
+    [[NOTE 28]]
+        text = "f0/0"
+        x = 36.6804999106
+        y = 29.991604364
+        interface = SW1 f0/0
+    [[NOTE 29]]
+        text = "f1/0"
+        x = 72.9938815051
+        y = 21.3003985743
+        interface = R3 f1/0
+    [[NOTE 30]]
+        text = "s0/1"
+        x = -22.3451612041
+        y = -39.8491623418
+        interface = R3 s0/1
+    [[NOTE 31]]
+        text = "s0/0"
+        x = -47.9619208497
+        y = 19.744959027
+        interface = R3 s0/0
+    [[NOTE 32]]
+        text = "f1/0"
+        x = -48.9992698332
+        y = 20.241687431
+        interface = R2 f1/0
+    [[NOTE 33]]
+        text = "s0/1"
+        x = 80.9619208497
+        y = 19.255040973
+        interface = R2 s0/1
+    [[NOTE 34]]
+        text = "s0/0"
+        x = 40.5866174891
+        y = -47.8856448899
+        interface = R2 s0/0
+    [[NOTE 35]]
+        text = "f1/0"
+        x = 41.8195000894
+        y = -27.991604364
+        interface = R1 f1/0
+    [[NOTE 36]]
+        text = "s0/1"
+        x = 65.3451612041
+        y = 26.8491623418
+        interface = R1 s0/1
+    [[NOTE 37]]
+        text = "s0/0"
+        x = -37.5866174891
+        y = 26.8856448899
+        interface = R1 s0/0
+    [[Cloud WAN]]
+        x = -229.5
+        y = -78.0

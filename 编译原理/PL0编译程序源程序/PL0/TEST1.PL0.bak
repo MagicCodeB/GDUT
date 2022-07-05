@@ -1,0 +1,12 @@
+PROGRAM TEST1;
+BEGIN
+  DO;
+  ELSE;
+  UNTIL;
+  RETURN;
+  *=;
+  /=;
+  &;
+  |;
+  !;
+END.

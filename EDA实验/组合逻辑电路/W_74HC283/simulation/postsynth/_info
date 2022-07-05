@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/EDA/W_74HC283/simulation
+vtest_74HC283
+Z1 !s110 1608218845
+!i10b 1
+!s100 `W=UgLEU^COf9mH1GPPe[3
+I@HJO4S5<n0OHP;RV:jgE@3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1608218338
+8C:/EDA/W_74HC283/stimulus/test_74HC283.v
+FC:/EDA/W_74HC283/stimulus/test_74HC283.v
+L0 3
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1608218845.000000
+!s107 C:/EDA/W_74HC283/stimulus/test_74HC283.v|
+!s90 -reportprogress|300|+incdir+C:/EDA/W_74HC283/stimulus|-vlog01compat|-work|postsynth|C:/EDA/W_74HC283/stimulus/test_74HC283.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work postsynth -O0
+!s92 +incdir+C:/EDA/W_74HC283/stimulus -vlog01compat -work postsynth -O0
+Z6 tCvgOpt 0
+ntest_74@h@c283
+vW_74HC283
+R1
+!i10b 1
+!s100 V22iXBg8=0?oPS0i^CTB^2
+IKLFIoJMi9ETRJiB@8c54f2
+R2
+R0
+w1608218836
+8C:/EDA/W_74HC283/synthesis/W_74HC283.v
+FC:/EDA/W_74HC283/synthesis/W_74HC283.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/EDA/W_74HC283/synthesis/W_74HC283.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/EDA/W_74HC283/synthesis/W_74HC283.v|
+!s101 -O0
+!i113 1
+R5
+R6
+n@w_74@h@c283

@@ -1,0 +1,49 @@
+Software Version: 11.9.0.4
+creating folder: C:\EDA\W_74HC48\designer\impl1\W_74HC148_fp
+programmer 'S2001MK5U5' : FlashPro5
+Created new project 'C:\EDA\W_74HC48\designer\impl1\W_74HC148_fp\W_74HC148.pro'
+PDB file 'C:\EDA\W_74HC48\designer\impl1\W_74HC148.pdb' has been loaded successfully.
+DESIGN : W_74HC148;  CHECKSUM : 42DC;  PDB_VERSION : 1.9
+programmer 'S2001MK5U5' : Scan Chain...
+Warning: programmer 'S2001MK5U5' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S2001MK5U5' : Scan Chain PASSED.
+programmer 'S2001MK5U5' : Executing action PROGRAM
+programmer 'S2001MK5U5' : EXPORT FSN[48] = 8178a714ecf8
+programmer 'S2001MK5U5' : Erase ...
+programmer 'S2001MK5U5' : Completed erase
+programmer 'S2001MK5U5' : EXPORT CHECKSUM[16] = 42dc
+programmer 'S2001MK5U5' : Programming FPGA Array
+programmer 'S2001MK5U5' : Verifying FPGA Array
+programmer 'S2001MK5U5' :         Verifying FPGA Array -- pass
+programmer 'S2001MK5U5' : Failed to enable FPGA Array.
+programmer 'S2001MK5U5' : EXPORT ERROR_CODE[16] = 807b
+programmer 'S2001MK5U5' : Finished: Wed Dec 16 14:02:06 2020 (Elapsed time 00:00:51)
+Error: programmer 'S2001MK5U5' : Executing action PROGRAM FAILED, EXIT 10, refer to FlashPro
+       online help for details.
+
+                        o - o - o - o - o - o
+
+PDB file 'C:\EDA\W_74HC48\designer\impl1\W_74HC148.pdb' has been loaded successfully.
+DESIGN : W_74HC148;  CHECKSUM : 42DC;  PDB_VERSION : 1.9
+programmer 'S2001MK5U5' : Scan Chain...
+Warning: programmer 'S2001MK5U5' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S2001MK5U5' : Scan Chain PASSED.
+programmer 'S2001MK5U5' : Executing action PROGRAM
+programmer 'S2001MK5U5' : EXPORT FSN[48] = 8178a714ecf8
+programmer 'S2001MK5U5' : Erase ...
+programmer 'S2001MK5U5' : Completed erase
+programmer 'S2001MK5U5' : EXPORT CHECKSUM[16] = 42dc
+programmer 'S2001MK5U5' : Programming FPGA Array
+programmer 'S2001MK5U5' : Verifying FPGA Array
+programmer 'S2001MK5U5' :         Verifying FPGA Array -- pass
+programmer 'S2001MK5U5' : Finished: Wed Dec 16 14:03:36 2020 (Elapsed time 00:01:03)
+programmer 'S2001MK5U5' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'W_74HC148' has been modified. Do you want to save it? [YES]
+creating folder: C:\EDA\W_74HC48\designer\impl1\W_74HC148_fp\projectData
+Project saved.
+Project closed.

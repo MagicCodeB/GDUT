@@ -1,0 +1,8 @@
+HelpInfo,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\html,fpgahelp.qhc,errormessages.mp,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\mbin\assistant
+Implementation;Synthesis;RootName:Zdshj
+Implementation;Synthesis|| MT530 ||@W:Found inferred clock Zdshj|Clk which controls 9 sequential elements including Mealy_0.current[3:0]. This clock has no specified timing constraint which may adversely impact design performance. ||Zdshj.srr(126);liberoaction://cross_probe/hdl/file/'G:\EDA\W_zh6\synthesis\Zdshj.srr'/linenumber/126||w_zh6mealy.v(10);liberoaction://cross_probe/hdl/file/'g:\eda\w_zh6\hdl\w_zh6mealy.v'/linenumber/10
+Implementation;Synthesis|| MT420 ||@W:Found inferred clock Zdshj|Clk with period 10.00ns. Please declare a user-defined clock on object "p:Clk"||Zdshj.srr(281);liberoaction://cross_probe/hdl/file/'G:\EDA\W_zh6\synthesis\Zdshj.srr'/linenumber/281||null;null
+Implementation;Synthesis|| MT320 ||@N: This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.||Zdshj.srr(297);liberoaction://cross_probe/hdl/file/'G:\EDA\W_zh6\synthesis\Zdshj.srr'/linenumber/297||null;null
+Implementation;Synthesis|| MT322 ||@N: Clock constraints include only register-to-register paths associated with each individual clock.||Zdshj.srr(299);liberoaction://cross_probe/hdl/file/'G:\EDA\W_zh6\synthesis\Zdshj.srr'/linenumber/299||null;null
+Implementation;Compile;RootName:Zdshj
+Implementation;Compile||(null)||Please refer to the log file for details||Zdshj_compile_log.rpt;liberoaction://open_report/file/Zdshj_compile_log.rpt||(null);(null)

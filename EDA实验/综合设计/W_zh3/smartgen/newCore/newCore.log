@@ -1,0 +1,46 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Fri Dec 25 16:16:01 2020
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : newCore
+Family                          : PA3LC
+Output Format                   : VERILOG
+Type                            : Magnitude Comparator
+Ageb                            : Active High
+Agb                             : None
+Aleb                            : None
+Alb                             : None
+Aeb                             : None
+Aneb                            : None
+Width                           : 8
+Representation                  : Signed
+Insert Regs                     : No
+Insert Pads                     : No
+Clock Edge                      : Rise
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:     23  Total:   1536   (1.50%)
+    IO (W/ clocks)             Used:      0  Total:     71   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      4   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to G:/EDA/W_zh3/smartgen\newCore\newCore.v.
+
+ ** Log Ended:   Fri Dec 25 16:16:02 2020
+

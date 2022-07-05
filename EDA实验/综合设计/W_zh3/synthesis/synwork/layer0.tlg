@@ -1,0 +1,29 @@
+Selecting top level module Compare2come
+@N: CG364 :"G:\EDA\W_zh3\hdl\comparator.v":2:7:2:16|Synthesizing module Comparator in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":104:7:104:10|Synthesizing module AO1C in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1416:7:1416:11|Synthesizing module NOR3A in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":110:7:110:10|Synthesizing module AO1D in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":8:7:8:11|Synthesizing module AND2A in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":20:7:20:10|Synthesizing module AND3 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1470:7:1470:10|Synthesizing module OR2A in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1374:7:1374:12|Synthesizing module NAND3A in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1398:7:1398:11|Synthesizing module NOR2A in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1905:7:1905:11|Synthesizing module XNOR2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":86:7:86:9|Synthesizing module AO1 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":122:7:122:10|Synthesizing module AOI1 in library work.
+
+@N: CG364 :"G:\EDA\W_zh3\smartgen\newCore\newCore.v":5:7:5:13|Synthesizing module newCore in library work.
+
+@N: CG364 :"G:\EDA\W_zh3\component\work\Compare2come\Compare2come.v":9:7:9:18|Synthesizing module Compare2come in library work.
+

@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/EDA/W_74HC74/simulation
+vtest_74HC74
+Z1 !s110 1608644390
+!i10b 1
+!s100 `jlbcVaOHb?zIC90_oSRT3
+IM@@=C2Qa;eS:COV`4:3NA1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1608644151
+8G:/EDA/W_74HC74/stimulus/test_74HC74.v
+FG:/EDA/W_74HC74/stimulus/test_74HC74.v
+L0 3
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1608644390.000000
+!s107 G:/EDA/W_74HC74/stimulus/test_74HC74.v|
+!s90 -reportprogress|300|+incdir+G:/EDA/W_74HC74/stimulus|-vlog01compat|-work|postsynth|G:/EDA/W_74HC74/stimulus/test_74HC74.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work postsynth -O0
+!s92 +incdir+G:/EDA/W_74HC74/stimulus -vlog01compat -work postsynth -O0
+Z6 tCvgOpt 0
+ntest_74@h@c74
+vW_74HC74
+R1
+!i10b 1
+!s100 Z=[;9JobIFf:M13z2>hK^1
+IXK0@cUG<;`L57f_bWXD^a2
+R2
+R0
+w1608644382
+8G:/EDA/W_74HC74/synthesis/W_74HC74.v
+FG:/EDA/W_74HC74/synthesis/W_74HC74.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/EDA/W_74HC74/synthesis/W_74HC74.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postsynth|G:/EDA/W_74HC74/synthesis/W_74HC74.v|
+!s101 -O0
+!i113 1
+R5
+R6
+n@w_74@h@c74

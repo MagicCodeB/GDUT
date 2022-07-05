@@ -1,0 +1,19 @@
+*****************************************************************
+Pin Report - Date: Tue Dec 22 22:11:27 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: W_74HC112
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+CLK   97   No     GAA1/IO03RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+J     98   No     GAA0/IO02RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+K     96   No     GAB0/IO04RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+Q     40   No     IO60RSB1       LVTTL    12                 High  None           No    35                No           No
+Qn    41   No     IO59RSB1       LVTTL    12                 High  None           No    35                No           No
+R     34   No     IO63RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+S     36   No     IO61RSB1       LVTTL    ---                ---   None           ---   ---               No           No

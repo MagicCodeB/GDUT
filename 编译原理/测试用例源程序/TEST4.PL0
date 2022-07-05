@@ -1,0 +1,13 @@
+PROGRAM TEST4;
+VAR A,B;
+BEGIN
+B:=0;
+FOR A:=0 STEP 1 UNTIL 9
+     DO 
+	BEGIN
+	B:=B+1;
+	END;
+;
+WRITE(A);
+WRITE(B);
+END.

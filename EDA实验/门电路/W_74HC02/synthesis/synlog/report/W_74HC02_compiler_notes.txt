@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"G:\EDA\W_74HC02\hdl\W_74HC02.v":2:7:2:14|Synthesizing module W_74HC02 in library work.
+@N|Running in 64-bit mode
+

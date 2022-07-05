@@ -1,0 +1,26 @@
+*****************************************************************
+Pin Report - Date: Tue Dec 22 23:26:58 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: W_74HC194
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port   |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+CLK     61   No     GCB2/IO42RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+D[0]    43   Yes    IO57RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+D[1]    40   No     IO60RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+IN[0]   41   No     IO59RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+IN[1]   92   No     IO08RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+IN[2]   36   No     IO61RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+IN[3]   94   No     GAC0/IO06RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+MR_N    91   No     IO09RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+OUT[0]  59   Yes    GDC1/IO45RSB0  LVTTL    12                 High  None           No    35                No           No
+OUT[1]  29   Yes    IO68RSB1       LVTTL    12                 High  None           No    35                No           No
+OUT[2]  90   No     IO10RSB0       LVTTL    12                 High  None           No    35                No           No
+OUT[3]  95   No     GAB1/IO05RSB0  LVTTL    12                 High  None           No    35                No           No
+S[0]    35   No     IO62RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+S[1]    93   No     GAC1/IO07RSB0  LVTTL    ---                ---   None           ---   ---               No           No

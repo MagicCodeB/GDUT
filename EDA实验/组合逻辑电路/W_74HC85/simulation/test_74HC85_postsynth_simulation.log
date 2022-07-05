@@ -1,0 +1,66 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:52:47 on Dec 22,2020
+# vlog -reportprogress 300 -vlog01compat -work postsynth I:/EDA/zuhe/W_74HC85/synthesis/W_74HC85.v 
+# -- Compiling module W_74HC85
+# 
+# Top level modules:
+# 	W_74HC85
+# End time: 11:52:48 on Dec 22,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:52:48 on Dec 22,2020
+# vlog -reportprogress 300 "+incdir+I:/EDA/zuhe/W_74HC85/stimulus" -vlog01compat -work postsynth I:/EDA/zuhe/W_74HC85/stimulus/test_74HC85.v 
+# -- Compiling module test_74HC85
+# 
+# Top level modules:
+# 	test_74HC85
+# End time: 11:52:48 on Dec 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L postsynth -t 1ps postsynth.test_74HC85 
+# Start time: 11:52:48 on Dec 22,2020
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postsynth.test_74HC85
+# Loading postsynth.W_74HC85
+# Loading proasic3.XOR2
+# Loading proasic3.NOR2A
+# Loading proasic3.INBUF
+# Loading proasic3.OR2A
+# Loading proasic3.VCC
+# Loading proasic3.AND2A
+# Loading proasic3.OUTBUF
+# Loading proasic3.AOI1A
+# Loading proasic3.XO1
+# Loading proasic3.NOR3
+# Loading proasic3.GND
+# Loading proasic3.UDP_MUX2
+# time=                   0,A=0000,B=0000,q=xxx
+# time=                1000,A=0000,B=0000,q=010
+# time=                5000,A=0010,B=1000,q=010
+# time=                5000,A=0010,B=1000,q=000
+# time=                6000,A=0010,B=1000,q=001
+# time=               10000,A=0100,B=0100,q=001
+# time=               10000,A=0100,B=0100,q=011
+# time=               11000,A=0100,B=0100,q=010
+# End time: 11:53:26 on Dec 22,2020, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0

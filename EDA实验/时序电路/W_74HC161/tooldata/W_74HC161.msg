@@ -1,0 +1,8 @@
+HelpInfo,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\html,fpgahelp.qhc,errormessages.mp,C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\mbin\assistant
+Implementation;Synthesis;RootName:W_74HC161
+Implementation;Synthesis|| MT530 ||@W:Found inferred clock W_74HC161|CP which controls 4 sequential elements including Q[3:0]. This clock has no specified timing constraint which may adversely impact design performance. ||W_74HC161.srr(105);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC161\synthesis\W_74HC161.srr'/linenumber/105||w_74hc161.v(8);liberoaction://cross_probe/hdl/file/'g:\eda\w_74hc161\hdl\w_74hc161.v'/linenumber/8
+Implementation;Synthesis|| MT420 ||@W:Found inferred clock W_74HC161|CP with period 10.00ns. Please declare a user-defined clock on object "p:CP"||W_74HC161.srr(233);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC161\synthesis\W_74HC161.srr'/linenumber/233||null;null
+Implementation;Synthesis|| MT320 ||@N: This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.||W_74HC161.srr(249);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC161\synthesis\W_74HC161.srr'/linenumber/249||null;null
+Implementation;Synthesis|| MT322 ||@N: Clock constraints include only register-to-register paths associated with each individual clock.||W_74HC161.srr(251);liberoaction://cross_probe/hdl/file/'G:\EDA\W_74HC161\synthesis\W_74HC161.srr'/linenumber/251||null;null
+Implementation;Compile;RootName:W_74HC161
+Implementation;Compile||(null)||Please refer to the log file for details about 1 Warning(s)||W_74HC161_compile_log.rpt;liberoaction://open_report/file/W_74HC161_compile_log.rpt||(null);(null)

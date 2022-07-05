@@ -1,0 +1,41 @@
+Target Part: A3P060_VQFP100_-1
+Report for cell Ymtz.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AOI1     1      1.0        1.0
+             AXOI7     1      1.0        1.0
+               GND     3      0.0        0.0
+              MX2A     1      1.0        1.0
+              NOR2     1      1.0        1.0
+             NOR2A     4      1.0        4.0
+              NOR3     3      1.0        3.0
+             NOR3B     3      1.0        3.0
+             NOR3C     3      1.0        3.0
+              OA1B     1      1.0        1.0
+              OA1C     2      1.0        2.0
+               OR2     1      1.0        1.0
+               OR3     2      1.0        2.0
+              OR3A     3      1.0        3.0
+              OR3B     1      1.0        1.0
+               VCC     3      0.0        0.0
+              XA1B     1      1.0        1.0
+
+
+                   -----          ----------
+             TOTAL    34                28.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     7
+            OUTBUF    12
+                   -----
+             TOTAL    19
+
+
+Core Cells         : 28 of 1536 (2%)
+IO Cells           : 19
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 4 (0%)
+

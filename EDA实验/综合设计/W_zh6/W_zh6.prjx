@@ -1,0 +1,322 @@
+KEY LIBERO "11.9"
+KEY CAPTURE "11.9.0.4"
+KEY DEFAULT_IMPORT_LOC "E:\Actelprj\74HC83\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS2X2M1"
+KEY VendorTechnology_Package "vq100"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_IO_DEFT_STD "LVTTL"
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS2X2M1"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "G:\EDA\W_zh6"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "Zdshj::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\work\Zdshj\Zdshj.cxf,actgen_cxf"
+STATE="utd"
+TIME="1608962681"
+SIZE="2248"
+ENDFILE
+VALUE "<project>\component\work\Zdshj\Zdshj.v,hdl"
+STATE="utd"
+TIME="1608962680"
+SIZE="1998"
+PARENT="<project>\component\work\Zdshj\Zdshj.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\designer\impl1\Zdshj.adb,adb"
+STATE="utd"
+TIME="1608963035"
+SIZE="35328"
+ENDFILE
+VALUE "<project>\designer\impl1\Zdshj.ide_des,ide_des"
+STATE="utd"
+TIME="1608961915"
+SIZE="169"
+ENDFILE
+VALUE "<project>\designer\impl1\Zdshj.pdb,pdb"
+STATE="utd"
+TIME="1608963074"
+SIZE="15825"
+ENDFILE
+VALUE "<project>\designer\impl1\Zdshj_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1608963068"
+SIZE="19815"
+ENDFILE
+VALUE "<project>\designer\impl1\Zdshj_ba.v,ba_hdl"
+STATE="utd"
+TIME="1608963068"
+SIZE="7731"
+ENDFILE
+VALUE "<project>\designer\impl1\Zdshj_compile_log.rpt,log"
+STATE="utd"
+TIME="1608963035"
+SIZE="7803"
+ENDFILE
+VALUE "<project>\hdl\W_zh5Moore.v,hdl"
+STATE="utd"
+TIME="1608962054"
+SIZE="1516"
+ENDFILE
+VALUE "<project>\hdl\W_zh6Mealy.v,hdl"
+STATE="utd"
+TIME="1608962580"
+SIZE="1106"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1608962870"
+SIZE="776"
+ENDFILE
+VALUE "<project>\simulation\test_zh6_presynth_simulation.log,log"
+STATE="utd"
+TIME="1608962872"
+SIZE="68"
+ENDFILE
+VALUE "<project>\stimulus\test_zh6.v,tb_hdl"
+STATE="utd"
+TIME="1608962849"
+SIZE="868"
+ENDFILE
+VALUE "<project>\synthesis\Zdshj.edn,syn_edn"
+STATE="utd"
+TIME="1608962991"
+SIZE="29523"
+ENDFILE
+VALUE "<project>\synthesis\Zdshj.so,so"
+STATE="utd"
+TIME="1608962991"
+SIZE="192"
+ENDFILE
+VALUE "<project>\synthesis\Zdshj_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1608962991"
+SIZE="394"
+ENDFILE
+VALUE "<project>\synthesis\Zdshj_syn.prj,prj"
+STATE="utd"
+TIME="1608962991"
+SIZE="1766"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "Zdshj::work"
+FILE "<project>\component\work\Zdshj\Zdshj.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\test_zh6.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Zdshj.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Zdshj.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\Zdshj_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\Zdshj_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST Zdshj
+VALUE "<project>\stimulus\test_zh6.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=test_zh6
+TopInstanceName=u1
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
+PARAM=" -l test_zh6_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "Zdshj::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSTIMULUS=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Zdshj.adb,adb)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Zdshj.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Compile:Zdshj_compile_log.rpt
+StartPage;StartPage;0
+SmartDesign;Zdshj;0
+HDL;hdl\W_zh5Moore.v;0
+HDL;hdl\W_zh6Mealy.v;0
+HDL;stimulus\test_zh6.v;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "Mealy::work","hdl\W_zh6Mealy.v","FALSE","FALSE"
+ENDLIST
+LIST "Moore::work","hdl\W_zh5Moore.v","FALSE","FALSE"
+ENDLIST
+LIST "Zdshj::work","component\work\Zdshj\Zdshj.v","TRUE","FALSE"
+SUBBLOCK "Mealy::work","hdl\W_zh6Mealy.v","FALSE","FALSE"
+SUBBLOCK "Moore::work","hdl\W_zh5Moore.v","FALSE","FALSE"
+ENDLIST
+LIST "test_zh6::work","stimulus\test_zh6.v","FALSE","TRUE"
+SUBBLOCK "Zdshj::work","component\work\Zdshj\Zdshj.v","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

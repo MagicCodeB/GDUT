@@ -1,0 +1,10 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  G:\EDA\W_zh5\synthesis\synwork\Zhq_comp.srs  -top  Zhq  -hdllog  G:\EDA\W_zh5\synthesis\synlog\Zhq_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I G:\EDA\W_zh5\synthesis\  -I C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -encrypt  -pro  -dmgen  G:\EDA\W_zh5\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work G:\EDA\W_zh5\hdl\W_zh4.v -lib work G:\EDA\W_zh5\component\work\Zhq\Zhq.v 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\Zhq_comp.srs -top Zhq -hdllog ..\synlog\Zhq_compiler.srr -encrypt -mp 1 -verification_mode 0 -verilog -prodtype synplify_pro -nram -fixsmult -divnmod -I ..\ -I C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib -v2001 -devicelib C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing on -ll 2000 -autosm -lib work ..\..\hdl\W_zh4.v -lib work ..\..\component\work\Zhq\Zhq.v
+rc:0 success:1 runtime:0
+file:..\synwork\Zhq_comp.srs|io:o|time:1608960328|size:2633|exec:0|csum:
+file:..\synlog\Zhq_compiler.srr|io:o|time:1608960397|size:2971|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\..\hdl\W_zh4.v|io:i|time:1608959451|size:327|exec:0|csum:C52282FEFFD9E8EB9A1367F1660D74AB
+file:..\..\component\work\Zhq\Zhq.v|io:i|time:1608959481|size:1818|exec:0|csum:C60DC64FB40C23FDBF4327F51E966B1D
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

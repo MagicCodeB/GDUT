@@ -1,0 +1,1 @@
+@W: MT530 :"g:\eda\w_74hc112\hdl\w_74hc112.v":7:0:7:5|Found inferred clock W_74HC112|CLK which controls 1 sequential elements including temp1. This clock has no specified timing constraint which may adversely impact design performance. 

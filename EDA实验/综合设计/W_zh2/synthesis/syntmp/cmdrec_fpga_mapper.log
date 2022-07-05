@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\EDA\W_zh2\synthesis   -part A3P060  -package VQFP100  -grade -1    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\EDA\W_zh2\synthesis\synlog\report\Ymtz_fpga_mapper.xml  -top_level_module  Ymtz  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  C:\EDA\W_zh2\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\EDA\W_zh2\synthesis\Ymtz.edn   -freq 100.000   C:\EDA\W_zh2\synthesis\synwork\Ymtz_prem.srd  -sap  C:\EDA\W_zh2\synthesis\Ymtz.sap  -otap  C:\EDA\W_zh2\synthesis\Ymtz.tap  -omap  C:\EDA\W_zh2\synthesis\Ymtz.map  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  C:\EDA\W_zh2\synthesis\Ymtz.sap  -ologparam  C:\EDA\W_zh2\synthesis\syntmp\Ymtz.plg  -osyn  C:\EDA\W_zh2\synthesis\Ymtz.srm  -prjdir  C:\EDA\W_zh2\synthesis\  -prjname  Ymtz_syn  -log  C:\EDA\W_zh2\synthesis\synlog\Ymtz_fpga_mapper.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade -1 -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\Ymtz_fpga_mapper.xml -top_level_module Ymtz -licensetype synplifypro_actel -flow mapping -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\Ymtz.edn -freq 100.000 ..\synwork\Ymtz_prem.srd -sap ..\Ymtz.sap -otap ..\Ymtz.tap -omap ..\Ymtz.map -devicelib ..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\Ymtz.sap -ologparam Ymtz.plg -osyn ..\Ymtz.srm -prjdir ..\ -prjname Ymtz_syn -log ..\synlog\Ymtz_fpga_mapper.srr
+rc:0 success:1 runtime:0
+file:..\scratchproject.prs|io:o|time:1608827032|size:1751|exec:0|csum:
+file:..\Ymtz.edn|io:o|time:1608827046|size:30052|exec:0|csum:
+file:..\synwork\Ymtz_prem.srd|io:i|time:1608827046|size:4520|exec:0|csum:524A290FE4221DB28993172F16A5BFCA
+file:..\Ymtz.sap|io:o|time:1608827046|size:113|exec:0|csum:
+file:..\Ymtz.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\Ymtz.map|io:o|time:1608827046|size:28|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\Ymtz.sap|io:o|time:1608827046|size:113|exec:0|csum:
+file:Ymtz.plg|io:o|time:1608827046|size:146|exec:0|csum:
+file:..\Ymtz.srm|io:o|time:1608827046|size:65183|exec:0|csum:
+file:..\synlog\Ymtz_fpga_mapper.srr|io:o|time:1608827046|size:8012|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

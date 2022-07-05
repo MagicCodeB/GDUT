@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Thu Dec 24 21:51:18 2020
+Project   :  C:\EDA\W_zh1
+Component :  W_zh1
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/EDA/W_zh1/component/work/W_zh1/W_zh1.v
+

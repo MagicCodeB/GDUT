@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  1  -prjfile  G:\EDA\W_zh5\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  G:\EDA\W_zh5\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile G:\EDA\W_zh5\synthesis\synlog\report\Zhq_premap.xml  -top_level_module  Zhq  -oedif  G:\EDA\W_zh5\synthesis\Zhq.edn  -conchk_prepass  G:\EDA\W_zh5\synthesis\Zhq_cck.rpt   -freq 100.000   G:\EDA\W_zh5\synthesis\synwork\Zhq_mult.srs  -flow prepass  -gcc_prepass  -osrd  G:\EDA\W_zh5\synthesis\synwork\Zhq_prem.srd  -qsap  G:\EDA\W_zh5\synthesis\Zhq.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  G:\EDA\W_zh5\synthesis\syntmp\Zhq.plg  -osyn  G:\EDA\W_zh5\synthesis\synwork\Zhq_prem.srd  -prjdir  G:\EDA\W_zh5\synthesis\  -prjname  Zhq_syn  -log  G:\EDA\W_zh5\synthesis\synlog\Zhq_premap.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\Zhq_premap.xml -top_level_module Zhq -oedif ..\Zhq.edn -conchk_prepass ..\Zhq_cck.rpt -freq 100.000 ..\synwork\Zhq_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\Zhq_prem.srd -qsap ..\Zhq.sap -devicelib C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam Zhq.plg -osyn ..\synwork\Zhq_prem.srd -prjdir ..\ -prjname Zhq_syn -log ..\synlog\Zhq_premap.srr
+rc:0 success:1 runtime:0
+file:..\scratchproject.prs|io:o|time:1608960328|size:1697|exec:0|csum:
+file:..\Zhq.edn|io:o|time:1608960337|size:75087|exec:0|csum:
+file:..\Zhq_cck.rpt|io:o|time:1608960398|size:20061|exec:0|csum:
+file:..\synwork\Zhq_mult.srs|io:i|time:1608960329|size:1592|exec:0|csum:3638B9E618CA94F6F09F5DA7F6EAC8C6
+file:..\synwork\Zhq_prem.srd|io:o|time:1608960398|size:2787|exec:0|csum:
+file:..\Zhq.sap|io:o|time:1608960398|size:113|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:Zhq.plg|io:o|time:1608960398|size:0|exec:0|csum:
+file:..\synwork\Zhq_prem.srd|io:o|time:1608960398|size:2787|exec:0|csum:
+file:..\synlog\Zhq_premap.srr|io:o|time:1608960398|size:2367|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

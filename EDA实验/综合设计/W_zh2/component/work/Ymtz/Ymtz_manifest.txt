@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Fri Dec 25 00:13:35 2020
+Project   :  C:\EDA\W_zh2
+Component :  Ymtz
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/EDA/W_zh2/component/work/Ymtz/Ymtz.v
+

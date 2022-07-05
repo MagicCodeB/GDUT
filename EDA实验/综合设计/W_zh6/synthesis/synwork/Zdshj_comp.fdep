@@ -1,0 +1,25 @@
+#OPTIONS:"|-layerid|0|-orig_srs|G:\\EDA\\W_zh6\\synthesis\\synwork\\Zdshj_comp.srs|-top|Zdshj|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|G:\\EDA\\W_zh6\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509315136
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v":1508984288
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1508986328
+#CUR:"G:\\EDA\\W_zh6\\hdl\\W_zh6Mealy.v":1608962580
+#CUR:"G:\\EDA\\W_zh6\\hdl\\W_zh5Moore.v":1608962054
+#CUR:"G:\\EDA\\W_zh6\\component\\work\\Zdshj\\Zdshj.v":1608962680
+0			"G:\EDA\W_zh6\hdl\W_zh6Mealy.v" verilog
+1			"G:\EDA\W_zh6\hdl\W_zh5Moore.v" verilog
+2			"G:\EDA\W_zh6\component\work\Zdshj\Zdshj.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1 0
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 -1
+#Design Unit to File Association
+module work Zdshj 2
+module work Moore 1
+module work Mealy 0

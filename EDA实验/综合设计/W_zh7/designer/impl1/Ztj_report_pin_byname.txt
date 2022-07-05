@@ -1,0 +1,22 @@
+*****************************************************************
+Pin Report - Date: Sat Dec 26 16:24:35 2020 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: Ztj
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port                |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+--------------------|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+Clk                  61   No     GCB2/IO42RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+D_in[0]              96   No     GAB0/IO04RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+D_in[1]              95   No     GAB1/IO05RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+D_out_mealy          90   No     IO10RSB0       LVTTL    12                 High  None           No    35                No           No
+D_out_moore          30   No     IO67RSB1       LVTTL    12                 High  None           No    35                No           No
+D_out_reg_mealy      91   No     IO09RSB0       LVTTL    12                 High  None           No    35                No           No
+D_out_reg_mealy_adv  40   No     IO60RSB1       LVTTL    12                 High  None           No    35                No           No
+D_out_reg_moore      32   No     IO65RSB1       LVTTL    12                 High  None           No    35                No           No
+D_out_reg_moore_adv  31   No     IO66RSB1       LVTTL    12                 High  None           No    35                No           No
+Reset                41   No     IO59RSB1       LVTTL    ---                ---   None           ---   ---               No           No

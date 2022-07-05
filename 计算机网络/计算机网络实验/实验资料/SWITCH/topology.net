@@ -1,0 +1,244 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10001
+    [[3640]]
+        image = C:\IOS\C3640-JK.BIN
+        idlepc = 0x60557ba8
+        sparsemem = True
+        ghostios = True
+        chassis = 3640
+    [[ROUTER PC2]]
+        model = 3640
+        console = 2109
+        aux = 2509
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/3
+        cnfg = configs\PC2.cfg
+        symbol = computer
+        x = -214.0
+        y = -12.0
+        z = 1.0
+        hx = 13.5
+        hy = 55.0
+    [[ROUTER PC1]]
+        model = 3640
+        console = 2108
+        aux = 2508
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/2
+        cnfg = configs\PC1.cfg
+        symbol = computer
+        x = -435.0
+        y = -14.0
+        z = 1.0
+        hx = 13.5
+        hy = 52.0
+    [[ROUTER SW1]]
+        model = 3640
+        console = 2105
+        aux = 2505
+        slot0 = NM-16ESW
+        f0/0 = R1 f0/0
+        f0/1 = SW2 f0/1
+        f0/2 = PC1 f0/0
+        f0/3 = PC2 f0/0
+        cnfg = configs\SW1.cfg
+        symbol = ethernet_switch
+        x = -273.0
+        y = -196.0
+        z = 1.0
+    [[ROUTER SW2]]
+        model = 3640
+        console = 2107
+        aux = 2507
+        slot0 = NM-16ESW
+        f0/0 = R1 f1/0
+        f0/1 = SW1 f0/1
+        f0/2 = PC3 f0/0
+        f0/3 = PC4 f0/0
+        cnfg = configs\SW2.cfg
+        symbol = ethernet_switch
+        x = 120.0
+        y = -202.0
+        z = 1.0
+[127.0.0.1:7201]
+    workingdir = working
+    udp = 10101
+    [[3640]]
+        image = C:\IOS\C3640-JK.BIN
+        idlepc = 0x60557ba8
+        sparsemem = True
+        ghostios = True
+        chassis = 3640
+    [[ROUTER R1]]
+        model = 3640
+        console = 2112
+        aux = 2512
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/0
+        slot1 = NM-1FE-TX
+        f1/0 = SW2 f0/0
+        cnfg = configs\R1.cfg
+        x = -77.0
+        y = -377.0
+        z = 1.0
+    [[ROUTER PC3]]
+        model = 3640
+        console = 2110
+        aux = 2510
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/2
+        cnfg = configs\PC3.cfg
+        symbol = computer
+        x = 28.0
+        y = -14.0
+        z = 1.0
+        hx = 12.5
+        hy = 58.0
+    [[ROUTER PC4]]
+        model = 3640
+        console = 2111
+        aux = 2511
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/3
+        cnfg = configs\PC4.cfg
+        symbol = computer
+        x = 282.0
+        y = -14.0
+        z = 1.0
+        hx = 14.5
+        hy = 55.0
+[GNS3-DATA]
+    configs = configs
+    workdir = working
+    [[NOTE 1]]
+        text = "VLAN 20"
+        x = 77.0
+        y = -275.5
+    [[NOTE 2]]
+        text = "VLAN 20"
+        x = 206.0
+        y = -145.5
+    [[NOTE 3]]
+        text = "VLAN 10"
+        x = 45.0
+        y = -144.5
+    [[NOTE 4]]
+        text = "VLAN 20"
+        x = -217.0
+        y = -137.5
+    [[NOTE 5]]
+        text = "VLAN 10"
+        x = -364.0
+        y = -140.5
+    [[NOTE 6]]
+        text = "VLAN 10"
+        x = -242.0
+        y = -272.5
+    [[NOTE 7]]
+        text = "ip:192.168.20.254"
+        x = 49.0
+        y = -347.5
+    [[NOTE 8]]
+        text = "ip:192.168.10.254"
+        x = -299.0
+        y = -345.5
+    [[NOTE 9]]
+        text = "ip:192.168.20.4/24\ngw:192.168.20.254/24"
+        x = 201.0
+        y = 72.5
+    [[NOTE 10]]
+        text = "ip:192.168.10.3/24\ngw:192.168.10.254/24"
+        x = -29.0
+        y = 72.5
+    [[NOTE 11]]
+        text = "ip:192.168.20.2/24\ngw:192.168.20.254/24"
+        x = -277.0
+        y = 71.5
+    [[NOTE 12]]
+        text = "ip:192.168.10.1/24\ngw:192.168.10.254/24"
+        x = -494.0
+        y = 71.5
+    [[NOTE 13]]
+        text = "Trunk"
+        x = -74.0
+        y = -213.5
+    [[NOTE 14]]
+        text = "f1/0"
+        x = 74.8361242193
+        y = 29.6421788068
+        interface = R1 f1/0
+    [[NOTE 15]]
+        text = "f0/0"
+        x = -42.4157771791
+        y = 31.978462206
+        interface = R1 f0/0
+    [[NOTE 16]]
+        text = "f0/0"
+        x = 1.64114405276
+        y = -33.6053732713
+        interface = PC4 f0/0
+    [[NOTE 17]]
+        text = "f0/0"
+        x = 53.6787949014
+        y = -33.0820529159
+        interface = PC3 f0/0
+    [[NOTE 18]]
+        text = "f0/0"
+        x = 16.2086282856
+        y = -37.6312299205
+        interface = PC2 f0/0
+    [[NOTE 19]]
+        text = "f0/0"
+        x = 15.2991186607
+        y = -38.0680466555
+        interface = PC1 f0/0
+    [[NOTE 20]]
+        text = "f0/3"
+        x = 64.3588559472
+        y = 25.1053732713
+        interface = SW2 f0/3
+    [[NOTE 21]]
+        text = "f0/2"
+        x = -29.6787949014
+        y = 29.5820529159
+        interface = SW2 f0/2
+    [[NOTE 22]]
+        text = "f0/1"
+        x = -48.4861567741
+        y = -10.0522672835
+        interface = SW2 f0/1
+    [[NOTE 23]]
+        text = "f0/0"
+        x = -17.3361242193
+        y = -49.6421788068
+        interface = SW2 f0/0
+    [[NOTE 24]]
+        text = "f0/3"
+        x = 46.7913717144
+        y = 30.1312299205
+        interface = SW1 f0/3
+    [[NOTE 25]]
+        text = "f0/2"
+        x = -42.2991186607
+        y = 28.5680466555
+        interface = SW1 f0/2
+    [[NOTE 26]]
+        text = "f0/1"
+        x = 80.4861567741
+        y = -10.9477327165
+        interface = SW1 f0/1
+    [[NOTE 27]]
+        text = "f0/0"
+        x = 43.9157771791
+        y = -49.978462206
+        interface = SW1 f0/0
+    [[SHAPE 1]]
+        type = rectangle
+        x = -504.0
+        y = -423.0
+        width = 928.0
+        height = 546.0
+        z = -1.0
